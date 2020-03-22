@@ -1,0 +1,29 @@
+---
+---
+
+$navy: #14233C;
+$red: #990000;
+$button: #0070DF;
+$gray: #E7E7E7;
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+.bg-navy {
+    background-color: $navy;
+}
+
+.bg-red {
+    background-color: $red;
+}
+
+.btn {
+    background-color: $button;
+}
+
+.bg-gray {
+    background-color: $gray;
+}
+
+body { 
+    font-family: 'Source Sans Pro', sans-serif;
+}
