@@ -5,6 +5,7 @@ $navy: #14233C;
 $red: #990000;
 $button: #0070DF;
 $gray: #E7E7E7;
+$white: #FFFFFF;
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
@@ -27,6 +28,14 @@ $gray: #E7E7E7;
 .hotline-number {
   font-size: 3.5rem;
   font-weight: bold;
+
+  a {
+    color: $white;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
 
 .cta {
@@ -34,5 +43,14 @@ $gray: #E7E7E7;
 }
 
 h1, h2, h3, h4, h5 { 
-    font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.site-footer {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
