@@ -4,7 +4,7 @@
 $navy: #14233C;
 $red: #990000;
 $button: #0070DF;
-$gray: #E7E7E7;
+$gray: #F1F1F1;
 $white: #FFFFFF;
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
@@ -56,9 +56,29 @@ h3 {
 
 footer,
 section {
+
+  &.section-members {
+    
+    .col-12 {
+      max-width: 900px;
+    }
+  }
+
   .col-12 {
     max-width: 750px;
   }
+
+}
+
+.lg-gutter {
+  @media(min-width: 660px) {
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+}
+
+.partner-logo {
+  margin-bottom: 3rem;
 }
 
 .section-hotline {
@@ -74,6 +94,7 @@ section {
     font-size: 1.5rem;
   }
 }
+
 
 .site-footer {
   padding-bottom: 2rem;

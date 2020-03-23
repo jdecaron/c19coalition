@@ -1,7 +1,36 @@
+- image: anthem.png
+  alt_text: Anthem
+  href: https://anthem.com
+- image: ca_academy_of_family_phys.png
+  alt_text: CA Academy of Family Physicians
+  href: https://familydocs.org
+- image: covid-19.png
+  alt_text: COVID-19 Response
+  href: https://covid19-response.com
+- image: flexport.png
+  alt_text: Flexport
+  href: https://flexport.com
 - image: formlabs.png
   alt_text: Formlabs
   href: https://formlabs.com
+- image: get_us_ppe.png
+  alt_text: Get Us PPE
+  href: https://getusppe.org
 - image: helena.png
   alt_text: Helena
   href: https://helena.org
+- image: operation_masks.png
+  alt_text: Operation Masks
+- image: pn95-logo.svg
+  alt_text: Project N95
+  href: https://projectn95.com
+- image: twilio.png
+  alt_text: Twilio
+  href: https://twilio.com
+- image: us_digital.png
+  alt_text: U.S. Digital Response
+  href: https://usdigitalresponse.org
+- image: us_of_care.png
+  alt_text: United States of Care
+  href: https://unitedstatesofcare.org
 
