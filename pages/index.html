@@ -131,7 +131,7 @@ Philanthropies and non-profits have stepped up to help fight the spread of COVID
   </div>
 </section>
 
-<section class="bg-gray">
+<section class="bg-gray section-members">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 my-5">
@@ -141,7 +141,7 @@ Philanthropies and non-profits have stepped up to help fight the spread of COVID
           {% for logo in logos %}
             <div class="col-6 col-sm-4 col-md-3 partner-logo">
               <a href="{{ logo.href }}" target="_blank">
-                <img src="assets/images/{{ logo.image }} " style="width: 100%;" />
+                <img src="assets/images/{{ logo.image }}" alt="{{ logo.alt_text }}" style="width: 100%;" />
               </a>
             </div>
           {% endfor %}
