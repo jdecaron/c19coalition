@@ -26,8 +26,12 @@ $white: #FFFFFF;
 }
 
 .hotline-number {
-  font-size: 3.5rem;
+  font-size: 2.75rem;
   font-weight: bold;
+
+  @media only screen and (min-width: 660px) {
+    font-size: 3.5rem;
+  }
 
   a {
     color: $white;
@@ -50,7 +54,18 @@ h3 {
   font-weight: bold;
 }
 
+.section-intro {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
 .site-footer {
   padding-bottom: 2rem;
   padding-top: 2rem;
+}
+
+.site-logo {
+  margin: 0 auto;
+  max-width: 15rem;
 }

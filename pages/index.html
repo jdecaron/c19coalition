@@ -3,9 +3,11 @@ layout: default
 permalink: /
 ---
 
-<div class="row bg-navy justify-content-center">
+<section class="row bg-navy justify-content-center section-intro">
   <div class="col-md-8 text-white my-5">
-    <h1 class="text-center mb-5 mt-2 font-weight-bold">{{ site.title }}</h1>
+    <h1 class="text-center mb-5 mt-2 font-weight-bold site-logo">
+      <img src="assets/images/ppe-logo.svg" alt="{{ site.title }}">
+    </h1>
 
     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
         tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
@@ -32,52 +34,45 @@ permalink: /
       </div>
     </div>
   </div>
-</div>
-<div class="row bg-red justify-content-center">
-  <div class="col-8 text-center py-2 text-white">
+</section>
+<section class="row bg-red justify-content-center">
+  <div class="col-md-8 text-center py-2 text-white">
     HOTline lead
     <h2 class="hotline-number">
       <a href="tel:+1-855-904-3506">1.855.904.3506</a>
     </h2>
   </div>
-</div>
+</section>
 
-<div class="row justify-content-center">
-    <div class="col-md-8 my-5">
-        <h3>Header on Topic</h3>
-        <strong>Subhead</strong>
+<section class="row justify-content-center">
+  <div class="col-md-8 my-5">
+    <h3>Header on Topic</h3>
+    <strong>Subhead</strong>
 
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
-            tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
-            semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
+        tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
+        semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+    </p>
 
-        <ul>
-            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-            <li>Aliquam tincidunt mauris eu risus.</li>
-            <li>Vestibulum auctor dapibus neque.</li>
-        </ul>
-    </div>
-</div>
+    <ul>
+      <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+      <li>Aliquam tincidunt mauris eu risus.</li>
+      <li>Vestibulum auctor dapibus neque.</li>
+    </ul>
+  </div>
+</section>
 
-<div class="row justify-content-center bg-gray">
-    <div class="col-8 ">
-        <h2 class="text-center my-5">PPE Coalition Members</h2>
+<section class="row justify-content-center bg-gray">
+  <div class="col-md-8">
+    <h2 class="text-center my-5">PPE Coalition Members</h2>
 
-        {% for logo in site.logos %}
-        {% assign column_number = forloop.index0 | modulo: 6 %}
+    <div class="row">
+      {% for logo in site.logos %}
 
-        {% if column_number == 0 %}
-        <div class="row">
-            {% endif %}
-
-            <div class="col-2 mb-5">
-                <img src="{{ logo }} " style="width: 100%;" />
-            </div>
-
-            {% if column_number == 5 or forloop.rindex == 1 %}
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-5">
+            <img src="{{ logo }} " style="width: 100%;" />
         </div>
-        {% endif %}
-        {% endfor %}
+      {% endfor %}
     </div>
-</div>
-</div>
+  </div>
+</section>
