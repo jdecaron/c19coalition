@@ -131,16 +131,18 @@ Philanthropies and non-profits have stepped up to help fight the spread of COVID
   </div>
 </section>
 
-<section class="bg-gray">
+<section class="bg-gray section-members">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 my-5">
         <h2 class="text-center my-5">PPE Coalition Members</h2>
-
-        <div class="row">
-          {% for logo in site.logos %}
-            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-5">
-                <img src="{{ logo }} " style="width: 100%;" />
+        <div class="row d-flex flex-wrap align-items-center">
+          {% assign logos = site.data.logos %}
+          {% for logo in logos %}
+            <div class="col-6 col-sm-4 col-md-3 partner-logo">
+              <a href="{{ logo.href }}" target="_blank">
+                <img src="assets/images/{{ logo.image }}" alt="{{ logo.alt_text }}" style="width: 100%;" />
+              </a>
             </div>
           {% endfor %}
         </div>
