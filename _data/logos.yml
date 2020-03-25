@@ -28,6 +28,9 @@
 - image: pn95-logo.png
   alt_text: Project N95
   href: https://projectn95.com
+- image: tradeshift_logo.png
+  alt_text: Tradeshift
+  href: https://tradeshift.com
 - image: twilio.png
   alt_text: Twilio
   href: https://twilio.com
@@ -37,4 +40,6 @@
 - image: us_of_care.png
   alt_text: United States of Care
   href: https://unitedstatesofcare.org
-
+- image: voodoo.png
+  alt_text: Voodoo Manufacturing
+  href: https://voodoomfg.com
