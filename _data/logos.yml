@@ -1,6 +1,9 @@
 - image: anthem.png
   alt_text: Anthem
   href: https://anthem.com
+- image: assembly.png
+  alt_text: Assembly 
+  href: https://assemblym.com
 - image: ca_academy_of_family_phys.png
   alt_text: CA Academy of Family Physicians
   href: https://familydocs.org
@@ -10,6 +13,12 @@
 - image: covid-19.png
   alt_text: COVID-19 Response
   href: https://covid19-response.com
+- image: curri.png
+  alt_text: Curri
+  href: https://www.curri.com
+- image: defense_innovation_lab.png
+  alt_text: Defense Innovation Lab
+  href: https://www.defenseinnovationlab.org
 - image: flexport.png
   alt_text: Flexport
   href: https://flexport.com
@@ -19,15 +28,24 @@
 - image: get_us_ppe.png
   alt_text: Get Us PPE
   href: https://getusppe.org
+- image: gofundme.png
+  alt_text: GoFundMe
+  href: https://www.gofundme.com
 - image: helena.png
   alt_text: Helena
   href: https://helena.org
+  image: nuvocargo.png
+  alt_text: Nuvocargo
+  href: https://www.nuvocargo.com
 - image: operation_masks.png
   alt_text: Operation Masks
   href: https://operationmasks.org
 - image: pn95-logo.png
   alt_text: Project N95
   href: https://projectn95.com
+- image: second_muse.png
+  alt_text: SecondMuse
+  href: https://www.secondmse.com
 - image: tradeshift_logo.png
   alt_text: Tradeshift
   href: https://tradeshift.com
@@ -43,3 +61,6 @@
 - image: voodoo.png
   alt_text: Voodoo Manufacturing
   href: https://voodoomfg.com
+- image: xprize.png
+  alt_text: XPRIZE
+  href: https://www.xprize.org
