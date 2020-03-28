@@ -6,6 +6,7 @@ $red: #990000;
 $button: #0070DF;
 $gray: #F1F1F1;
 $white: #FFFFFF;
+$dark_gray: #35393b;
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
@@ -23,23 +24,6 @@ $white: #FFFFFF;
 
 .bg-gray {
     background-color: $gray;
-}
-
-.hotline-number {
-  font-size: 2.75rem;
-  font-weight: bold;
-
-  @media only screen and (min-width: 660px) {
-    font-size: 3.5rem;
-  }
-
-  a {
-    color: $white;
-
-    &:hover {
-      text-decoration: none;
-    }
-  }
 }
 
 .cta {
@@ -84,21 +68,78 @@ section {
 .section-hotline {
   padding: 1rem 0;
 
+  h2 {
+    font-weight: 500;
+  }
+
+  strong {
+    font-size: 1.8em;
+  }
+
   p {
     margin-bottom: 0.5rem;
   }
+
+  .hotline-number, .hotline-email {
+    display: inline-block;
+    font-size: 1.7rem;
+
+    a {
+      color: $white;
+  
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    svg {
+      height: 60px;
+      width: 40px;
+      fill: $white;
+      padding-top: 5px;
+      margin-right: 5px;
+    }
+
+    svg:first-child {
+      margin-left: 30px;
+    }
+  }
 }
 
+.section-content {
+  h2 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing: 0.01rem;
+  }
+
+  h3 {
+    font-weight: 300;
+  }
+
+  h4 {
+    margin-top: 1.5rem;
+  }
+}
 .section-intro {
   h2 {
     font-size: 1.5rem;
   }
 }
 
-
 .site-footer {
   padding-bottom: 2rem;
   padding-top: 2rem;
+  text-align: center;
+
+  h5 {
+    margin-bottom: 1rem;
+  }
+
+  a {
+    color: $dark_gray;
+    text-decoration: none;
+  }
 }
 
 .site-logo {
