@@ -43,6 +43,9 @@
 - image: pn95-logo.png
   alt_text: Project N95
   href: https://projectn95.com
+- image: resistbot.png
+  alt_text: ResistBot
+  href: https://resist.bot
 - image: second_muse.png
   alt_text: SecondMuse
   href: https://www.secondmse.com
