@@ -37,6 +37,9 @@
   image: nuvocargo.png
   alt_text: Nuvocargo
   href: https://www.nuvocargo.com
+- image: osms.png
+  alt_text: Open Source Medical Supplies
+  href: https://opensourcemedicalsupplies.org/
 - image: operation_masks.png
   alt_text: Operation Masks
   href: https://operationmasks.org
