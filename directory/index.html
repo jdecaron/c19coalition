@@ -1,0 +1,11 @@
+---
+layout: default
+---
+{% for org in site.organizations %}
+  <h2>
+    <a href="{{ org.site_url }}">
+      {{ org.name }}
+    </a>
+  </h2>
+  <p>{{ org.description | markdownify }}</p>
+{% endfor %}

@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  organizations:
+    title: Organizations
+    output: false
 url: https://ppecoalition.com
 plugins:
 - jekyll-sitemap
