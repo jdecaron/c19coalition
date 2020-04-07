@@ -1,0 +1,32 @@
+backend:
+  name: git-gateway
+  branch: 'feature/netlify-cms'
+media_folder: 'assets/uploads'
+collections:
+  - name: 'organization'
+    label: 'Organization'
+    folder: '_organizations/'
+    create: true
+    editor:
+      preview: false
+    identifier_field: 'name'
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'organization' }
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'markdown' }
+      - { label: 'Type', name: 'type', widget: 'select', options: ['Connecting Need to Supply', 'Sourcing New Supply', 'Providing Data', 'Coordinating Financial Support', 'Reprocessing PPE'], multiple: true}
+      - { label: 'Location', name: 'location', widget: 'select', options: ['Nationwide', 'Multinational', 'Alaska'] }  
+      - { label: 'Coalition Member', name: 'is_member', widget: 'boolean', default: false}
+      - { label: 'URL', name: 'site_url', widget: 'string', required: false}
+      - label: "Logo"
+        name: "logo"
+        widget: "image"
+        required: false
+      - label: "Contact"
+        name: "contact"
+        widget: "object"
+        fields: 
+          - {label: "Name", name: "name", widget: "string", required: false}
+          - {label: "Email", name: "email", widget: "string", required: false}
+          - {label: "Phone", name: "phone", widget: "string", required: false}
+        required: false
