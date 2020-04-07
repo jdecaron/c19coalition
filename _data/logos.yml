@@ -13,6 +13,9 @@
 - image: covid-19.png
   alt_text: COVID-19 Response
   href: https://covid19-response.com
+- image: corvus_robotics.png
+  alt_text: Corvus Robotics
+  href: https://www.corvus-robotics.com
 - image: curri.png
   alt_text: Curri
   href: https://www.curri.com
@@ -25,16 +28,27 @@
 - image: formlabs.png
   alt_text: Formlabs
   href: https://formlabs.com
+- image: frontline_support.png
+  alt_text: Frontline Support
 - image: get_us_ppe.png
   alt_text: Get Us PPE
   href: https://getusppe.org
+- image: give_armor.png
+  alt_text: Give Armor
+  href: https://givearmor.com
 - image: gofundme.png
   alt_text: GoFundMe
   href: https://www.gofundme.com
 - image: helena.png
   alt_text: Helena
   href: https://helena.org
-  image: nuvocargo.png
+- image: masks4all.png
+  alt_text: "#Masks4All"
+  href: https://maskforall.net
+- image: masks_for_docs.png
+  alt_text: Masks for Docs
+  href: https://masksfordocs.com
+- image: nuvocargo.png
   alt_text: Nuvocargo
   href: https://www.nuvocargo.com
 - image: osms.png
@@ -52,6 +66,9 @@
 - image: second_muse.png
   alt_text: SecondMuse
   href: https://www.secondmse.com
+- image: sourcify.png
+  alt_text: Sourcify
+  href: https://www.sourcify.com
 - image: tradeshift_logo.png
   alt_text: Tradeshift
   href: https://tradeshift.com
@@ -70,3 +87,6 @@
 - image: xprize.png
   alt_text: XPRIZE
   href: https://www.xprize.org
+- image: ypo.png
+  alt_text: YPO
+  href: https://www.ypo.org/
