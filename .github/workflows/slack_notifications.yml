@@ -14,7 +14,7 @@ jobs:
         uses: rtCamp/action-slack-notify@master
         env:
           SLACK_CHANNEL: '#engineering'
-          SLACK_MESSAGE: ':fire: new PR for review: https://github.com/YOUR_PATH/YOUR_REPO_NAME/pull/${{ env.pull_number}}'
+          SLACK_MESSAGE: ':fire: new PR for review: https://github.com/project-n95/ppecoalition.com/pull/${{ env.pull_number }}'
           SLACK_TITLE: 'Pull request'
           SLACK_USERNAME: 'Github'
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
