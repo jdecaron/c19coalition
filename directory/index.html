@@ -1,12 +1,81 @@
 ---
 layout: default
 ---
-{% for org in site.organizations %}
-  <h2>
-    <a href="{{ org.site_url }}">
-      {{ org.name }}
-    </a>
-  </h2>
-  <img src="{{ org.logo }}" />
-  <p>{{ org.description | markdownify }}</p>
-{% endfor %}
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
+
+<section class="bg-navy section-intro">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-white my-5">
+        <h1 class="text-center mb-5 mt-2 font-weight-bold site-logo">
+          <img src="/assets/images/ppe-logo.svg" alt="{{ site.title }}" />
+        </h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-gray section-content">
+  <div class="container">
+    <div id="organizations" class="row justify-content-center">
+
+      <div class="col-12 my-2">
+        <!-- NEED TO ADD MORE SELECT (LOCATION, COALITION) -->
+        <select id="type" class="selectpicker" multiple data-live-search="true">
+          <!-- HARCODED, WILL BE DYNAMIC -->
+          <option>CFS</option>
+          <option>CNS</option>
+          <option>PD</option>
+          <option>SNS</option>
+        </select>
+      </div>
+
+      <ul class="col-12 my-2 list">
+        {% for org in site.organizations %}
+        <li>
+          <h2>
+            <a href="{{ org.site_url }}" class="name">
+              {{ org.name }}
+            </a>
+          </h2>
+          <img src="{{ org.logo }}" />
+          <p>{{ org.description | markdownify }}</p>
+          {% for type in org.type %}
+          <div class="type">{{ type }}</div>
+          {% endfor %}
+        </li>
+        {% endfor %}
+      </ul>
+
+    </div>
+  </div>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+
+<script>
+  var options = { // HARDCODED, WILL BE DYNAMIC
+    valueNames: ['type']
+  };
+  var organizationList = new List('organizations', options);
+
+  $("#type").on('change', function (event) {
+    console.log(event)
+    // NEED TO ADD MULTISELECT ON FILTER
+    organizationList.filter(function (item) {
+      console.log(event.target.value, typeof event.target.value)
+      if (event.target.value === '') {
+        return true
+      } else if (item.values().type === event.target.value) {
+        return true;
+      } else {
+        return false;
+      }
+    });
+  })
+</script>
