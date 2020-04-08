@@ -1,13 +1,16 @@
 ---
 layout: organization
-name: Helena.org
+name: Help Feed the Frontline
 description: >-
-  Helena is a 501c3 organization that is acting as risk capital to help finance
-  purchases of critical PPE and other equipment.
+  Help Feed the Frontline is raising the required funding to feed healthcare
+  workers in Los Angeles a nutritious lunch and dinner for as long as this
+  crisis lasts. They’re working in partnership with José Andrés and World
+  Central Kitchen
 type:
   - CFS
-location: Nationwide
-is_member: true
-site_url: 'https://helena.org/'
-logo: /assets/uploads/helena.png
+location: California
+is_member: false
+site_url: >-
+  https://charity.gofundme.com/o/en/campaign/help-feed-the-frontline-fighting-covid-19
+logo: ''
 ---
