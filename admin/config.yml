@@ -19,11 +19,27 @@ collections:
         widget: 'select'
         multiple: true
         options:
-          - { label: 'Connecting Need to Supply', value: 'CNS' }
-          - { label: 'Sourcing New Supply', value: 'SNS' }
-          - { label: 'Providing Data', value: 'PD' }
-          - { label: 'Coordinating Financial Support', value: 'CFS' }
-          - { label: 'Reprocessing PPE', value: 'RPPE' }
+          - { label: 'Need PPE', value: 'need-ppe' }
+          - { label: 'Supply PPE', value: 'supply-ppe' }
+          - { label: 'Connect Demand with Supply', value: 'connect-demand-with-supply' }
+          - { label: 'Provide Funding', value: 'provide-funding' }
+          - { label: 'Provide Data', value: 'provide-data' }
+          - { label: 'Provide Resources for Makers', value: 'provide-resources-for-makers' }
+          - { label: 'Provide Transportation & Logistics', value: 'provide-transportation-and-logistics' }
+          - { label: 'Manufacture PPE & Other Equipment', value: 'manufacture-ppe-and-other-equipment' }
+          - { label: 'Assist with Regulatory Issues', value: 'assist-with-regulatory-issues' }
+          - { label: 'Develop New Technologies', value: 'develop-new-technologies' }
+          - { label: 'Sell PPE to Consumers', value: 'sell-ppe-to-consumers' }
+      - label: 'Structure'
+        name: 'structure'
+        widget: 'select'
+        options:
+          - { label: 'Government', value: 'government' }
+          - { label: 'Corporate', value: 'corporate' }
+          - { label: 'Individual', value: 'individual' }
+          - { label: 'Nonprofit', value: 'nonprofit' }
+          - { label: 'Volunteer', value: 'volunteer' }
+          - { label: 'Other', value: 'other' }
       - label: 'Location'
         name: 'location'
         widget: 'select'
