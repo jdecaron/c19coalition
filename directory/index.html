@@ -3,14 +3,20 @@ layout: default
 ---
 
 <!-- NEED TO ADD CHECKSUM AND MAKE SURE WE ARE USING A CONSISTEND CDN -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
+<link
+  rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css"
+/>
 
 <section class="bg-navy section-intro">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 text-white my-5">
-        <h1 class="text-center mb-5 mt-2 font-weight-bold site-logo">
+        <h1 class="text-center font-weight-bold site-logo">
           <img src="/assets/images/ppe-logo.svg" alt="{{ site.title }}" />
         </h1>
       </div>
@@ -18,38 +24,103 @@ layout: default
   </div>
 </section>
 
-<section class="bg-gray section-content">
+<section class="section-hero py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-white">
+        <h2>Directory</h2>
+        <p>
+          This is a constantly updated directory of all of the organizations
+          currently working to get critical PPE and other medical equipment to
+          health care professionals, first responders, and other at risk groups.
+          If you are part of a group that needs that be listed, please let us
+          know.
+        </p>
+      </div>
+      <div class="col-12 mt-2">
+        <div class="d-flex justify-content-between">
+          <select
+            id="type"
+            class="selectpicker"
+            multiple
+            data-live-search="true"
+          >
+            <option>CFS</option>
+            <option>CNS</option>
+            <option>PD</option>
+            <option>SNS</option>
+          </select>
+
+          <select
+            id="location"
+            class="selectpicker"
+            multiple
+            data-live-search="true"
+          >
+            <option>CFS</option>
+            <option>CNS</option>
+            <option>PD</option>
+            <option>SNS</option>
+          </select>
+
+          <select
+            id="member"
+            class="selectpicker"
+            multiple
+            data-live-search="true"
+          >
+            <option>CFS</option>
+            <option>CNS</option>
+            <option>PD</option>
+            <option>SNS</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="x-bg-gray section-content pt-5">
   <div class="container">
     <div id="organizations" class="row justify-content-center">
-
-      <div class="col-12 my-2">
-        <!-- NEED TO ADD MORE SELECT (LOCATION, COALITION) -->
-        <select id="type" class="selectpicker" multiple data-live-search="true">
-          <!-- HARCODED, WILL BE DYNAMIC -->
-          <option>CFS</option>
-          <option>CNS</option>
-          <option>PD</option>
-          <option>SNS</option>
-        </select>
-      </div>
-
-      <ul class="col-12 my-2 list">
+      <div class="col-12 my-2 list">
         {% for org in site.organizations %}
-        <li>
-          <h2>
-            <a href="{{ org.site_url }}" class="name">
-              {{ org.name }}
-            </a>
-          </h2>
-          <img src="{{ org.logo }}" />
-          <p>{{ org.description | markdownify }}</p>
-          {% for type in org.type %}
-          <div class="type">{{ type }}</div>
-          {% endfor %}
-        </li>
+        <div class="organization">
+          <div class="organization-header">
+            <h3>
+              <a href="{{ org.site_url }}" class="name">
+                {{ org.name }}
+              </a>
+            </h3>
+            <a class="btn btn-primary" href="#">Contact</a>
+          </div>
+          {% if org.logo %}
+          <div class="organization-image">
+            <img src="{{ org.logo }}" />
+          </div>
+          {% endif %}
+          <div class="organization-content">
+            <p>{{ org.description | markdownify }}</p>
+          </div>
+          <div class="organization-footer">
+            <div class="badge badge-secondary">
+              {% for type in org.type %}
+              <div class="type">{{ type }}</div>
+              {% endfor %}
+            </div>
+            <div class="badge badge-secondary">
+              <div class="location">{{ org.location }}</div>
+            </div>
+            <div class="badge badge-secondary">
+              <div class="member">
+                {% if org.is_member %} Member of the coalition. {% else %} Not a
+                member of the coalition. {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
         {% endfor %}
-      </ul>
-
+      </div>
     </div>
   </div>
 </section>
@@ -61,23 +132,24 @@ layout: default
 <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
 
 <script>
-  var options = { // HARDCODED, WILL BE DYNAMIC
-    valueNames: ['type']
+  var options = {
+    // HARDCODED, WILL BE DYNAMIC
+    valueNames: ["type"],
   };
-  var organizationList = new List('organizations', options);
+  var organizationList = new List("organizations", options);
 
-  $("#type").on('change', function (event) {
-    console.log(event)
+  $("#type").on("change", function (event) {
+    console.log(event);
     // NEED TO ADD MULTISELECT ON FILTER
     organizationList.filter(function (item) {
-      console.log(event.target.value, typeof event.target.value)
-      if (event.target.value === '') {
-        return true
+      console.log(event.target.value, typeof event.target.value);
+      if (event.target.value === "") {
+        return true;
       } else if (item.values().type === event.target.value) {
         return true;
       } else {
         return false;
       }
     });
-  })
+  });
 </script>

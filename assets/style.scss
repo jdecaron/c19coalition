@@ -1,37 +1,41 @@
 ---
 ---
 
-$navy: #14233C;
+$navy: #14233c;
 $red: #990000;
-$button: #0070DF;
-$gray: #F1F1F1;
-$white: #FFFFFF;
+$button: #0070df;
+$gray: #f1f1f1;
+$white: #ffffff;
 $dark_gray: #35393b;
 
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
 
 .bg-navy {
-    background-color: $navy;
+  background-color: $navy;
 }
 
 .bg-red {
-    background-color: $red;
+  background-color: $red;
 }
 
 .btn {
-    background-color: $button;
+  background-color: $button;
 }
 
 .bg-gray {
-    background-color: $gray;
+  background-color: $gray;
 }
 
 .cta {
   font-weight: bold;
 }
 
-h1, h2, h3, h4, h5 { 
-  font-family: 'Source Sans Pro', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 h3 {
@@ -40,9 +44,7 @@ h3 {
 
 footer,
 section {
-
   &.section-members {
-    
     .col-12 {
       max-width: 900px;
     }
@@ -51,13 +53,12 @@ section {
   .col-12 {
     max-width: 750px;
   }
-
 }
 
 .lg-gutter {
-  @media(min-width: 660px) {
-      padding-left: 30px;
-      padding-right: 30px;
+  @media (min-width: 660px) {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
@@ -80,13 +81,14 @@ section {
     margin-bottom: 0.5rem;
   }
 
-  .hotline-number, .hotline-email {
+  .hotline-number,
+  .hotline-email {
     display: inline-block;
     font-size: 1.7rem;
 
     a {
       color: $white;
-  
+
       &:hover {
         text-decoration: none;
       }
@@ -150,3 +152,5 @@ section {
   margin: 0 auto;
   max-width: 15rem;
 }
+
+@import "assets/directory";
