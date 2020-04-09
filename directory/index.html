@@ -1,6 +1,14 @@
 ---
 layout: default
 ---
+{%  for org in site.organizations %}
+{%    assign locations = locations | append: "|" | append: org.location %}
+{%    for type in org.type %}
+{%      assign types = types | append: "|" | append: type %}
+{%    endfor %}
+{%  endfor %}
+{%  assign locations = locations | split: "|" | sort | uniq %}
+{%  assign types = types | split: "|" | sort | uniq %}
 
 <!-- NEED TO ADD CHECKSUM AND MAKE SURE WE ARE USING A CONSISTEND CDN -->
 <link
@@ -39,41 +47,26 @@ layout: default
       </div>
       <div class="col-12 mt-2">
         <div class="d-flex justify-content-between">
-          <select
-            id="type"
-            class="selectpicker"
-            multiple
-            data-live-search="true"
-          >
-            <option>CFS</option>
-            <option>CNS</option>
-            <option>PD</option>
-            <option>SNS</option>
+          <select id="type" class="selectpicker" multiple>
+            {% for type in types %}
+            {% if type != "" %}
+            <option>{{ type }}</option>
+            {% endif %}
+            {% endfor %}
           </select>
-
-          <select
-            id="location"
-            class="selectpicker"
-            multiple
-            data-live-search="true"
-          >
-            <option>CFS</option>
-            <option>CNS</option>
-            <option>PD</option>
-            <option>SNS</option>
+          <select id="location" class="selectpicker" multiple>
+            {% for location in locations %}
+            {% if location != "" %}
+            <option>{{ location }}</option>
+            {% endif %}
+            {% endfor %}
           </select>
-
-          <select
-            id="member"
-            class="selectpicker"
-            multiple
-            data-live-search="true"
-          >
-            <option>CFS</option>
-            <option>CNS</option>
-            <option>PD</option>
-            <option>SNS</option>
+          <select id="member" class="selectpicker">
+            <option></option>
+            <option>Member of the coalition</option>
+            <option>Not a member of the coalition</option>
           </select>
+        </div>
         </div>
       </div>
     </div>
@@ -112,10 +105,7 @@ layout: default
               <div class="location">{{ org.location }}</div>
             </div>
             <div class="badge badge-secondary">
-              <div class="member">
-                {% if org.is_member %} Member of the coalition. {% else %} Not a
-                member of the coalition. {% endif %}
-              </div>
+              <div class="member" value="{{ org.is_member }}">{% if org.is_member %}Member of the coalition{% else %}Not a member of the coalition{% endif %}</div>
             </div>
           </div>
         </div>
@@ -129,27 +119,70 @@ layout: default
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+
 
 <script>
   var options = {
-    // HARDCODED, WILL BE DYNAMIC
-    valueNames: ["type"],
+    valueNames: ['location', 'member', 'type']
   };
-  var organizationList = new List("organizations", options);
+  var organizationList = new List('organizations', options);
+  var filteredLocations = organizationList.items;
+  var filteredMembers = organizationList.items;
+  var filteredTypes = organizationList.items;
 
-  $("#type").on("change", function (event) {
-    console.log(event);
-    // NEED TO ADD MULTISELECT ON FILTER
-    organizationList.filter(function (item) {
-      console.log(event.target.value, typeof event.target.value);
-      if (event.target.value === "") {
-        return true;
-      } else if (item.values().type === event.target.value) {
-        return true;
-      } else {
-        return false;
-      }
+  function filterAll() {
+    var order = [filteredLocations, filteredMembers];
+    var filtered = [].concat(filteredTypes);
+    for (var i = 0; i < order.length; i++) {
+      filtered = filtered.filter(function (organization) {
+        return order[i].indexOf(organization) !== -1;
+      });
+    }
+    organizationList.filter(function (organization) {
+      return filtered.indexOf(organization) !== -1;
     });
-  });
+  }
+
+  function filterSpecific(name, selectedOptions) {
+    var filteredList = [];
+    for (var i = 0; i < organizationList.items.length; i++) {
+      var organization = organizationList.items[i];
+      var values = organization.values()[name].split('|')
+      var matchCount = 0;
+      for (var j = 0; j < selectedOptions.length; j++) {
+        console.log(values, selectedOptions[j])
+        if (values.indexOf(selectedOptions[j]) >= 0) {
+          matchCount++;
+        }
+      }
+      if (selectedOptions.length === matchCount) {
+        filteredList.push(organization)
+      }
+    }
+    return filteredList;
+  }
+
+  function getSelectedOptions(event) {
+    var selectedOptions = []
+    $.each(event.target.selectedOptions, function (index, element) {
+      selectedOptions.push(element.value)
+    });
+    return selectedOptions;
+  }
+
+  $("#type").on('changed.bs.select', function (event, clickedIndex, isSelected, previousValue) {
+    filteredTypes = filterSpecific('type', getSelectedOptions(event))
+    filterAll()
+  })
+
+  $("#location").on('changed.bs.select', function (event, clickedIndex, isSelected, previousValue) {
+    filteredLocations = filterSpecific('location', getSelectedOptions(event))
+    filterAll()
+  })
+
+  $("#member").on('changed.bs.select', function (event, clickedIndex, isSelected, previousValue) {
+    filteredMembers = filterSpecific('member', getSelectedOptions(event))
+    filterAll()
+  })
 </script>
