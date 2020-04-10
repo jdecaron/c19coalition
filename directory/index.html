@@ -20,7 +20,7 @@ layout: default
   href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css"
 />
 
-<section class="bg-navy section-intro">
+<section class="section-intro section-directory bg-navy">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 text-white my-5">
@@ -32,7 +32,7 @@ layout: default
   </div>
 </section>
 
-<section class="section-hero py-5">
+<section class="section-hero section-directory py-5">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 text-white">
@@ -45,37 +45,41 @@ layout: default
           know.
         </p>
       </div>
-      <div class="col-12 mt-2">
-        <div class="d-flex justify-content-between">
-          <select id="type" class="selectpicker" multiple>
+    </div>
+  </div>
+</section>
+
+<section class="section-directory section-content pt-5">
+  <div class="container">
+    <div id="organizations" class="row justify-content-center">
+      <div class="col-12 mb-4">
+        <div class="d-flex align-items-center">
+          <div class="mr-3 text-muted">Show</div>
+          <select id="type" class="selectpicker mr-3" title="All Types" multiple>
             {% for type in types %}
             {% if type != "" %}
             <option>{{ type }}</option>
             {% endif %}
             {% endfor %}
           </select>
-          <select id="location" class="selectpicker" multiple>
+          <select id="location" class="selectpicker mr-3" title="All Locations" multiple>
             {% for location in locations %}
             {% if location != "" %}
             <option>{{ location }}</option>
             {% endif %}
             {% endfor %}
           </select>
-          <select id="member" class="selectpicker">
+          <select id="member" class="selectpicker mr-3" title="Coalition & Non-Coalition Members" multiple>
             <option></option>
             <option>Member of the coalition</option>
             <option>Not a member of the coalition</option>
           </select>
-        </div>
+          <div class="text-muted">
+            <span id="results_count">{{ site.organizations.size }}</span>/{{ site.organizations.size }} results
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
 
-<section class="x-bg-gray section-content pt-5">
-  <div class="container">
-    <div id="organizations" class="row justify-content-center">
       <div class="col-12 my-2 list">
         {% for org in site.organizations %}
         <div class="organization">
@@ -96,17 +100,24 @@ layout: default
             <p>{{ org.description | markdownify }}</p>
           </div>
           <div class="organization-footer">
+            {% for type in org.type %}
             <div class="badge badge-secondary">
-              {% for type in org.type %}
-              <div class="type">{{ type }}</div>
-              {% endfor %}
+              <div class="">{{ type }}</div>
             </div>
+            {% endfor %}
             <div class="badge badge-secondary">
-              <div class="location">{{ org.location }}</div>
+              <div class="">{{ org.location }}</div>
             </div>
-            <div class="badge badge-secondary">
-              <div class="member" value="{{ org.is_member }}">{% if org.is_member %}Member of the coalition{% else %}Not a member of the coalition{% endif %}</div>
+            {% if org.is_member %}
+            <div class="badge badge-success ml-auto">
+              <div class="">Member of the coalition</div>
             </div>
+            {% endif %}
+          </div>
+          <div class="d-none">
+            <div class="type">{{ org.type | sort | join: "|" }}</div>
+            <div class="location">{{ org.location }}</div>
+            <div class="member">{{ org.is_member }}</div>
           </div>
         </div>
         {% endfor %}
