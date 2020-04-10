@@ -29,31 +29,29 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 20px 25px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 
   h3 {
     max-width: 70%;
     margin: 0;
     font-weight: 500;
+
+    a {
+      // color: rgba(20, 34, 61, 1);
+      color: #255dad;
+    }
   }
-}
 
-.organization-image {
-  background: rgba(0, 0, 0, 0.05);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  text-align: center;
-
-  img {
-    max-width: 100%;
-    max-height: 300px;
-    padding: 20px;
-    object-fit: cover;
+  .btn {
+    color: #fff;
+    background: #255dad;
+    font-size: 14px;
   }
 }
 
 .organization-content {
-  padding: 20px;
+  padding: 20px 25px;
   padding-bottom: 0;
 
   p {
@@ -68,6 +66,19 @@
 
 .organization-footer {
   display: flex;
-  padding: 20px;
+  padding: 20px 25px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+
+  .badge {
+    display: flex;
+    padding: 7px;
+    svg {
+      transform: scale(0.8);
+      margin-right: 5px;
+    }
+  }
+  .badge-default {
+    color: rgba(0,0,0,.6);
+    background: rgba(0,0,0,.05);
+  }
 }

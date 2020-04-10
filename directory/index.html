@@ -37,7 +37,7 @@ layout: default
     <div class="row justify-content-center">
       <div class="col-12 text-white">
         <h2>Directory</h2>
-        <p>
+        <p class="mb-0">
           This is a constantly updated directory of all of the organizations
           currently working to get critical PPE and other medical equipment to
           health care professionals, first responders, and other at risk groups.
@@ -88,22 +88,23 @@ layout: default
                 {{ org.name }}
               </a>
             </h3>
-            <a class="btn btn-primary" href="{{ org.site_url }}" target="_blank">Contact</a>
+            <a class="btn" href="{{ org.site_url }}" target="_blank">Contact</a>
           </div>
           <div class="organization-content">
             <p>{{ org.description | markdownify }}</p>
           </div>
           <div class="organization-footer">
             {% for type in org.type %}
-            <div class="badge badge-secondary mr-2">
+            <div class="badge badge-default mr-2">
               <div class="">{{ type }}</div>
             </div>
             {% endfor %}
-            <div class="badge badge-secondary mr-2">
+            <div class="badge badge-default mr-2">
               <div class="">{{ org.location }}</div>
             </div>
             {% if org.is_member %}
-            <div class="badge badge-success ml-auto">
+            <div class="badge badge-default ml-auto">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12"><path fill="#EDC624" fill-rule="evenodd" d="M16 10v2H0v-2h16zm0-5v2H0V5h16zm0-5v2H0V0h16z"/></svg>
               <div class="">Coalition Member</div>
             </div>
             {% endif %}
