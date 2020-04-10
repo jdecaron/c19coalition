@@ -71,8 +71,8 @@ layout: default
           </select>
           <select id="member" class="selectpicker mr-3" title="Coalition & Non-Coalition Members" multiple>
             <option></option>
-            <option>Member of the coalition</option>
-            <option>Not a member of the coalition</option>
+            <option>Non-Coalition Members</option>
+            <option>Coalition Members</option>
           </select>
           <div class="text-muted">
             <span id="results_count">{{ site.organizations.size }}</span>/{{ site.organizations.size }} results
@@ -105,7 +105,7 @@ layout: default
             </div>
             {% if org.is_member %}
             <div class="badge badge-success ml-auto">
-              <div class="">Member of the coalition</div>
+              <div class="">Coalition Member</div>
             </div>
             {% endif %}
           </div>
