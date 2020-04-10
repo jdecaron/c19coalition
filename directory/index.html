@@ -166,6 +166,7 @@ layout: default
         filteredList.push(organization)
       }
     }
+    document.querySelector("#results_count").innerHTML = filteredList.length
     return filteredList;
   }
 
