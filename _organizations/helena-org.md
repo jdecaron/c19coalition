@@ -7,7 +7,7 @@ description: >-
   crisis lasts. They’re working in partnership with José Andrés and World
   Central Kitchen
 type:
-  - CFS
+  - provide-funding
 location: California
 is_member: false
 site_url: >-
