@@ -91,11 +91,6 @@ layout: default
             </h3>
             <a class="btn btn-primary" href="#">Contact</a>
           </div>
-          {% if org.logo %}
-          <div class="organization-image">
-            <img src="{{ org.logo }}" />
-          </div>
-          {% endif %}
           <div class="organization-content">
             <p>{{ org.description | markdownify }}</p>
           </div>
