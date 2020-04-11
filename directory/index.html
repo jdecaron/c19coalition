@@ -235,13 +235,11 @@ types:
     if (selectedOptions.length === 0) {
       filteredList = organizationList.items;
     } else {
-      console.log('name', name, 'seletedOptions', selectedOptions);
       for (var i = 0; i < organizationList.items.length; i++) {
         var organization = organizationList.items[i];
         var values = organization.values()[name].split('|')
         var matchCount = 0;
         for (var j = 0; j < selectedOptions.length; j++) {
-          console.log(values, selectedOptions[j])
           if (values.indexOf(selectedOptions[j]) >= 0) {
             matchCount++;
           }
