@@ -1,3 +1,11 @@
+
+.dropdown-menu label.radio input[type=radio]{
+  visibility: hidden;
+}
+.dropdown-menu label.radio{
+  padding-left:10px;
+}
+
 .section-directory {
   .col-12 {
     max-width: 900px;
