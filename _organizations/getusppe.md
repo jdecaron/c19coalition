@@ -10,8 +10,7 @@ description: "Get Us PPE is a national, centralized platform that leverages a
   the frontlines of the COVID-19 pandemic, engineers, scientists and
   programmers."
 type:
-  - need-ppe
-  - supply-ppe
+  - connect-demand-with-supply
 structure: volunteer
 location: Nationwide
 is_member: true
