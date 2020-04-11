@@ -43,41 +43,53 @@ layout: default
   </div>
 </section>
 
-<section class="section-directory section-content pt-5">
+<section class="section-directory section-content py-5">
   <div class="container">
-    <div id="organizations" class="row justify-content-center">
-      <div class="col-12 mb-4">
-        <div class="d-flex align-items-center">
-          <div class="mr-3 text-muted">Show</div>
-          <select id="type" class="col-sm multiselect-container dropdown-menu mr-3" title="All Types"
-            multiple="multiple">
-            <option selected value="all">All Types of Organizations</option>
-            {% for type in types %}
-            {% if type != "" %}
-            <option>{{ type }}</option>
-            {% endif %}
-            {% endfor %}
-          </select>
-          <select id="location" class="col-sm multiselect-container dropdown-menu mr-3" title="All Locations">
-            <option value="all" selected>All Locations</option>
-            {% for location in locations %}
-            {% if location != "" %}
-            <option>{{ location }}</option>
-            {% endif %}
-            {% endfor %}
-          </select>
-          <select id="member" class="col-sm multiselect-container dropdown-menu mr-3"
-            title="Coalition & Non-Coalition Members">
-            <option value="all" selected>Coalition Members & Non-Coalition Members</option>
-            <option value="true">Coalition Members</option>
-            <option value="false">Non-Coalition Members</option>
-          </select>
-          <div class="text-muted">
-            <span id="results_count">{{ site.organizations.size }}</span>/{{ site.organizations.size }} results
+    <div class="row justify-content-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            ALL ORGANIZATIONS (<span
+              id="results_count">{{ site.organizations.size }}</span>/{{ site.organizations.size }})
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-sm">
+            <select id="type" class="multiselect-container dropdown-menu" title="All Types" multiple="multiple">
+              <option selected value="all">All Types of Organizations</option>
+              {% for type in types %}
+              {% if type != "" %}
+              <option>{{ type }}</option>
+              {% endif %}
+              {% endfor %}
+            </select>
+          </div>
+          <div class="col-sm">
+            <select id="location" class="dropdown-menu" title="All Locations">
+              <option value="all" selected>All Locations</option>
+              {% for location in locations %}
+              {% if location != "" %}
+              <option>{{ location }}</option>
+              {% endif %}
+              {% endfor %}
+            </select>
+          </div>
+          <div class="col-sm">
+            <select id="member" class="multiselect-container dropdown-menu" title="Coalition & Non-Coalition Members">
+              <option value="all" selected>Coalition Members & Non-Coalition Members</option>
+              <option value="true">Coalition Members</option>
+              <option value="false">Non-Coalition Members</option>
+            </select>
           </div>
         </div>
       </div>
+    </div>
+  </div>
+</section>
 
+<section class="section-directory section-content pt-5">
+  <div class="container">
+    <div id="organizations" class="row justify-content-center">
       <div class="col-12 my-2 list">
         {% for org in site.organizations %}
         <div class="organization">
@@ -188,6 +200,7 @@ layout: default
 
   $(document).ready(function () {
     $("#location, #member, #type").multiselect({
+      buttonWidth: '100%',
       onChange: function (option, checked) {
         var selectElement = option[0].parentElement;
         var selectedOptions = getSelectedOptions(selectElement);
