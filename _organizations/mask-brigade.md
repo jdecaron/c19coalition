@@ -9,7 +9,7 @@ description: The goal of each Mask Brigade’s is to help local residents and
 type:
   - connect-demand-with-supply
 structure: nonprofit
-location: Nationwide
+location: Washington
 is_member: false
 site_url: https://www.fulllifecare.org/the-mask-brigade/
 ---
