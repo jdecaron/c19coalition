@@ -30,6 +30,7 @@ collections:
           - { label: 'Assist with Regulatory Issues', value: 'assist-with-regulatory-issues' }
           - { label: 'Develop New Technologies', value: 'develop-new-technologies' }
           - { label: 'Sell PPE to Consumers', value: 'sell-ppe-to-consumers' }
+          - { label: 'Other', value: 'other' }
       - label: 'Structure'
         name: 'structure'
         widget: 'select'
