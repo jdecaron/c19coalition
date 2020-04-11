@@ -12,6 +12,7 @@ type:
   - supply-ppe
 structure: volunteer
 location: Nationwide
-is_member: false
+is_member: true
 site_url: https://www.masksnow.org/
+logo: /assets/uploads/masks-now.png
 ---
