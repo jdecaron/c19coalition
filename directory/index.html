@@ -1,12 +1,282 @@
 ---
 layout: default
+locations:
+  - 'Nationwide'
+  - 'Multinational'
+  - 'Alaska'
+  - "Alabama"
+  - "Arkansas"
+  - "American Samoa"
+  - "Arizona"
+  - "California"
+  - "Colorado"
+  - "Connecticut"
+  - "District of Columbia"
+  - "Delaware"
+  - "Florida"
+  - "Georgia"
+  - "Guam"
+  - "Hawaii"
+  - "Iowa"
+  - "Idaho"
+  - "Illinois"
+  - "Indiana"
+  - "Kansas"
+  - "Kentucky"
+  - "Louisiana"
+  - "Massachusetts"
+  - "Maryland"
+  - "Maine"
+  - "Michigan"
+  - "Minnesota"
+  - "Missouri"
+  - "Mississippi"
+  - "Montana"
+  - "North Carolina"
+  - "North Dakota"
+  - "Nebraska"
+  - "New Hampshire"
+  - "New Jersey"
+  - "New Mexico"
+  - "Nevada"
+  - "New York"
+  - "Ohio"
+  - "Oklahoma"
+  - "Oregon"
+  - "Pennsylvania"
+  - "Puerto Rico"
+  - "Rhode Island"
+  - "South Carolina"
+  - "South Dakota"
+  - "Tennessee"
+  - "Texas"
+  - "Utah"
+  - "Virginia"
+  - "Virgin Islands"
+  - "Vermont"
+  - "Washington"
+  - "Wisconsin"
+  - "West Virginia"
+  - "Wyoming"
+types:
+  - { label: 'Need PPE', value: 'need-ppe' }
+  - { label: 'Supply PPE', value: 'supply-ppe' }
+  - { label: 'Connect Demand with Supply', value: 'connect-demand-with-supply' }
+  - { label: 'Provide Funding', value: 'provide-funding' }
+  - { label: 'Provide Data', value: 'provide-data' }
+  - { label: 'Provide Resources for Makers', value: 'provide-resources-for-makers' }
+  - { label: 'Provide Transportation & Logistics', value: 'provide-transportation-and-logistics' }
+  - { label: 'Manufacture PPE & Other Equipment', value: 'manufacture-ppe-and-other-equipment' }
+  - { label: 'Assist with Regulatory Issues', value: 'assist-with-regulatory-issues' }
+  - { label: 'Develop New Technologies', value: 'develop-new-technologies' }
+  - { label: 'Sell PPE to Consumers', value: 'sell-ppe-to-consumers' }
+  - { label: 'Other', value: 'other' }
 ---
-{% for org in site.organizations %}
-  <h2>
-    <a href="{{ org.site_url }}">
-      {{ org.name }}
-    </a>
-  </h2>
-  <img src="{{ org.logo }}" />
-  <p>{{ org.description | markdownify }}</p>
-{% endfor %}
+<!-- NEED TO ADD CHECKSUM AND MAKE SURE WE ARE USING A CONSISTEND CDN -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/assets/bootstrap-multiselect.css" />
+
+<section class="section-intro section-directory bg-navy">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-white my-5">
+        <h1 class="text-center font-weight-bold site-logo">
+          <img src="/assets/images/ppe-logo.svg" alt="{{ site.title }}" />
+        </h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-hero section-directory py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-white">
+        <h2>Directory</h2>
+        <p class="mb-0">
+          This is a constantly updated directory of all of the organizations
+          currently working to get critical PPE and other medical equipment to
+          health care professionals, first responders, and other at risk groups.
+          If you are part of a group that needs that be listed, please let us
+          know.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-directory section-content pt-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <h5 class="mb-4">All Organizations (<span id="results_count">{{ site.organizations.size }}</span>/{{ site.organizations.size }})</h5>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row justify-content-center">
+              <div class="col-sm mb-2 mb-lg-0">
+                <select id="type" class="multiselect-container dropdown-menu" title="All Types" multiple="multiple">
+                  <option selected value="all">All Types</option>
+                  {% for type in page.types %}
+                  {% if type != "" %}
+                  <option value={{ type.value }}>{{ type.label }}</option>
+                  {% endif %}
+                  {% endfor %}
+                </select>
+              </div>
+              <div class="col-sm mb-2 mb-lg-0">
+                <select id="location" class="dropdown-menu" title="All Locations">
+                  <option value="all" selected>All Locations</option>
+                  {% for location in page.locations %}
+                  {% if location != "" %}
+                  <option>{{ location }}</option>
+                  {% endif %}
+                  {% endfor %}
+                </select>
+              </div>
+              <div class="col-sm">
+                <select id="member" class="multiselect-container dropdown-menu" title="All Organizations">
+                  <option value="all" selected>All Organizations</option>
+                  <option value="true">Coalition Members</option>
+                  <option value="false">Non-Coalition Members</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-directory section-content pt-5">
+  <div class="container">
+    <div id="organizations" class="row justify-content-center">
+      <div class="col-12 my-2 list">
+        {% for org in site.organizations %}
+        <div class="organization">
+          <div class="organization-header">
+            <h3>
+              <a href="{{ org.site_url }}" class="name">
+                {{ org.name }}
+              </a>
+            </h3>
+            <a class="btn" href="{{ org.site_url }}" target="_blank">Visit</a>
+          </div>
+          <div class="organization-content">
+            <p>{{ org.description | markdownify }}</p>
+          </div>
+          <div class="organization-footer">
+            {% for type in org.type %}
+            <div class="badge badge-default mr-2">
+              <div class="">{{ type }}</div>
+            </div>
+            {% endfor %}
+            <div class="badge badge-default mr-2">
+              <div class="">{{ org.location }}</div>
+            </div>
+            {% if org.is_member %}
+            <div class="badge badge-default ml-auto">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12">
+                <path fill="#EDC624" fill-rule="evenodd" d="M16 10v2H0v-2h16zm0-5v2H0V5h16zm0-5v2H0V0h16z" /></svg>
+              <div class="">Coalition Member</div>
+            </div>
+            {% endif %}
+          </div>
+          <div class="d-none">
+            <div class="type">{{ org.type | sort | join: "|" }}</div>
+            <div class="location">{{ org.location }}</div>
+            <div class="member">{{ org.is_member }}</div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NEED TO ADD CHECKSUM AND MAKE SURE WE ARE USING A CONSISTEND CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/js/bootstrap-multiselect.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+
+
+<script>
+  var options = {
+    valueNames: ['location', 'member', 'type']
+  };
+  var organizationList = new List('organizations', options);
+  var filteredLocations = organizationList.items;
+  var filteredMembers = organizationList.items;
+  var filteredTypes = organizationList.items;
+
+  function filterAll() {
+    var order = [filteredLocations, filteredMembers];
+    var filtered = [].concat(filteredTypes);
+    for (var i = 0; i < order.length; i++) {
+      filtered = filtered.filter(function (organization) {
+        return order[i].indexOf(organization) !== -1;
+      });
+    }
+
+    document.querySelector("#results_count").innerText = filtered.length
+    organizationList.filter(function (organization) {
+      return filtered.indexOf(organization) !== -1;
+    });
+  }
+
+  function filterSpecific(name, selectedOptions) {
+    var filteredList = [];
+
+    if (selectedOptions.length === 0) {
+      filteredList = organizationList.items;
+    } else {
+      for (var i = 0; i < organizationList.items.length; i++) {
+        var organization = organizationList.items[i];
+        var values = organization.values()[name].split('|')
+        var matchCount = 0;
+        for (var j = 0; j < selectedOptions.length; j++) {
+          if (values.indexOf(selectedOptions[j]) >= 0) {
+            matchCount++;
+          }
+        }
+        if (matchCount > 0) {
+          filteredList.push(organization)
+        }
+      }
+      document.querySelector("#results_count").innerText = filteredList.length
+    }
+    return filteredList;
+  }
+
+  function getSelectedOptions(selectElement) {
+    var selectedOptions = []
+    $.each(selectElement.selectedOptions, function (index, element) {
+      selectedOptions.push(element.value)
+    });
+    return selectedOptions;
+  }
+
+  $(document).ready(function () {
+    $("#location, #member, #type").multiselect({
+      buttonWidth: '100%',
+      onChange: function (option, checked) {
+        var selectElement = option[0].parentElement;
+        var selectedOptions = getSelectedOptions(selectElement);
+        if (checked === true && option[0].value !== 'all') {
+          $(selectElement).multiselect('deselect', 'all');
+        } else if (option[0].value === 'all') {
+          $(selectElement).multiselect('deselectAll');
+          $(selectElement).multiselect('select', 'all');
+          selectedOptions = [];
+        }
+        filteredTypes = filterSpecific(selectElement.id, selectedOptions)
+        filterAll()
+      }
+    });
+  });
+</script>
