@@ -58,7 +58,8 @@ layout: default
             {% endif %}
             {% endfor %}
           </select>
-          <select id="location" class="col-sm multiselect-container dropdown-menu mr-3" title="All Locations" multiple="multiple">
+          <select id="location" class="col-sm multiselect-container dropdown-menu mr-3" title="All Locations"
+            multiple="multiple">
             <option value="all" selected>All Locations</option>
             {% for location in locations %}
             {% if location != "" %}
@@ -155,22 +156,26 @@ layout: default
   function filterSpecific(name, selectedOptions) {
     var filteredList = [];
 
-    console.log('name', name, 'cseletedOptions', selectedOptions);
-    for (var i = 0; i < organizationList.items.length; i++) {
-      var organization = organizationList.items[i];
-      var values = organization.values()[name].split('|')
-      var matchCount = 0;
-      for (var j = 0; j < selectedOptions.length; j++) {
-        // console.log(values, selectedOptions[j])
-        if (values.indexOf(selectedOptions[j]) >= 0) {
-          matchCount++;
+    if (selectedOptions.length === 0) {
+      filteredList = organizationList.items;
+    } else {
+      console.log('name', name, 'seletedOptions', selectedOptions);
+      for (var i = 0; i < organizationList.items.length; i++) {
+        var organization = organizationList.items[i];
+        var values = organization.values()[name].split('|')
+        var matchCount = 0;
+        for (var j = 0; j < selectedOptions.length; j++) {
+          console.log(values, selectedOptions[j])
+          if (values.indexOf(selectedOptions[j]) >= 0) {
+            matchCount++;
+          }
+        }
+        if (matchCount > 0) {
+          filteredList.push(organization)
         }
       }
-      if (matchCount > 0) {
-        filteredList.push(organization)
-      }
+      document.querySelector("#results_count").innerText = filteredList.length
     }
-    document.querySelector("#results_count").innerText = filteredList.length
     return filteredList;
   }
 
@@ -188,10 +193,11 @@ layout: default
         var selectElement = option[0].parentElement;
         var selectedOptions = getSelectedOptions(selectElement);
         if (checked === true && option[0].value !== 'all') {
-            $(selectElement).multiselect('deselect', 'all');
+          $(selectElement).multiselect('deselect', 'all');
         } else {
-            $(selectElement).multiselect('deselectAll');
-            $(selectElement).multiselect('select', 'all');
+          $(selectElement).multiselect('deselectAll');
+          $(selectElement).multiselect('select', 'all');
+          selectedOptions = [];
         }
         filteredTypes = filterSpecific(selectElement.id, selectedOptions)
         filterAll()
