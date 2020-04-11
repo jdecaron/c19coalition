@@ -11,14 +11,8 @@ layout: default
 {%  assign types = types | split: "|" | sort | uniq %}
 
 <!-- NEED TO ADD CHECKSUM AND MAKE SURE WE ARE USING A CONSISTEND CDN -->
-<link
-  rel="stylesheet"
-  href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-/>
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css"
-/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/assets/bootstrap-multiselect.css" />
 
 <section class="section-intro section-directory bg-navy">
   <div class="container">
@@ -55,23 +49,28 @@ layout: default
       <div class="col-12 mb-4">
         <div class="d-flex align-items-center">
           <div class="mr-3 text-muted">Show</div>
-          <select id="type" class="selectpicker mr-3" title="All Types" multiple>
+          <select id="type" class="col-sm multiselect-container dropdown-menu mr-3" title="All Types"
+            multiple="multiple">
+            <option selected value="all">All Types of Organizations</option>
             {% for type in types %}
             {% if type != "" %}
             <option>{{ type }}</option>
             {% endif %}
             {% endfor %}
           </select>
-          <select id="location" class="selectpicker mr-3" title="All Locations" multiple>
+          <select id="location" class="col-sm multiselect-container dropdown-menu mr-3" title="All Locations" multiple="multiple">
+            <option value="all" selected>All Locations</option>
             {% for location in locations %}
             {% if location != "" %}
             <option>{{ location }}</option>
             {% endif %}
             {% endfor %}
           </select>
-          <select id="member" class="selectpicker mr-3" title="Coalition & Non-Coalition Members" multiple>
-            <option>Non-Coalition Members</option>
-            <option>Coalition Members</option>
+          <select id="member" class="col-sm multiselect-container dropdown-menu mr-3"
+            title="Coalition & Non-Coalition Members">
+            <option value="all" selected>Coalition Members & Non-Coalition Members</option>
+            <option value="true">Coalition Members</option>
+            <option value="false">Non-Coalition Members</option>
           </select>
           <div class="text-muted">
             <span id="results_count">{{ site.organizations.size }}</span>/{{ site.organizations.size }} results
@@ -104,7 +103,8 @@ layout: default
             </div>
             {% if org.is_member %}
             <div class="badge badge-default ml-auto">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12"><path fill="#EDC624" fill-rule="evenodd" d="M16 10v2H0v-2h16zm0-5v2H0V5h16zm0-5v2H0V0h16z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12">
+                <path fill="#EDC624" fill-rule="evenodd" d="M16 10v2H0v-2h16zm0-5v2H0V5h16zm0-5v2H0V0h16z" /></svg>
               <div class="">Coalition Member</div>
             </div>
             {% endif %}
@@ -124,7 +124,7 @@ layout: default
 <!-- NEED TO ADD CHECKSUM AND MAKE SURE WE ARE USING A CONSISTEND CDN -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+<script src="/assets/js/bootstrap-multiselect.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
 
 
@@ -145,6 +145,8 @@ layout: default
         return order[i].indexOf(organization) !== -1;
       });
     }
+
+    document.querySelector("#results_count").innerText = filtered.length
     organizationList.filter(function (organization) {
       return filtered.indexOf(organization) !== -1;
     });
@@ -152,12 +154,14 @@ layout: default
 
   function filterSpecific(name, selectedOptions) {
     var filteredList = [];
+
+    console.log('name', name, 'cseletedOptions', selectedOptions);
     for (var i = 0; i < organizationList.items.length; i++) {
       var organization = organizationList.items[i];
       var values = organization.values()[name].split('|')
       var matchCount = 0;
       for (var j = 0; j < selectedOptions.length; j++) {
-        console.log(values, selectedOptions[j])
+        // console.log(values, selectedOptions[j])
         if (values.indexOf(selectedOptions[j]) >= 0) {
           matchCount++;
         }
@@ -170,26 +174,28 @@ layout: default
     return filteredList;
   }
 
-  function getSelectedOptions(event) {
+  function getSelectedOptions(selectElement) {
     var selectedOptions = []
-    $.each(event.target.selectedOptions, function (index, element) {
+    $.each(selectElement.selectedOptions, function (index, element) {
       selectedOptions.push(element.value)
     });
     return selectedOptions;
   }
 
-  $("#type").on('changed.bs.select', function (event, clickedIndex, isSelected, previousValue) {
-    filteredTypes = filterSpecific('type', getSelectedOptions(event))
-    filterAll()
-  })
-
-  $("#location").on('changed.bs.select', function (event, clickedIndex, isSelected, previousValue) {
-    filteredLocations = filterSpecific('location', getSelectedOptions(event))
-    filterAll()
-  })
-
-  $("#member").on('changed.bs.select', function (event, clickedIndex, isSelected, previousValue) {
-    filteredMembers = filterSpecific('member', getSelectedOptions(event))
-    filterAll()
-  })
+  $(document).ready(function () {
+    $("#location, #member, #type").multiselect({
+      onChange: function (option, checked) {
+        var selectElement = option[0].parentElement;
+        var selectedOptions = getSelectedOptions(selectElement);
+        if (checked === true && option[0].value !== 'all') {
+            $(selectElement).multiselect('deselect', 'all');
+        } else {
+            $(selectElement).multiselect('deselectAll');
+            $(selectElement).multiselect('select', 'all');
+        }
+        filteredTypes = filterSpecific(selectElement.id, selectedOptions)
+        filterAll()
+      }
+    });
+  });
 </script>
