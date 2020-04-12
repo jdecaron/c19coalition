@@ -117,7 +117,7 @@ types:
                     id="results_count">{{ site.organizations.size }}</span>/{{ site.organizations.size }})</h5>
               </div>
               <div class="col-4">
-                <button type="button" class="btn btn-light w-100" id="reset">Reset</button>
+                <a id="reset" class="btn float-right">Reset</a>
               </div>
             </div>
           </div>
@@ -218,13 +218,15 @@ types:
     valueNames: ['location', 'member', 'type']
   };
   var organizationList = new List('organizations', options);
-  var filteredLocations = organizationList.items;
-  var filteredMembers = organizationList.items;
-  var filteredTypes = organizationList.items;
+  var filteredOptions = {
+    location: organizationList.items,
+    member: organizationList.items,
+    type: organizationList.items
+  }
 
   function filterAll() {
-    var order = [filteredLocations, filteredMembers];
-    var filtered = [].concat(filteredTypes);
+    var order = [filteredOptions['location'], filteredOptions['member']];
+    var filtered = [].concat(filteredOptions['type']);
     for (var i = 0; i < order.length; i++) {
       filtered = filtered.filter(function (organization) {
         return order[i].indexOf(organization) !== -1;
@@ -271,7 +273,13 @@ types:
 
   $(document).ready(function () {
     $("#reset").click(function () {
-      console.log("reset")
+      $("#location, #member, #type").multiselect('deselectAll', false);
+      $("#location, #member, #type").multiselect('select', 'all');
+      $("#location, #member, #type").multiselect('updateButtonText');
+      filteredOptions['location'] = organizationList.items;
+      filteredOptions['member'] = organizationList.items;
+      filteredOptions['type'] = organizationList.items;
+      filterAll();
     });
 
     $("#location, #member, #type").multiselect({
@@ -285,8 +293,10 @@ types:
           $(selectElement).multiselect('deselectAll');
           $(selectElement).multiselect('select', 'all');
           selectedOptions = [];
+        } else if (selectElement.id === 'type' && selectedOptions.length === 0) {
+          $(selectElement).multiselect('select', 'all');
         }
-        filteredTypes = filterSpecific(selectElement.id, selectedOptions)
+        filteredOptions[selectElement.id] = filterSpecific(selectElement.id, selectedOptions)
         filterAll()
       }
     });
