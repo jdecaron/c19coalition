@@ -111,7 +111,15 @@ types:
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12">
-            <h5 class="mb-4">All Organizations (<span id="results_count">{{ site.organizations.size }}</span>/{{ site.organizations.size }})</h5>
+            <div class="row justify-content-center">
+              <div class="col-8">
+                <h5 class="mb-4">All Organizations (<span
+                    id="results_count">{{ site.organizations.size }}</span>/{{ site.organizations.size }})</h5>
+              </div>
+              <div class="col-4">
+                <button type="button" class="btn btn-light w-100" id="reset">Reset</button>
+              </div>
+            </div>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -262,6 +270,10 @@ types:
   }
 
   $(document).ready(function () {
+    $("#reset").click(function () {
+      console.log("reset")
+    });
+
     $("#location, #member, #type").multiselect({
       buttonWidth: '100%',
       onChange: function (option, checked) {
