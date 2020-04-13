@@ -161,4 +161,22 @@ section {
   max-width: 15rem;
 }
 
+.nav-item {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.navbar-light .navbar-nav .active a {
+  border-bottom: 5px solid $red;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+
+.navbar-light .navbar-nav .highlight a {
+  color: $red !important;
+}
+
 @import "assets/directory";
