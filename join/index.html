@@ -1,29 +1,61 @@
-<form name="join" method="POST" data-netlify="true" action="/join/thank-you/" netlify-honeypot="bot-field">
-    <p class="hidden">
-        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-    </p>
-    <p>
-        <label>Organization Name: <input type="text" name="org-name" /></label>   
-    </p>
-    <p>
-        <label>Contact Name: <input type="text" name="contact-name" /></label>
-    </p>
-    <p>
-        <label>Contact Email: <input type="email" name="contact-email" /></label>
-    </p>
-    <p>
-        <label>Contact Phone: <input type="text" name="contact-phone" /></label>
-    </p>
-    <p>
-        <label>Organization URL: <input type="text" name="org-url" /></label>
-    </p>
-    <p>
-        <label>Description of Organization: <textarea name="org-description"></textarea></label>
-    </p>
-    <p>
-        <label>Organization Logo: <input type="file" name="org-logo" /></label>
-    </p>
-    <p>
-      <button type="submit">Join</button>
-    </p>
-</form>
+---
+layout: default
+---
+
+<section class="section-join py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <form name="join" method="POST" data-netlify="true" action="/join/thank-you/" netlify-honeypot="bot-field">
+          <div class="d-none">
+            <label for="bot-field">Don’t fill this out if you're human</label>
+            <input class="form-control" name="bot-field" />
+          </div>
+          <div class="form-group">
+            <label for="org-name">Organization Name</label>
+            <input class="form-control" type="text" name="org-name" />
+          </div>
+          <div class="form-group">
+            <label for="contact-name">Contact Name</label>
+            <input class="form-control" type="text" name="contact-name" />
+          </div>
+          <div class="form-group">
+            <label for="contact-email">Contact Email</label>
+            <input class="form-control" type="email" name="contact-email" />
+          </div>
+          <div class="form-group">
+            <label for="contact-phone">Contact Phone</label>
+            <input class="form-control" type="text" name="contact-phone" />
+          </div>
+          <div class="form-group">
+            <label for="org-url">Organization URL</label>
+            <input class="form-control" type="text" name="org-url" />
+          </div>
+          <div class="form-group">
+            <label for="org-organization">Description of Organization: </label>
+            <textarea class="form-control" name="org-description"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="org-logo">Organization Logo</label>
+            <div class="custom-file">
+              <input class="custom-file-input" type="file" name="org-logo" id="customFile" name="filename">
+              <label class="custom-file-label" for="customFile">Choose file</label>
+            </div>
+          </div>
+          <div class="form-group mt-4">
+            <button type="submit" class="btn btn-primary">Join</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<script>
+  // $(".custom-file-input").on("change", function() {
+  //   var fileName = $(this).val().split("\\").pop();
+  //   $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+  // });
+</script>
