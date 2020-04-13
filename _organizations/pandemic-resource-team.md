@@ -7,8 +7,10 @@ description: Pandemic Resource Team is focused on the development and deployment
   of us from the next one.
 type:
   - other
-structure: other
+  - provide-data
+structure: volunteer
 location: Multinational
 is_member: true
+site_url: https://pandemicrt.com/
 logo: /assets/uploads/pandemic-resource-team.png
 ---
