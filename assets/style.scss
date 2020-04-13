@@ -127,6 +127,7 @@ section {
     }
   }
 }
+
 .section-intro {
   h2 {
     font-size: 1.5rem;
@@ -159,6 +160,10 @@ section {
 .site-logo {
   margin: 0 auto;
   max-width: 15rem;
+}
+
+.optional {
+  color: grey;
 }
 
 @import "assets/directory";
