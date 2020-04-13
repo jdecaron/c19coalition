@@ -109,45 +109,38 @@ types:
 
 <section class="section-directory section-content pt-5">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12">
-            <h5 class="mb-4">All Organizations (<span id="results_count">{{ site.organizations.size }}</span>/{{ site.organizations.size }})</h5>
-          </div>
+    <div class="col-12 mx-auto">
+      <div class="d-flex mb-3 justify-content-between align-items-center">
+        <h5 class="mb-0">All Organizations (<span id="results_count">{{ site.organizations.size }}</span>/{{ site.organizations.size }})</h5>
+        <a id="reset" class="btn btn-sm float-right">Reset</a>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-sm mb-2 mb-lg-0">
+          <select id="type" class="multiselect-container dropdown-menu" title="All Types" multiple="multiple">
+            <option selected value="all">All Types</option>
+            {% for type in page.types %}
+            {% if type != "" %}
+            <option value={{ type.value }}>{{ type.label }}</option>
+            {% endif %}
+            {% endfor %}
+          </select>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-12">
-            <div class="row justify-content-center">
-              <div class="col-sm mb-2 mb-lg-0">
-                <select id="type" class="multiselect-container dropdown-menu" title="All Types" multiple="multiple">
-                  <option selected value="all">All Types</option>
-                  {% for type in page.types %}
-                  {% if type != "" %}
-                  <option value={{ type.value }}>{{ type.label }}</option>
-                  {% endif %}
-                  {% endfor %}
-                </select>
-              </div>
-              <div class="col-sm mb-2 mb-lg-0">
-                <select id="location" class="dropdown-menu" title="All Locations">
-                  <option value="all" selected>All Locations</option>
-                  {% for location in page.locations %}
-                  {% if location != "" %}
-                  <option>{{ location }}</option>
-                  {% endif %}
-                  {% endfor %}
-                </select>
-              </div>
-              <div class="col-sm">
-                <select id="member" class="multiselect-container dropdown-menu" title="All Organizations">
-                  <option value="all" selected>All Organizations</option>
-                  <option value="true">Coalition Members</option>
-                  <option value="false">Non-Coalition Members</option>
-                </select>
-              </div>
-            </div>
-          </div>
+        <div class="col-sm mb-2 mb-lg-0">
+          <select id="location" class="dropdown-menu" title="All Locations">
+            <option value="all" selected>All Locations</option>
+            {% for location in page.locations %}
+            {% if location != "" %}
+            <option>{{ location }}</option>
+            {% endif %}
+            {% endfor %}
+          </select>
+        </div>
+        <div class="col-sm">
+          <select id="member" class="multiselect-container dropdown-menu" title="All Organizations">
+            <option value="all" selected>All Organizations</option>
+            <option value="true">Coalition Members</option>
+            <option value="false">Non-Coalition Members</option>
+          </select>
         </div>
       </div>
     </div>
@@ -212,13 +205,15 @@ types:
     valueNames: ['location', 'member', 'type']
   };
   var organizationList = new List('organizations', options);
-  var filteredLocations = organizationList.items;
-  var filteredMembers = organizationList.items;
-  var filteredTypes = organizationList.items;
+  var filteredOptions = {
+    location: organizationList.items,
+    member: organizationList.items,
+    type: organizationList.items
+  }
 
   function filterAll() {
-    var order = [filteredLocations, filteredMembers];
-    var filtered = [].concat(filteredTypes);
+    var order = [filteredOptions['location'], filteredOptions['member']];
+    var filtered = [].concat(filteredOptions['type']);
     for (var i = 0; i < order.length; i++) {
       filtered = filtered.filter(function (organization) {
         return order[i].indexOf(organization) !== -1;
@@ -264,6 +259,16 @@ types:
   }
 
   $(document).ready(function () {
+    $("#reset").click(function () {
+      $("#location, #member, #type").multiselect('deselectAll', false);
+      $("#location, #member, #type").multiselect('select', 'all');
+      $("#location, #member, #type").multiselect('updateButtonText');
+      filteredOptions['location'] = organizationList.items;
+      filteredOptions['member'] = organizationList.items;
+      filteredOptions['type'] = organizationList.items;
+      filterAll();
+    });
+
     $("#location, #member, #type").multiselect({
       buttonWidth: '100%',
       onChange: function (option, checked) {
@@ -271,12 +276,16 @@ types:
         var selectedOptions = getSelectedOptions(selectElement);
         if (checked === true && option[0].value !== 'all') {
           $(selectElement).multiselect('deselect', 'all');
+          $(selectElement).multiselect('updateButtonText');
         } else if (option[0].value === 'all') {
           $(selectElement).multiselect('deselectAll');
           $(selectElement).multiselect('select', 'all');
+          $(selectElement).multiselect('updateButtonText');
           selectedOptions = [];
+        } else if (selectElement.id === 'type' && selectedOptions.length === 0) {
+          $(selectElement).multiselect('select', 'all');
         }
-        filteredTypes = filterSpecific(selectElement.id, selectedOptions)
+        filteredOptions[selectElement.id] = filterSpecific(selectElement.id, selectedOptions)
         filterAll()
       }
     });

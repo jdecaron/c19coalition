@@ -10,5 +10,6 @@ type:
   - provide-transportation-and-logistics
 structure: volunteer
 location: Multinational
-is_member: false
+is_member: true
+logo: /assets/uploads/frontlinesupport.png
 ---

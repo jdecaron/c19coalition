@@ -11,4 +11,5 @@ structure: nonprofit
 location: California
 is_member: true
 site_url: https://familydocs.org/
+logo: /assets/uploads/ca-academy-of-family-phys.png
 ---
