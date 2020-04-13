@@ -74,7 +74,7 @@ section {
   }
 
   strong {
-    font-size: 1.8em;
+    font-size: 1.65em;
   }
 
   p {
@@ -127,6 +127,7 @@ section {
     }
   }
 }
+
 .section-intro {
   h2 {
     font-size: 1.5rem;
@@ -161,11 +162,16 @@ section {
   max-width: 15rem;
 }
 
-.nav-item {
+.nav-item a {
   text-transform: uppercase;
   font-size: 1.5rem;
   margin-left: 20px;
   margin-right: 20px;
+  color: #000000 !important;
+}
+
+.nav-item a:hover {
+  color: $dark_gray !important;
 }
 
 .navbar-light .navbar-nav .active a {
@@ -177,6 +183,10 @@ section {
 
 .navbar-light .navbar-nav .highlight a {
   color: $red !important;
+}
+
+.optional {
+  color: grey;
 }
 
 @import "assets/directory";

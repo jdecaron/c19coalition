@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+<section class="section-hero section-join py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-white">
+        <h2>Join the Coalition</h2>
+        <p class="mb-0">
+          The National PPE Coalition is growing. If you would like your organization to be included in 
+          the directory or to become part of the Coalition, submit your information here.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-join py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <form name="join" method="POST" data-netlify="true" action="/join/thank-you/" netlify-honeypot="bot-field">
+          <div class="d-none">
+            <label for="bot-field">Don’t fill this out if you're human</label>
+            <input class="form-control" name="bot-field"/>
+          </div>
+          <div class="form-group">
+            <label for="org-name">Organization Name</label>
+            <input class="form-control" type="text" name="org-name" required="true"/>
+          </div>
+          <div class="form-group">
+            <label for="contact-name">Contact Name</label>
+            <input class="form-control" type="text" name="contact-name" required="true"/>
+          </div>
+          <div class="form-group">
+            <label for="contact-email">Contact Email</label>
+            <input class="form-control" type="email" name="contact-email" required="true"/>
+          </div>
+          <div class="form-group">
+            <label for="contact-phone">Contact Phone <span class="optional">(optional)</span></label>
+            <input class="form-control" type="text" name="contact-phone" />
+          </div>
+          <div class="form-group">
+            <label for="org-url">Organization URL</label>
+            <input class="form-control" type="text" name="org-url" required="true"/>
+          </div>
+          <div class="form-group">
+            <label for="org-organization">Description of Organization</label>
+            <textarea rows="5" class="form-control" name="org-description" required="true"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="org-logo">Organization Logo <span class="optional">(optional)</span></label>
+            <div class="custom-file">
+              <input class="custom-file-input" type="file" name="org-logo" id="customFile" name="filename">
+              <label class="custom-file-label" for="customFile">Choose file</label>
+            </div>
+          </div>
+          <div class="form-group mt-4">
+            <button type="submit" class="btn btn-primary">Join</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<script>
+  // $(".custom-file-input").on("change", function() {
+  //   var fileName = $(this).val().split("\\").pop();
+  //   $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+  // });
+</script>
