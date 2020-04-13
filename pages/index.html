@@ -10,19 +10,7 @@ layout: default
         <h1 class="text-center mb-5 mt-2 font-weight-bold site-logo">
           <img src="assets/images/ppe-logo.svg" alt="{{ site.title }}" />
         </h1>
-        <p>
-          National PPE Coalition brings crucial partners together to help build an efficient, unified supply chain for
-          PPE and lifesaving medical devices. State governments, corporations, manufacturers, non-profits, and
-          individuals can connect through us to share and request resources and information.
-        </p>
-        <p>Our members are working on every part of the problem: supply, demand, fulfillment, logistics, funding, and
-          information tracking. We use real-time updates about what every organization is doing in order to maximize
-          efficiency and effectiveness.</p>
-        <p>
-          By coordinating all emergency PPE crisis efforts, we help minimize the risk of misdirecting critical supplies
-          to places that may need them less urgently, and increase their individual power exponentially. We’re working
-          together to ensure that every shipment of PPE sent is a life-saving shipment.
-        </p>
+        {{ site.content.home.intro | markdownify }}
       </div>
     </div>
   </div>

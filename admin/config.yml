@@ -118,10 +118,12 @@ collections:
         required: false
   - label: "Pages"
     name: "pages"
+    editor:
+      preview: false
     files:
       - label: "Home Page"
         name: "home"
-        file: "site/content/home.yml"
+        file: "pages/index.md"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: intro, widget: markdown}
@@ -130,13 +132,12 @@ collections:
             widget: list
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: Position, name: position, widget: string}
               - {label: Description, name: description, widget: markdown}
               - label: Entry
                 name: entry
                 widget: list
                 fields:
                   - {label: Title, name: title, widget: string}
-                  - {label: Position, name: position, widget: string}
                   - {label: Url, name: url, widget: string}
                   - {label: Description, name: description, widget: markdown}
+          - {label: Outro, name: outro, widget: markdown}
