@@ -107,53 +107,38 @@ types:
 
 <section class="section-directory section-content pt-5">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12">
-            <div class="row justify-content-center">
-              <div class="col-8">
-                <h5 class="mb-4">All Organizations (<span
-                    id="results_count">{{ site.organizations.size }}</span>/{{ site.organizations.size }})</h5>
-              </div>
-              <div class="col-4">
-                <a id="reset" class="btn float-right">Reset</a>
-              </div>
-            </div>
-          </div>
+    <div class="col-12 mx-auto">
+      <div class="d-flex mb-3 justify-content-between align-items-center">
+        <h5 class="mb-0">All Organizations (<span id="results_count">{{ site.organizations.size }}</span>/{{ site.organizations.size }})</h5>
+        <a id="reset" class="btn btn-sm float-right">Reset</a>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-sm mb-2 mb-lg-0">
+          <select id="type" class="multiselect-container dropdown-menu" title="All Types" multiple="multiple">
+            <option selected value="all">All Types</option>
+            {% for type in page.types %}
+            {% if type != "" %}
+            <option value={{ type.value }}>{{ type.label }}</option>
+            {% endif %}
+            {% endfor %}
+          </select>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-12">
-            <div class="row justify-content-center">
-              <div class="col-sm mb-2 mb-lg-0">
-                <select id="type" class="multiselect-container dropdown-menu" title="All Types" multiple="multiple">
-                  <option selected value="all">All Types</option>
-                  {% for type in page.types %}
-                  {% if type != "" %}
-                  <option value={{ type.value }}>{{ type.label }}</option>
-                  {% endif %}
-                  {% endfor %}
-                </select>
-              </div>
-              <div class="col-sm mb-2 mb-lg-0">
-                <select id="location" class="dropdown-menu" title="All Locations">
-                  <option value="all" selected>All Locations</option>
-                  {% for location in page.locations %}
-                  {% if location != "" %}
-                  <option>{{ location }}</option>
-                  {% endif %}
-                  {% endfor %}
-                </select>
-              </div>
-              <div class="col-sm">
-                <select id="member" class="multiselect-container dropdown-menu" title="All Organizations">
-                  <option value="all" selected>All Organizations</option>
-                  <option value="true">Coalition Members</option>
-                  <option value="false">Non-Coalition Members</option>
-                </select>
-              </div>
-            </div>
-          </div>
+        <div class="col-sm mb-2 mb-lg-0">
+          <select id="location" class="dropdown-menu" title="All Locations">
+            <option value="all" selected>All Locations</option>
+            {% for location in page.locations %}
+            {% if location != "" %}
+            <option>{{ location }}</option>
+            {% endif %}
+            {% endfor %}
+          </select>
+        </div>
+        <div class="col-sm">
+          <select id="member" class="multiselect-container dropdown-menu" title="All Organizations">
+            <option value="all" selected>All Organizations</option>
+            <option value="true">Coalition Members</option>
+            <option value="false">Non-Coalition Members</option>
+          </select>
         </div>
       </div>
     </div>
