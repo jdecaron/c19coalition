@@ -10,5 +10,5 @@ structure: corporate
 location: Nationwide
 is_member: true
 site_url: https://givemasks.org/
-logo: /assets/uploads/give-masks.png
+logo: /assets/uploads/givemasks.png
 ---
