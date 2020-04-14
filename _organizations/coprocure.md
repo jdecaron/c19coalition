@@ -17,5 +17,5 @@ structure: corporate
 location: Nationwide
 is_member: true
 site_url: https://www.coprocure.us/
-logo: /assets/uploads/coprocure.png
+logo: /assets/uploads/coprocure_1.png
 ---
