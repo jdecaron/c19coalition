@@ -10,5 +10,5 @@ structure: volunteer
 location: Nationwide
 is_member: true
 site_url: https://operationmasks.org/
-logo: /assets/uploads/operation-masks.png
+logo: /assets/uploads/opmasks.png
 ---
