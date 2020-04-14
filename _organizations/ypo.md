@@ -10,5 +10,5 @@ structure: volunteer
 location: Nationwide
 is_member: true
 site_url: https://www.ypo.org/
-logo: /assets/uploads/ypo.png
+logo: /assets/uploads/ypo_1.png
 ---

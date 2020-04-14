@@ -13,5 +13,5 @@ structure: volunteer
 location: Nationwide
 is_member: true
 site_url: https://opensourcemedicalsupplies.org/
-logo: /assets/uploads/osms.png
+logo: /assets/uploads/open-source-ms.png
 ---

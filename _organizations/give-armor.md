@@ -10,5 +10,5 @@ structure: volunteer
 location: Nationwide
 is_member: true
 site_url: https://givearmor.com/
-logo: /assets/uploads/give-armor.png
+logo: /assets/uploads/givearmor-logo.png
 ---

@@ -15,5 +15,5 @@ structure: volunteer
 location: Nationwide
 is_member: true
 site_url: https://getusppe.org/
-logo: /assets/uploads/get-us-ppe.png
+logo: /assets/uploads/getusppe.png
 ---
