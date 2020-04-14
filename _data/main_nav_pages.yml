@@ -1,0 +1,9 @@
+- title: About
+  url: /
+
+- title: Directory
+  url: /directory/
+
+- title: Join the Coalition
+  url: /join/
+  class: highlight
