@@ -12,4 +12,5 @@ structure: corporate
 location: Multinational
 is_member: true
 site_url: https://tradeshift.com/
+logo: /assets/uploads/tradeshift.png
 ---
