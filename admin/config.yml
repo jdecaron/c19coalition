@@ -132,14 +132,14 @@ collections:
             widget: list
             fields:
               - {label: Description, name: description, widget: markdown}
-              - label: Organizations
-                name: organizations
+              - label: "Organizations"
+                name: orgs
                 widget: list
                 fields:
                   - label: "Organization"
-                    name: organization
+                    name: org
                     widget: relation
-                    collection: organizations
+                    collection: organization
                     searchFields: ["name"]
                     valueFields: name
                     displayFields: ["name"]
