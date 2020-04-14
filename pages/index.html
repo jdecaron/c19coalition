@@ -220,13 +220,14 @@ layout: default
       <div class="col-12 my-5">
         <h2 class="my-5">PPE Coalition Members</h2>
         <div class="row d-flex flex-wrap align-items-center">
-          {% assign logos = site.data.logos %}
-          {% for logo in logos %}
-          <div class="col-6 col-md-4 lg-gutter partner-logo">
-            {% if logo.href %}<a href="{{ logo.href }}" target="_blank">{% endif %}
-              <img src="assets/images/logos/{{ logo.image }}" alt="{{ logo.alt_text }}" style="width: 100%;" />
-              {% if logo.href %}</a>{% endif %}
-          </div>
+          {% for org in site.organizations %}
+            {% if org.is_member and org.logo and org.logo != "" %}
+            <div class="col-6 col-md-4 lg-gutter partner-logo">
+              {% if org.site_url %}<a href="{{ org.site_url }}" target="_blank">{% endif %}
+              <img src="{{ org.logo }}" alt="{{ org.name }}" style="width: 100%;" />
+              {% if org.site_url %}</a>{% endif %}
+            </div>
+            {% endif %}
           {% endfor %}
         </div>
       </div>
