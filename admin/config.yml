@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: 'master'
+  branch: 'feature/home-page-in-cms'
 media_folder: 'assets/uploads'
 collections:
   - name: 'organization'
@@ -123,21 +123,24 @@ collections:
     files:
       - label: "Home Page"
         name: "home"
-        file: "pages/index.md"
+        file: "pages/home.html"
         fields:
-          - {label: Title, name: title, widget: string}
+          - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'default' }
           - {label: Intro, name: intro, widget: markdown}
           - label: Section
             name: section
             widget: list
             fields:
-              - {label: Title, name: title, widget: string}
               - {label: Description, name: description, widget: markdown}
-              - label: Entry
-                name: entry
+              - label: Organizations
+                name: organizations
                 widget: list
                 fields:
-                  - {label: Title, name: title, widget: string}
-                  - {label: Url, name: url, widget: string}
-                  - {label: Description, name: description, widget: markdown}
+                  - label: "Organization"
+                    name: organization
+                    widget: relation
+                    collection: organizations
+                    searchFields: ["name"]
+                    valueFields: name
+                    displayFields: ["name"]
           - {label: Outro, name: outro, widget: markdown}
