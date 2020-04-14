@@ -162,12 +162,15 @@ section {
   max-width: 15rem;
 }
 
-.nav-item a {
+.navbar-light .navbar-nav .nav-item a {
   text-transform: uppercase;
   font-size: 1.5rem;
   margin-left: 20px;
   margin-right: 20px;
   color: #000000 !important;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
 }
 
 .nav-item a:hover {
@@ -176,9 +179,6 @@ section {
 
 .navbar-light .navbar-nav .active a {
   border-bottom: 5px solid $red;
-  padding-left: 0;
-  padding-right: 0;
-  padding-bottom: 0;
 }
 
 .navbar-light .navbar-nav .highlight a {
