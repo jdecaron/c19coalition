@@ -10,5 +10,5 @@ structure: corporate
 location: Nationwide
 is_member: true
 site_url: https://www.sourcify.com/
-logo: /assets/uploads/sourcify.png
+logo: /assets/uploads/sourcify_1.png
 ---
