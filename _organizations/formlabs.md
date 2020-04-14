@@ -16,5 +16,5 @@ structure: corporate
 location: Nationwide
 is_member: true
 site_url: https://formlabs.com/
-logo: /assets/uploads/formlab_blue.png
+logo: /assets/uploads/formlabs.png
 ---
