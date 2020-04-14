@@ -123,7 +123,7 @@ collections:
     files:
       - label: "Home Page"
         name: "home"
-        file: "pages/home.html"
+        file: "pages/home.md"
         fields:
           - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'default' }
           - {label: Intro, name: intro, widget: markdown}
