@@ -16,5 +16,5 @@ structure: nonprofit
 location: Nationwide
 is_member: true
 site_url: https://unitedstatesofcare.org/
-logo: /assets/uploads/united-states-of-care.png
+logo: /assets/uploads/us-of-care.png
 ---
