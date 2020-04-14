@@ -11,5 +11,5 @@ structure: corporate
 location: Multinational
 is_member: true
 site_url: https://assembly.com/
-logo: /assets/uploads/assembly.png
+logo: /assets/uploads/assembly_1.png
 ---
