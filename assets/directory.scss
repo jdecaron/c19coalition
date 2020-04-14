@@ -74,12 +74,14 @@
 
 .organization-footer {
   display: flex;
-  padding: 20px 25px;
+  flex-wrap: wrap;
+  padding: 20px 20px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 
   .badge {
     display: flex;
     padding: 7px;
+    margin: 5px;
     svg {
       transform: scale(0.8);
       margin-right: 5px;
