@@ -151,10 +151,16 @@ types:
             <p>{{ org.description | markdownify }}</p>
           </div>
           <div class="organization-footer">
-            {% for type in org.type %}
+            {% for rawType in org.type %}
+
+            {% assign type = page.types | where: "value", rawType %}
+
+            {% if type %}
             <div class="badge badge-default">
-              <div class="">{{ type }}</div>
+              <div class="">{{ type.first.label }}</div>
             </div>
+            {% endif %}
+
             {% endfor %}
             <div class="badge badge-default">
               <div class="">{{ org.location }}</div>
