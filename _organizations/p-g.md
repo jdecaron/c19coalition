@@ -10,5 +10,5 @@ structure: corporate
 location: Multinational
 is_member: true
 site_url: https://us.pg.com/covid19/
-logo: /assets/uploads/proctorandgamble.png
+logo: /assets/uploads/pandg.png
 ---
