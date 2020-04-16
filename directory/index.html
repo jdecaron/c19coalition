@@ -150,36 +150,39 @@ types:
           <div class="organization-content">
             <p>{{ org.description | markdownify }}</p>
           </div>
-          <div class="organization-footer">
-            {% for rawType in org.type %}
-
-            {% assign type = page.types | where: "value", rawType %}
-
-            {% if type %}
-            <div class="badge badge-default">
-              <div class="">{{ type.first.label }}</div>
+          <div class="container organization-footer">
+            <div class="row">
+              <div class="col-sm-8">
+            
+                {% for rawType in org.type %}
+            
+                {% assign type = page.types | where: "value", rawType %}
+            
+                {% if type %}
+                <span class="badge badge-default">{{ type.first.label }}</span>
+                {% endif %}
+            
+                {% endfor %}
+                <span class=" badge badge-default">{{ org.location }}</span>
+              </div>
+              <div class="col-sm-4 col-member-status">
+                {% if org.is_member %}
+                <div class="badge badge-default">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12">
+                    <path fill="#EDC624" fill-rule="evenodd" d="M16 10v2H0v-2h16zm0-5v2H0V5h16zm0-5v2H0V0h16z" /></svg>
+                  <span class="sauce">Coalition Member</span>
+                </div>
+                {% endif %}
+              </div>
             </div>
-            {% endif %}
-
+            <div class="d-none">
+              <div class="type">{{ org.type | sort | join: "|" }}</div>
+              <div class="location">{{ org.location }}</div>
+              <div class="member">{{ org.is_member }}</div>
+            </div>
+            </div>
+            </div>
             {% endfor %}
-            <div class="badge badge-default">
-              <div class="">{{ org.location }}</div>
-            </div>
-            {% if org.is_member %}
-            <div class="badge badge-default ml-auto">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12">
-                <path fill="#EDC624" fill-rule="evenodd" d="M16 10v2H0v-2h16zm0-5v2H0V5h16zm0-5v2H0V0h16z" /></svg>
-              <div class="">Coalition Member</div>
-            </div>
-            {% endif %}
-          </div>
-          <div class="d-none">
-            <div class="type">{{ org.type | sort | join: "|" }}</div>
-            <div class="location">{{ org.location }}</div>
-            <div class="member">{{ org.is_member }}</div>
-          </div>
-        </div>
-        {% endfor %}
       </div>
     </div>
   </div>
