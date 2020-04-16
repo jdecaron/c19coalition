@@ -153,15 +153,15 @@ types:
           <div class="container organization-footer">
             <div class="row">
               <div class="col-sm-8">
-            
+
                 {% for rawType in org.type %}
-            
+
                 {% assign type = page.types | where: "value", rawType %}
-            
+
                 {% if type %}
                 <span class="badge badge-default">{{ type.first.label }}</span>
                 {% endif %}
-            
+
                 {% endfor %}
                 <span class=" badge badge-default">{{ org.location }}</span>
               </div>
@@ -180,9 +180,9 @@ types:
               <div class="location">{{ org.location }}</div>
               <div class="member">{{ org.is_member }}</div>
             </div>
-            </div>
-            </div>
-            {% endfor %}
+          </div>
+        </div>
+        {% endfor %}
       </div>
     </div>
   </div>
