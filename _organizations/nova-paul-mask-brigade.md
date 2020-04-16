@@ -1,6 +1,6 @@
 ---
 layout: organization
-name: NOVA Paul Mask Brigade
+name: NOVA Mask Brigade
 description: The goal of each Mask Brigade is to help local residents and small
   businesses donate their N95 masks to the local healthcare community.
   Volunteers will pick up donated N95 masks as well as any other PPE and take
