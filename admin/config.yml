@@ -139,7 +139,7 @@ collections:
                   - label: "Organization"
                     name: org
                     widget: relation
-                    collection: organization
+                    collection: organizations
                     searchFields: ["name"]
                     valueFields: name
                     displayFields: ["name"]
