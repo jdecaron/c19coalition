@@ -139,8 +139,8 @@ collections:
                   - label: "Organization"
                     name: org
                     widget: relation
-                    collection: organizations
+                    collection: organization
                     searchFields: ["name"]
-                    valueFields: name
+                    valueField: name
                     displayFields: ["name"]
           - {label: Outro, name: outro, widget: markdown}
