@@ -2,11 +2,17 @@
 layout: organization
 name: Cardinal Health
 description: Cardinal Health is a global manufacturer and distributor of medical
-  supplies and pharmaceutical products, working with partners including FEMA and
-  the Department of Health and Human Services to quickly get PPE and critical
-  medicines and supplies into the hands of healthcare providers. They’re also
-  expediting the flow of urgently needed PPE to service men and women around the
-  globe.
+  supplies and a distributor of pharmaceutical products, working with
+  governments at all levels and supply chain partners such as healthcare
+  provider customers, suppliers, trade groups, other distributors, and leading
+  experts to quickly get PPE, other medical supplies and critical medicines into
+  the hands of healthcare providers who need them to safely treat patients. On
+  their manufacturing side, they are retrofitting and redeploying equipment,
+  acquiring additional equipment, and running facilities 24/7 to make more PPE.
+  On their distribution side, they are sourcing new supplier partners, including
+  outside the healthcare industry, faster than ever and expediting the flow of
+  PPE and pharmaceutical supply through their delivery network to customers in a
+  variety of ways.
 type:
   - supply-ppe
   - connect-demand-with-supply
