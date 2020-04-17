@@ -8,4 +8,5 @@ type:
 structure: volunteer
 location: Nationwide
 is_member: false
+site_url: http://helphospitals.io/
 ---
