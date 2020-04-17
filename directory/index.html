@@ -231,9 +231,13 @@ js: |
         <div class="organization">
           <div class="organization-header">
             <h3>
-              <a {% if org.site_url %} href="{{ org.site_url }}" {% endif %} class="name">
+              {% if org.site_url %}
+              <a  href="{{ org.site_url }}" class="name">
                 {{ org.name }}
               </a>
+              {% else %}
+                {{ org.name }}
+              {% endif %}
             </h3>
 
             {% if org.site_url %}
