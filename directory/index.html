@@ -235,7 +235,10 @@ js: |
                 {{ org.name }}
               </a>
             </h3>
+
+            {% if org.site_url %}
             <a class="btn" href="{{ org.site_url }}" target="_blank">Visit</a>
+            {% endif %}
           </div>
           <div class="organization-content">
             <p>{{ org.description | markdownify }}</p>
