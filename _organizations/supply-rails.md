@@ -13,4 +13,7 @@ location: Multinational
 is_member: true
 site_url: https://www.supplyrails.com/
 logo: /assets/uploads/supplyrails.png
+contact:
+  name: Tif Lien
+  email: tif@supplyrails.com
 ---
