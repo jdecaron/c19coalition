@@ -1,3 +1,14 @@
+# Warning: This config drives the CMS UI available at /admin. The CMS persists changes against the git remote 
+# repository branch specified below. The default branch is setup against 'master' which is the production site.
+# This means that even if you run a local branch, edits will be persisted on the 'master' remote branch.
+# If you need to experiment with site content, either rename the branch in this config to something else.
+# However it will still be a remote branch, not your local one so you will have to git pull to see your changes.
+# To persist content locally, you can use the experimental netlify-cms proxy. First insall it:
+#   npm install -g netlify-cms-proxy-server
+# Then start it
+#    npx netlify-cms-proxy-server
+# And uncomment to use local_backend below
+#local_backend: true
 backend:
   name: git-gateway
   branch: 'feature/home-page-in-cms'
@@ -123,12 +134,12 @@ collections:
     files:
       - label: "Home Page"
         name: "home"
-        file: "pages/home.md"
+        file: "pages/index.html"
         fields:
           - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'default' }
           - {label: Intro, name: intro, widget: markdown}
           - label: Section
-            name: section
+            name: sections
             widget: list
             fields:
               - {label: Description, name: description, widget: markdown}
@@ -137,7 +148,7 @@ collections:
                 widget: list
                 fields:
                   - label: "Organization"
-                    name: org
+                    name: org_name
                     widget: relation
                     collection: organization
                     searchFields: ["name"]

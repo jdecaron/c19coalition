@@ -14,5 +14,5 @@ structure: volunteer
 location: Nationwide
 is_member: true
 site_url: https://www.masksnow.org/
-logo: /assets/uploads/masks-now.png
+logo: /assets/uploads/masks_now.png
 ---

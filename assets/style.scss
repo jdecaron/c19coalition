@@ -127,6 +127,7 @@ section {
     }
   }
 }
+
 .section-intro {
   h2 {
     font-size: 1.5rem;
@@ -159,6 +160,33 @@ section {
 .site-logo {
   margin: 0 auto;
   max-width: 15rem;
+}
+
+.navbar-light .navbar-nav .nav-item a {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #000000 !important;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+
+.nav-item a:hover {
+  color: $dark_gray !important;
+}
+
+.navbar-light .navbar-nav .active a {
+  border-bottom: 5px solid $red;
+}
+
+.navbar-light .navbar-nav .highlight a {
+  color: $red !important;
+}
+
+.optional {
+  color: grey;
 }
 
 @import "assets/directory";
