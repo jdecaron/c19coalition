@@ -6,8 +6,12 @@ description: GetPPE.org matches volunteers with hospitals and facilities in
   cloth masks.
 type:
   - connect-demand-with-supply
+  - provide-resources-for-makers
 structure: volunteer
 location: Nationwide
 is_member: false
 site_url: https://www.getppe.org/
+contact:
+  email: getppe@gmail.com
+  name: Jessica Choi
 ---
