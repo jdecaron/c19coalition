@@ -4,6 +4,6 @@
 - title: Directory
   url: /directory/
 
-- title: Join the Coalition
-  url: /join/
-  class: highlight
+# - title: Join the Coalition
+#   url: /join/
+#   class: highlight
