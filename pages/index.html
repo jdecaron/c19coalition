@@ -122,9 +122,9 @@ outro: The coalition is an open, constantly growing organization. Each of our
           {% assign org = site.organizations | where: "name", featured_org.org_name | first %}
           {% if org %}
           <h4>
-            {% if org.url %}<a href="{{org.url}}">{%endif%}
+            {% if org.site_url %}<a href="{{org.site_url}}">{%endif%}
             {{ org.name }}
-            {% if org.url %}</a>{%endif%}
+            {% if org.site_url %}</a>{%endif%}
           </h4>
           <p>{{org.description | markdownify}}</p>
           {% endif %}
