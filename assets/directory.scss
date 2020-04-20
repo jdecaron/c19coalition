@@ -99,6 +99,11 @@
 
 #no-result {
   display: none;
+  a:not([href]) {
+    color: #255dad;
+    text-decoration: underline;
+    cursor: pointer;
+  }
 }
 
 #reset {
