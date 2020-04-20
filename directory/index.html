@@ -1,166 +1,76 @@
 ---
 layout: default
 locations:
-  - 'Nationwide'
-  - 'Multinational'
-  - 'Alaska'
-  - "Alabama"
-  - "Arkansas"
-  - "American Samoa"
-  - "Arizona"
-  - "California"
-  - "Colorado"
-  - "Connecticut"
-  - "District of Columbia"
-  - "Delaware"
-  - "Florida"
-  - "Georgia"
-  - "Guam"
-  - "Hawaii"
-  - "Iowa"
-  - "Idaho"
-  - "Illinois"
-  - "Indiana"
-  - "Kansas"
-  - "Kentucky"
-  - "Louisiana"
-  - "Massachusetts"
-  - "Maryland"
-  - "Maine"
-  - "Michigan"
-  - "Minnesota"
-  - "Missouri"
-  - "Mississippi"
-  - "Montana"
-  - "North Carolina"
-  - "North Dakota"
-  - "Nebraska"
-  - "New Hampshire"
-  - "New Jersey"
-  - "New Mexico"
-  - "Nevada"
-  - "New York"
-  - "Ohio"
-  - "Oklahoma"
-  - "Oregon"
-  - "Pennsylvania"
-  - "Puerto Rico"
-  - "Rhode Island"
-  - "South Carolina"
-  - "South Dakota"
-  - "Tennessee"
-  - "Texas"
-  - "Utah"
-  - "Virginia"
-  - "Virgin Islands"
-  - "Vermont"
-  - "Washington"
-  - "Wisconsin"
-  - "West Virginia"
-  - "Wyoming"
+- 'Nationwide'
+- 'Multinational'
+- 'Alaska'
+- "Alabama"
+- "Arkansas"
+- "American Samoa"
+- "Arizona"
+- "California"
+- "Colorado"
+- "Connecticut"
+- "District of Columbia"
+- "Delaware"
+- "Florida"
+- "Georgia"
+- "Guam"
+- "Hawaii"
+- "Iowa"
+- "Idaho"
+- "Illinois"
+- "Indiana"
+- "Kansas"
+- "Kentucky"
+- "Louisiana"
+- "Massachusetts"
+- "Maryland"
+- "Maine"
+- "Michigan"
+- "Minnesota"
+- "Missouri"
+- "Mississippi"
+- "Montana"
+- "North Carolina"
+- "North Dakota"
+- "Nebraska"
+- "New Hampshire"
+- "New Jersey"
+- "New Mexico"
+- "Nevada"
+- "New York"
+- "Ohio"
+- "Oklahoma"
+- "Oregon"
+- "Pennsylvania"
+- "Puerto Rico"
+- "Rhode Island"
+- "South Carolina"
+- "South Dakota"
+- "Tennessee"
+- "Texas"
+- "Utah"
+- "Virginia"
+- "Virgin Islands"
+- "Vermont"
+- "Washington"
+- "Wisconsin"
+- "West Virginia"
+- "Wyoming"
 types:
-  - { label: 'Need PPE', value: 'need-ppe' }
-  - { label: 'Supply PPE', value: 'supply-ppe' }
-  - { label: 'Connect Demand with Supply', value: 'connect-demand-with-supply' }
-  - { label: 'Provide Funding', value: 'provide-funding' }
-  - { label: 'Provide Data', value: 'provide-data' }
-  - { label: 'Provide Resources for Makers', value: 'provide-resources-for-makers' }
-  - { label: 'Provide Transportation & Logistics', value: 'provide-transportation-and-logistics' }
-  - { label: 'Manufacture PPE & Other Equipment', value: 'manufacture-ppe-and-other-equipment' }
-  - { label: 'Assist with Regulatory Issues', value: 'assist-with-regulatory-issues' }
-  - { label: 'Develop New Technologies', value: 'develop-new-technologies' }
-  - { label: 'Sell PPE to Consumers', value: 'sell-ppe-to-consumers' }
-  - { label: 'Other', value: 'other' }
-js: |
-  var options = {
-    valueNames: ['location', 'member', 'type']
-  };
-  var organizationList = new List('organizations', options);
-  var filteredOptions = {
-    location: organizationList.items,
-    member: organizationList.items,
-    type: organizationList.items
-  }
-
-  function filterAll() {
-    var order = [filteredOptions['location'], filteredOptions['member']];
-    var filtered = [].concat(filteredOptions['type']);
-    for (var i = 0; i < order.length; i++) {
-      filtered = filtered.filter(function (organization) {
-        return order[i].indexOf(organization) !== -1;
-      });
-    }
-
-    document.querySelector("#results_count").innerText = filtered.length
-    organizationList.filter(function (organization) {
-      return filtered.indexOf(organization) !== -1;
-    });
-  }
-
-  function filterSpecific(name, selectedOptions) {
-    var filteredList = [];
-
-    if (selectedOptions.length === 0) {
-      filteredList = organizationList.items;
-    } else {
-      for (var i = 0; i < organizationList.items.length; i++) {
-        var organization = organizationList.items[i];
-        var values = organization.values()[name].split('|')
-        var matchCount = 0;
-        for (var j = 0; j < selectedOptions.length; j++) {
-          if (values.indexOf(selectedOptions[j]) >= 0) {
-            matchCount++;
-          }
-        }
-        if (matchCount > 0) {
-          filteredList.push(organization)
-        }
-      }
-      document.querySelector("#results_count").innerText = filteredList.length
-    }
-    return filteredList;
-  }
-
-  function getSelectedOptions(selectElement) {
-    var selectedOptions = []
-    $.each(selectElement.selectedOptions, function (index, element) {
-      selectedOptions.push(element.value)
-    });
-    return selectedOptions;
-  }
-
-  $(document).ready(function () {
-    $("#reset").click(function () {
-      $("#location, #member, #type").multiselect('deselectAll', false);
-      $("#location, #member, #type").multiselect('select', 'all');
-      $("#location, #member, #type").multiselect('updateButtonText');
-      filteredOptions['location'] = organizationList.items;
-      filteredOptions['member'] = organizationList.items;
-      filteredOptions['type'] = organizationList.items;
-      filterAll();
-    });
-
-    $("#location, #member, #type").multiselect({
-      buttonWidth: '100%',
-      onChange: function (option, checked) {
-        var selectElement = option[0].parentElement;
-        var selectedOptions = getSelectedOptions(selectElement);
-        if (checked === true && option[0].value !== 'all') {
-          $(selectElement).multiselect('deselect', 'all');
-          $(selectElement).multiselect('updateButtonText');
-        } else if (option[0].value === 'all') {
-          $(selectElement).multiselect('deselectAll');
-          $(selectElement).multiselect('select', 'all');
-          $(selectElement).multiselect('updateButtonText');
-          selectedOptions = [];
-        } else if (selectElement.id === 'type' && selectedOptions.length === 0) {
-          $(selectElement).multiselect('select', 'all');
-        }
-        filteredOptions[selectElement.id] = filterSpecific(selectElement.id, selectedOptions)
-        filterAll()
-      }
-    });
-  });
+- { label: 'Need PPE', value: 'need-ppe' }
+- { label: 'Supply PPE', value: 'supply-ppe' }
+- { label: 'Connect Demand with Supply', value: 'connect-demand-with-supply' }
+- { label: 'Provide Funding', value: 'provide-funding' }
+- { label: 'Provide Data', value: 'provide-data' }
+- { label: 'Provide Resources for Makers', value: 'provide-resources-for-makers' }
+- { label: 'Provide Transportation & Logistics', value: 'provide-transportation-and-logistics' }
+- { label: 'Manufacture PPE & Other Equipment', value: 'manufacture-ppe-and-other-equipment' }
+- { label: 'Assist with Regulatory Issues', value: 'assist-with-regulatory-issues' }
+- { label: 'Develop New Technologies', value: 'develop-new-technologies' }
+- { label: 'Sell PPE to Consumers', value: 'sell-ppe-to-consumers' }
+- { label: 'Other', value: 'other' }
 ---
 <!-- NEED TO ADD CHECKSUM AND MAKE SURE WE ARE USING A CONSISTEND CDN -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
@@ -187,7 +97,8 @@ js: |
   <div class="container">
     <div class="col-12 mx-auto">
       <div class="d-flex mb-3 justify-content-between align-items-center">
-        <h5 class="mb-0">All Organizations (<span id="results_count">{{ site.organizations.size }}</span>/{{ site.organizations.size }})</h5>
+        <h5 class="mb-0">All Organizations (<span
+            id="results_count">{{ site.organizations.size }}</span>/{{ site.organizations.size }})</h5>
         <a id="reset" class="btn btn-sm float-right">Reset</a>
       </div>
       <div class="row justify-content-center">
@@ -223,6 +134,17 @@ js: |
   </div>
 </section>
 
+<section class="section-directory section-content pt-5" id="no-result">
+  <div class="container">
+    <div class="col-12 mx-auto">
+      <div>
+        <h1 id="no-result-details">No result</h1>
+        <div>Try different options, not all organization types have a specific location or match a specific coalition member status.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section-directory section-content pt-5">
   <div class="container">
     <div id="organizations" class="row justify-content-center">
@@ -232,11 +154,11 @@ js: |
           <div class="organization-header">
             <h3>
               {% if org.site_url %}
-              <a  href="{{ org.site_url }}" class="name">
+              <a href="{{ org.site_url }}" class="name">
                 {{ org.name }}
               </a>
               {% else %}
-                {{ org.name }}
+              {{ org.name }}
               {% endif %}
             </h3>
 
@@ -284,3 +206,109 @@ js: |
     </div>
   </div>
 </section>
+
+<script>
+  if (document.readyState !== 'loading') {
+    init();
+  } else {
+    document.addEventListener('DOMContentLoaded', function () {
+      init();
+    });
+  }
+
+  function init() {
+    var options = {
+      valueNames: ['location', 'member', 'type']
+    };
+    var organizationList = new List('organizations', options);
+    var filteredOptions = {
+      location: organizationList.items,
+      member: organizationList.items,
+      type: organizationList.items
+    }
+
+    function filterAll() {
+      var order = [filteredOptions['location'], filteredOptions['member']];
+      var filtered = [].concat(filteredOptions['type']);
+      for (var i = 0; i < order.length; i++) {
+        filtered = filtered.filter(function (organization) {
+          return order[i].indexOf(organization) !== -1;
+        });
+      }
+
+      document.querySelector("#results_count").innerText = filtered.length
+      organizationList.filter(function (organization) {
+        return filtered.indexOf(organization) !== -1;
+      });
+
+      if (filtered.length > 0) {
+        $("#no-result").hide()
+      } else {
+        $("#no-result").show()
+      }
+    }
+
+    function filterSpecific(name, selectedOptions) {
+      var filteredList = [];
+
+      if (selectedOptions.length === 0) {
+        filteredList = organizationList.items;
+      } else {
+        for (var i = 0; i < organizationList.items.length; i++) {
+          var organization = organizationList.items[i];
+          var values = organization.values()[name].split('|')
+          var matchCount = 0;
+          for (var j = 0; j < selectedOptions.length; j++) {
+            if (values.indexOf(selectedOptions[j]) >= 0) {
+              matchCount++;
+            }
+          }
+          if (matchCount > 0) {
+            filteredList.push(organization)
+          }
+        }
+        document.querySelector("#results_count").innerText = filteredList.length
+      }
+      return filteredList;
+    }
+
+    function getSelectedOptions(selectElement) {
+      var selectedOptions = []
+      $.each(selectElement.selectedOptions, function (index, element) {
+        selectedOptions.push(element.value)
+      });
+      return selectedOptions;
+    }
+
+    $("#reset").click(function () {
+      $("#location, #member, #type").multiselect('deselectAll', false);
+      $("#location, #member, #type").multiselect('select', 'all');
+      $("#location, #member, #type").multiselect('updateButtonText');
+      filteredOptions['location'] = organizationList.items;
+      filteredOptions['member'] = organizationList.items;
+      filteredOptions['type'] = organizationList.items;
+      filterAll();
+    });
+
+    $("#location, #member, #type").multiselect({
+      buttonWidth: '100%',
+      onChange: function (option, checked) {
+        var selectElement = option[0].parentElement;
+        var selectedOptions = getSelectedOptions(selectElement);
+        if (checked === true && option[0].value !== 'all') {
+          $(selectElement).multiselect('deselect', 'all');
+          $(selectElement).multiselect('updateButtonText');
+        } else if (option[0].value === 'all') {
+          $(selectElement).multiselect('deselectAll');
+          $(selectElement).multiselect('select', 'all');
+          $(selectElement).multiselect('updateButtonText');
+          selectedOptions = [];
+        } else if (selectElement.id === 'type' && selectedOptions.length === 0) {
+          $(selectElement).multiselect('select', 'all');
+        }
+        filteredOptions[selectElement.id] = filterSpecific(selectElement.id, selectedOptions)
+        filterAll()
+      }
+    });
+  }
+</script>
