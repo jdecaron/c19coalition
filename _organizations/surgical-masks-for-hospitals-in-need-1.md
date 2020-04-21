@@ -10,6 +10,7 @@ description: This campaign’s focus is to function as a “gap filler” for
 type:
   - supply-ppe
   - connect-demand-with-supply
+  - provide-funding
 structure: volunteer
 location: Multinational
 is_member: false
