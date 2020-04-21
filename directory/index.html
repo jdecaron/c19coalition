@@ -17,8 +17,8 @@ types:
 {%  for org in site.organizations %}
 {%    assign locations = locations | append: "|" | append: org.location %}
 {%  endfor %}
-{%  assign locations = locations | split: "|" | sort | uniq %}
-{%  assign locations = "Nationwide|Multinational" | split: "|" | concat: locations  %}
+{%  assign locations = locations | split: "|" | sort %}
+{%  assign locations = "Nationwide|Multinational" | split: "|" | concat: locations | uniq %}
 <!-- NEED TO ADD CHECKSUM AND MAKE SURE WE ARE USING A CONSISTEND CDN -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
 <link rel="stylesheet" href="/assets/bootstrap-multiselect.css" />
