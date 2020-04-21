@@ -1,63 +1,5 @@
 ---
 layout: default
-locations:
-  - 'Nationwide'
-  - 'Multinational'
-  - 'Alaska'
-  - "Alabama"
-  - "Arkansas"
-  - "American Samoa"
-  - "Arizona"
-  - "California"
-  - "Colorado"
-  - "Connecticut"
-  - "District of Columbia"
-  - "Delaware"
-  - "Florida"
-  - "Georgia"
-  - "Guam"
-  - "Hawaii"
-  - "Iowa"
-  - "Idaho"
-  - "Illinois"
-  - "Indiana"
-  - "Kansas"
-  - "Kentucky"
-  - "Louisiana"
-  - "Massachusetts"
-  - "Maryland"
-  - "Maine"
-  - "Michigan"
-  - "Minnesota"
-  - "Missouri"
-  - "Mississippi"
-  - "Montana"
-  - "North Carolina"
-  - "North Dakota"
-  - "Nebraska"
-  - "New Hampshire"
-  - "New Jersey"
-  - "New Mexico"
-  - "Nevada"
-  - "New York"
-  - "Ohio"
-  - "Oklahoma"
-  - "Oregon"
-  - "Pennsylvania"
-  - "Puerto Rico"
-  - "Rhode Island"
-  - "South Carolina"
-  - "South Dakota"
-  - "Tennessee"
-  - "Texas"
-  - "Utah"
-  - "Virginia"
-  - "Virgin Islands"
-  - "Vermont"
-  - "Washington"
-  - "Wisconsin"
-  - "West Virginia"
-  - "Wyoming"
 types:
   - { label: 'Need PPE', value: 'need-ppe' }
   - { label: 'Supply PPE', value: 'supply-ppe' }
@@ -72,6 +14,11 @@ types:
   - { label: 'Sell PPE to Consumers', value: 'sell-ppe-to-consumers' }
   - { label: 'Other', value: 'other' }
 ---
+{%  for org in site.organizations %}
+{%    assign locations = locations | append: "|" | append: org.location %}
+{%  endfor %}
+{%  assign locations = locations | split: "|" | sort %}
+{%  assign locations = "Nationwide|Multinational" | split: "|" | concat: locations | uniq %}
 <!-- NEED TO ADD CHECKSUM AND MAKE SURE WE ARE USING A CONSISTEND CDN -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
 <link rel="stylesheet" href="/assets/bootstrap-multiselect.css" />
@@ -111,10 +58,10 @@ types:
             {% endfor %}
           </select>
         </div>
-        <div class="col-sm mb-2 mb-lg-0">
+        <div class="col-sm mb-2 mb-lg-0" id="location-col">
           <select id="location" class="dropdown-menu" title="All Locations">
             <option value="all" selected>All Locations</option>
-            {% for location in page.locations %}
+            {% for location in locations %}
             {% if location != "" %}
             <option>{{ location }}</option>
             {% endif %}
@@ -268,6 +215,12 @@ types:
         }
         document.querySelector("#results_count").innerText = filteredList.length
       }
+
+      if (name === 'type') {
+        resetLocationOptions();
+        hideLocationOptions(filteredList)
+      }
+
       return filteredList;
     }
 
@@ -279,6 +232,28 @@ types:
       return selectedOptions;
     }
 
+    function hideLocationOptions(filteredList) {
+      var showLocations = {};
+      for (var i = 0; i < filteredList.length; i++) {
+        showLocations[filteredList[i].values().location] = true;
+      }
+      var uniqueLocations = ['all'];
+      for (var location in showLocations) {
+        uniqueLocations.push(location);
+      }
+
+      var locationOptions = $("#location-col input");
+      for (var i = 0; i < locationOptions.length; i++) {
+        if (uniqueLocations.indexOf(locationOptions[i].value) === -1) {
+          $(locationOptions[i].parentElement.parentElement.parentElement).hide();
+        }
+      }
+    }
+
+    function resetLocationOptions() {
+      $("#location-col li").show();
+    }
+
     $("#reset, #no-result a").click(function () {
       $("#location, #member, #type").multiselect('deselectAll', false);
       $("#location, #member, #type").multiselect('select', 'all');
@@ -287,6 +262,7 @@ types:
       filteredOptions['member'] = organizationList.items;
       filteredOptions['type'] = organizationList.items;
       filterAll();
+      resetLocationOptions();
     });
 
     $("#location, #member, #type").multiselect({
