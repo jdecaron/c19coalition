@@ -207,7 +207,7 @@ js: |
             {% endfor %}
           </select>
         </div>
-        <div class="col-sm mb-2 mb-lg-0">
+        <div class="col-sm mb-2 mb-lg-0" id="location-col">
           <select id="location" class="dropdown-menu" title="All Locations">
             <option value="all" selected>All Locations</option>
             {% for location in page.locations %}
@@ -302,3 +302,138 @@ js: |
     </div>
   </div>
 </section>
+
+<script>
+  if (document.readyState !== 'loading') {
+    init();
+  } else {
+    document.addEventListener('DOMContentLoaded', function () {
+      init();
+    });
+  }
+
+  function init() {
+    var options = {
+      valueNames: ['location', 'member', 'type']
+    };
+    var organizationList = new List('organizations', options);
+    var filteredOptions = {
+      location: organizationList.items,
+      member: organizationList.items,
+      type: organizationList.items
+    }
+
+    function filterAll() {
+      var order = [filteredOptions['location'], filteredOptions['member']];
+      var filtered = [].concat(filteredOptions['type']);
+      for (var i = 0; i < order.length; i++) {
+        filtered = filtered.filter(function (organization) {
+          return order[i].indexOf(organization) !== -1;
+        });
+      }
+
+      document.querySelector("#results_count").innerText = filtered.length
+      organizationList.filter(function (organization) {
+        return filtered.indexOf(organization) !== -1;
+      });
+
+      if (filtered.length > 0) {
+        $("#no-result").hide()
+      } else {
+        $("#no-result").show()
+      }
+    }
+
+    function filterSpecific(name, selectedOptions) {
+      var filteredList = [];
+
+      if (selectedOptions.length === 0) {
+        filteredList = organizationList.items;
+      } else {
+        for (var i = 0; i < organizationList.items.length; i++) {
+          var organization = organizationList.items[i];
+          var values = organization.values()[name].split('|')
+          var matchCount = 0;
+          for (var j = 0; j < selectedOptions.length; j++) {
+            if (values.indexOf(selectedOptions[j]) >= 0) {
+              matchCount++;
+            }
+          }
+          if (matchCount > 0) {
+            filteredList.push(organization)
+          }
+        }
+        document.querySelector("#results_count").innerText = filteredList.length
+      }
+
+      if (name === 'type') {
+        resetLocationOptions();
+        hideLocationOptions(filteredList)
+      }
+
+      return filteredList;
+    }
+
+    function getSelectedOptions(selectElement) {
+      var selectedOptions = []
+      $.each(selectElement.selectedOptions, function (index, element) {
+        selectedOptions.push(element.value)
+      });
+      return selectedOptions;
+    }
+
+    function hideLocationOptions(filteredList) {
+      var showLocations = {};
+      for (var i = 0; i < filteredList.length; i++) {
+        showLocations[filteredList[i].values().location] = true;
+      }
+      var uniqueLocations = ['all'];
+      for (var location in showLocations) {
+        uniqueLocations.push(location);
+      }
+
+      var locationOptions = $("#location-col input");
+      for (var i = 0; i < locationOptions.length; i++) {
+        if (uniqueLocations.indexOf(locationOptions[i].value) === -1) {
+          $(locationOptions[i].parentElement.parentElement.parentElement).hide();
+        }
+      }
+    }
+
+    function resetLocationOptions() {
+      $("#location-col li").show();
+    }
+
+    $("#reset, #no-result a").click(function () {
+      $("#location, #member, #type").multiselect('deselectAll', false);
+      $("#location, #member, #type").multiselect('select', 'all');
+      $("#location, #member, #type").multiselect('updateButtonText');
+      filteredOptions['location'] = organizationList.items;
+      filteredOptions['member'] = organizationList.items;
+      filteredOptions['type'] = organizationList.items;
+      filterAll();
+      resetLocationOptions();
+    });
+
+    $("#location, #member, #type").multiselect({
+      buttonWidth: '100%',
+      onChange: function (option, checked) {
+        var selectElement = option[0].parentElement;
+        var selectedOptions = getSelectedOptions(selectElement);
+        if (checked === true && option[0].value !== 'all') {
+          $(selectElement).multiselect('deselect', 'all');
+          $(selectElement).multiselect('updateButtonText');
+        } else if (option[0].value === 'all') {
+          $(selectElement).multiselect('deselectAll');
+          $(selectElement).multiselect('select', 'all');
+          $(selectElement).multiselect('updateButtonText');
+          selectedOptions = [];
+        } else if (selectElement.id === 'type' && selectedOptions.length === 0) {
+          $(selectElement).multiselect('select', 'all');
+        }
+        filteredOptions[selectElement.id] = filterSpecific(selectElement.id, selectedOptions)
+        filterAll()
+      }
+    });
+  }
+</script>
