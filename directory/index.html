@@ -95,6 +95,12 @@ js: |
     organizationList.filter(function (organization) {
       return filtered.indexOf(organization) !== -1;
     });
+
+    if (filtered.length > 0) {
+      $("#no-result").hide()
+    } else {
+      $("#no-result").show()
+    }
   }
 
   function filterSpecific(name, selectedOptions) {
@@ -130,7 +136,7 @@ js: |
   }
 
   $(document).ready(function () {
-    $("#reset").click(function () {
+    $("#reset, #no-result a").click(function () {
       $("#location, #member, #type").multiselect('deselectAll', false);
       $("#location, #member, #type").multiselect('select', 'all');
       $("#location, #member, #type").multiselect('updateButtonText');
@@ -218,6 +224,18 @@ js: |
             <option value="false">Non-Coalition Members</option>
           </select>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-directory section-content pt-5" id="no-result">
+  <div class="container">
+    <div class="col-12 mx-auto">
+      <div>
+        <h1>No results</h1>
+        <div>We couldn't find any organizations that match your requirements.</div>
+        <div><a>Try again</a>.</div>
       </div>
     </div>
   </div>
