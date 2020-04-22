@@ -189,4 +189,9 @@ section {
   color: grey;
 }
 
+// Hide placeholder on focus, not just on typing text
+input:focus::placeholder {
+  color: transparent;
+}
+
 @import "assets/directory";

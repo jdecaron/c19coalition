@@ -29,3 +29,5 @@ exclude:
 - vendor/gems/
 - vendor/ruby/
 - README.md
+include:
+- _redirects
