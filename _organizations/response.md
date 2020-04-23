@@ -10,7 +10,7 @@ type:
   - connect-demand-with-supply
 structure: corporate
 location: Nationwide
-is_member: false
+is_member: true
 site_url: www.tryresponse.com
 logo: /assets/uploads/response.png
 contact:
