@@ -11,7 +11,7 @@ type:
 structure: corporate
 location: Nationwide
 is_member: true
-site_url: www.tryresponse.com
+site_url: http://www.tryresponse.com
 logo: /assets/uploads/response.png
 contact:
   name: Keivan Shahida
