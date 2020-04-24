@@ -10,5 +10,5 @@ structure: nonprofit
 location: New York
 is_member: true
 site_url: https://onemillionmasks.nyc/
-logo: /assets/uploads/1mm.png
+logo: ""
 ---
