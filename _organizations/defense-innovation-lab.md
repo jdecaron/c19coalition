@@ -14,5 +14,5 @@ structure: nonprofit
 location: Nationwide
 is_member: true
 site_url: https://www.defenseinnovationlab.org/
-logo: /assets/uploads/dilab.png
+logo: ""
 ---
