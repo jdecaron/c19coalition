@@ -10,5 +10,5 @@ structure: volunteer
 location: Nationwide
 is_member: true
 site_url: https://manufacturingcoalition.com/
-logo: /assets/uploads/ypomfgcoa.png
+logo: /assets/uploads/ypo-manufacturing.png
 ---
