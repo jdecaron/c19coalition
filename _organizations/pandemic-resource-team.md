@@ -12,5 +12,5 @@ structure: volunteer
 location: Multinational
 is_member: true
 site_url: https://pandemicrt.com/
-logo: /assets/uploads/panrecteam.png
+logo: ""
 ---
