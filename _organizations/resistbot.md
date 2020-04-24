@@ -14,5 +14,5 @@ structure: volunteer
 location: Nationwide
 is_member: true
 site_url: https://resist.bot/
-logo: /assets/uploads/resist.png
+logo: ""
 ---
