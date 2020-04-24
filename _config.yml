@@ -11,7 +11,7 @@ collections:
   organizations:
     title: Organizations
     output: false
-url: https://ppecoalition.com
+url: https://c19coalition.org
 plugins:
 - jekyll-sitemap
 - jekyll-seo-tag
