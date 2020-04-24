@@ -11,5 +11,5 @@ type:
 structure: volunteer
 location: Multinational
 is_member: true
-logo: /assets/uploads/frontline.png
+logo: ""
 ---
