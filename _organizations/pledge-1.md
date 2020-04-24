@@ -16,5 +16,5 @@ structure: nonprofit
 location: Nationwide
 is_member: true
 site_url: https://pledge1percent.org/
-logo: /assets/uploads/pledge_1_percent.png
+logo: ""
 ---
