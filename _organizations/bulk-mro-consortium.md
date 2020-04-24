@@ -15,7 +15,7 @@ structure: corporate
 location: Multinational
 is_member: true
 site_url: http://www.bulkmro.com/
-logo: /assets/uploads/bulkmro.png
+logo: ""
 contact:
   name: " Alastair Trueger"
   email: a.trueger@gmail.com
