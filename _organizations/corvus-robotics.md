@@ -11,5 +11,5 @@ structure: corporate
 location: Nationwide
 is_member: true
 site_url: https://www.corvus-robotics.com/
-logo: /assets/uploads/corvus.png
+logo: ""
 ---
