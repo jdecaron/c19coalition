@@ -16,5 +16,5 @@ structure: corporate
 location: Nationwide
 is_member: true
 site_url: https://anthem.com/
-logo: /assets/uploads/anthem_1.png
+logo: ""
 ---
