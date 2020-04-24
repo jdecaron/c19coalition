@@ -1,6 +1,6 @@
 require 'fileutils'
 
-Jekyll::Hooks.register :site, :pre_render do |site|
+Jekyll::Hooks.register :site, :after_reset do |site|
   source = 'admin/config.yml'
   desination = '_data/cms.yml'
   if !File.file?(desination) || !FileUtils.identical?(source, desination)
