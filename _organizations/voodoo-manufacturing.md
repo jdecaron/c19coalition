@@ -13,5 +13,5 @@ structure: corporate
 location: Nationwide
 is_member: true
 site_url: https://voodoomfg.com/
-logo: /assets/uploads/voodoo.png
+logo: ""
 ---
