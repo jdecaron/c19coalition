@@ -13,5 +13,5 @@ structure: nonprofit
 location: Nationwide
 is_member: true
 site_url: https://usdigitalresponse.org/
-logo: /assets/uploads/us-digital-response.png
+logo: ""
 ---
