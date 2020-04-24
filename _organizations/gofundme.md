@@ -15,5 +15,5 @@ structure: corporate
 location: Nationwide
 is_member: true
 site_url: https://www.gofundme.com/
-logo: /assets/uploads/gfm.png
+logo: ""
 ---
