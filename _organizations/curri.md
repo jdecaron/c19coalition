@@ -9,5 +9,5 @@ structure: corporate
 location: Multinational
 is_member: true
 site_url: https://www.curri.com/
-logo: /assets/uploads/curri_1.png
+logo: ""
 ---
