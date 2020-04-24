@@ -3,5 +3,7 @@
 /join   /get-listed
 http://ppecoalition.com/* https://c19coalition.org/:splat 301!
 https://ppecoalition.com/* https://c19coalition.org/:splat 301!
+http://www.ppecoalition.com/* https://c19coalition.org/:splat 301!
+https://www.ppecoalition.com/* https://c19coalition.org/:splat 301!
 http://c19coalition.org https://c19coalition.org/:splat 301!
 
