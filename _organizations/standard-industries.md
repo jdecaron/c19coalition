@@ -10,5 +10,5 @@ structure: corporate
 location: Multinational
 is_member: true
 site_url: https://www.standardindustries.com/
-logo: /assets/uploads/standard-industries.png
+logo: ""
 ---
