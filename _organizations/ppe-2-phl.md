@@ -13,5 +13,5 @@ structure: volunteer
 location: Pennsylvania
 is_member: true
 site_url: https://www.ppe2phl.org/
-logo: /assets/uploads/ppe2phl.png
+logo: ""
 ---
