@@ -1,24 +1,22 @@
 ---
 layout: default
-types:
-  - { label: 'Need PPE', value: 'need-ppe' }
-  - { label: 'Supply PPE', value: 'supply-ppe' }
-  - { label: 'Connect Demand with Supply', value: 'connect-demand-with-supply' }
-  - { label: 'Provide Funding', value: 'provide-funding' }
-  - { label: 'Provide Data', value: 'provide-data' }
-  - { label: 'Provide Resources for Makers', value: 'provide-resources-for-makers' }
-  - { label: 'Provide Transportation & Logistics', value: 'provide-transportation-and-logistics' }
-  - { label: 'Manufacture PPE & Other Equipment', value: 'manufacture-ppe-and-other-equipment' }
-  - { label: 'Assist with Regulatory Issues', value: 'assist-with-regulatory-issues' }
-  - { label: 'Develop New Technologies', value: 'develop-new-technologies' }
-  - { label: 'Sell PPE to Consumers', value: 'sell-ppe-to-consumers' }
-  - { label: 'Other', value: 'other' }
 ---
 {%  for org in site.organizations %}
 {%    assign locations = locations | append: "|" | append: org.location %}
 {%  endfor %}
 {%  assign locations = locations | split: "|" | sort %}
 {%  assign locations = "Nationwide|Multinational" | split: "|" | concat: locations | uniq %}
+
+{% for collection in site.data.cms.collections %}
+  {% if collection.name == "organization" %}
+    {% for field in collection.fields %}
+      {% if field.name == "type" %}
+        {% assign types = field.options %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
 <!-- NEED TO ADD CHECKSUM AND MAKE SURE WE ARE USING A CONSISTEND CDN -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
 <link rel="stylesheet" href="/assets/bootstrap-multiselect.css" />
@@ -54,7 +52,7 @@ types:
         <div class="col-sm mb-2 mb-lg-0">
           <select id="type" class="multiselect-container dropdown-menu" title="All Types" multiple="multiple">
             <option selected value="all">All Types</option>
-            {% for type in page.types %}
+            {% for type in types %}
             {% if type != "" %}
             <option value={{ type.value }}>{{ type.label }}</option>
             {% endif %}
@@ -125,7 +123,7 @@ types:
 
                 {% for rawType in org.type %}
 
-                {% assign type = page.types | where: "value", rawType %}
+                {% assign type = types | where: "value", rawType %}
 
                 {% if type %}
                 <span class="badge badge-default">{{ type.first.label }}</span>

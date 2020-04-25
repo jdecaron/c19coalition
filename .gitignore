@@ -4,3 +4,7 @@ _site
 .jekyll-metadata
 .sass-cache
 
+# This file is created (symlink) after the init of the site.
+# It should not be commited to the repository.
+# For more details see _plugins/copy-cms-data-file.rb
+_data/cms.yml
