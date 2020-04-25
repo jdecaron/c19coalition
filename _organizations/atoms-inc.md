@@ -1,11 +1,9 @@
 ---
 layout: organization
 name: Atoms, Inc.
-description: Atoms is a sneaker brand based out of Brooklyn, NY. They have
-  reallocated manufacturing capacity to produce masks for everyday wear. Atoms
-  Masks are hand washable, and includes copper yarn, an antibacterial that
-  reduces odor. They are donating 1 mask for every order, and selling them at
-  cost. [Pre-order here](http://atoms.com/mask).
+description: Atoms is a sneaker brand based out of Brooklyn, NY. Manufacturing
+  capacity has been reallocated to produce masks for everyday wear. They are
+  donating 1 mask for every order, and selling them at cost.
 type:
   - supply-ppe
   - sell-ppe-to-consumers
