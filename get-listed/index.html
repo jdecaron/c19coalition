@@ -2,6 +2,19 @@
 layout: default
 ---
 
+{% for collection in site.data.cms.collections %}
+  {% if collection.name == "organization" %}
+    {% for field in collection.fields %}
+      {% if field.name == "type" %}
+        {% assign types = field.options %}
+      {% endif %}
+      {% if field.name == "structure" %}
+        {% assign structures = field.options %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
 <section class="section-hero section-join py-5">
   <div class="container">
     <div class="row justify-content-center">
@@ -39,6 +52,32 @@ layout: default
           <div class="form-group">
             <label for="contact-phone">Contact Phone <span class="optional">(optional)</span></label>
             <input class="form-control" type="text" name="contact-phone" />
+          </div>
+          <div class="form-group container">
+            <div class="row">
+              <label for="org-type">How is your organization contributing to Covid-19 relief? (select all that apply)</label>
+              {% assign divided = types.size | divided_by: 2 %}
+              <div class="col-sm-6 p-0">
+              {% for type in types %}
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="{{ type.value }}" value="{{ type.value }}" name="org-type">
+                  <label class="form-check-label" for="{{ type.value }}">{{ type.label }}</label>
+                </div>
+                {% if forloop.index == divided %}
+                  </div><div class="col-sm-6 p-0">
+                {% endif %}
+              {% endfor %}
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="org-structure">Organization Type:</label>
+            <select class="custom-select" name="org-structure" required="true">
+              <option></option>
+              {% for structure in structures %}
+              <option value={{ structure.value }}>{{ structure.label }}</option>
+              {% endfor %}
+            </select>
           </div>
           <div class="form-group">
             <label for="org-url">URL</label>
