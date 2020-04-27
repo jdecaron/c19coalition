@@ -13,5 +13,5 @@ structure: volunteer
 location: Nationwide
 is_member: true
 site_url: https://www.projectn95.org/
-logo: /assets/uploads/pn95.png
+logo: /assets/uploads/projectn95-logo-horz.png
 ---
