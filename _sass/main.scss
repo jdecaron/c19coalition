@@ -1,13 +1,4 @@
----
----
-
-$navy: #14233c;
-$red: #990000;
-$button: #0070df;
-$gray: #f1f1f1;
-$white: #ffffff;
-$dark_gray: #35393b;
-
+@import "variables";
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
 
 .bg-navy {
@@ -193,5 +184,3 @@ section {
 input:focus::placeholder {
   color: transparent;
 }
-
-@import "assets/directory";
