@@ -9,7 +9,7 @@ type:
   - other
 structure: corporate
 location: Multinational
-is_member: true
+is_member: false
 site_url: https://www.pchintl.com/
 logo: /assets/uploads/pch.png
 ---
