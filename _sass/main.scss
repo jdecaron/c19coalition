@@ -1,20 +1,90 @@
 @import "variables";
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
 
-.bg-navy {
-  background-color: $navy;
+body {
+  font-family: $font-family-regular;
 }
 
-.bg-red {
-  background-color: $red;
+strong {
+  font-family: $font-family-bold;
 }
 
-.btn {
-  background-color: $button;
+.navbar-nav {
+  flex-direction: row;
 }
 
-.bg-gray {
-  background-color: $gray;
+.navbar-nav .nav-item a {
+  font-size: 18px;
+  margin-left: 20px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  color: $cold-azure;
+  font-family: $font-family-medium;
+}
+
+.navbar-nav .nav-item a:hover {
+  color: $deep-below;
+}
+
+.navbar-nav .nav-item.active a {
+  color: $cold-azure;
+  font-family: $font-family-bold;
+}
+
+section .row div {
+  max-width: $max-section-width;
+}
+
+a, a:hover {
+  color: $primary;
+}
+
+.background {
+  background: $background;
+  color: $on-background;
+}
+
+.background-secondary {
+  background: $background-secondary;
+  color: $on-background-secondary;
+}
+
+.surface {
+  background: $surface;
+  color: $on-surface;
+}
+
+.surface-secondary {
+  background: $surface-secondary;
+  color: $on-surface-secondary;
+}
+
+.primary {
+  background: $primary;
+  color: $on-primary;
+}
+
+.secondary {
+  background: $super-alert;
+  color: $on-secondary;
+  a {
+    color: $on-secondary;
+  }
+}
+
+.btn, .btn:hover {
+  @extend .primary;
+
+  font-family: $font-family-semibold;
+}
+
+.secondary.btn, .secondary.btn:hover {
+  @extend .secondary;
+}
+
+.primary-inversed, .primary-inversed:hover {
+  background: $on-primary;
+  color: $primary;
 }
 
 .cta {
@@ -26,7 +96,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: $font-family-semibold;
 }
 
 h3 {
@@ -37,12 +107,8 @@ footer,
 section {
   &.section-members {
     .col-12 {
-      max-width: 900px;
+      max-width: $max-section-width;
     }
-  }
-
-  .col-12 {
-    max-width: 750px;
   }
 }
 
@@ -58,43 +124,29 @@ section {
 }
 
 .section-hotline {
-  padding: 1rem 0;
+  @extend .surface;
+
+  border-radius: 5px;
+  padding: 40px;
 
   h2 {
     font-weight: 500;
   }
 
-  strong {
-    font-size: 1.65em;
-  }
-
-  p {
-    margin-bottom: 0.5rem;
-  }
-
   .hotline-number,
   .hotline-email {
-    display: inline-block;
-    font-size: 1.7rem;
+    text-align: center;
 
     a {
-      color: $white;
-
       &:hover {
         text-decoration: none;
       }
     }
 
     svg {
-      height: 60px;
-      width: 40px;
-      fill: $white;
-      padding-top: 5px;
+      height: 40px;
+      fill: $perfect-white;
       margin-right: 5px;
-    }
-
-    svg:first-child {
-      margin-left: 30px;
     }
   }
 }
@@ -112,16 +164,18 @@ section {
 
   h4 {
     margin-top: 1.5rem;
-
-    a {
-      color: #255dad;
-    }
   }
 }
 
 .section-intro {
   h2 {
     font-size: 1.5rem;
+  }
+}
+
+.section-logo {
+  img {
+    width: 240px;
   }
 }
 
@@ -135,7 +189,6 @@ section {
   }
 
   a {
-    color: $dark_gray;
     text-decoration: none;
   }
 }
@@ -153,29 +206,6 @@ section {
   max-width: 15rem;
 }
 
-.navbar-light .navbar-nav .nav-item a {
-  text-transform: uppercase;
-  font-size: 1.5rem;
-  margin-left: 20px;
-  margin-right: 20px;
-  color: #000000 !important;
-  padding-left: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-}
-
-.nav-item a:hover {
-  color: $dark_gray !important;
-}
-
-.navbar-light .navbar-nav .active a {
-  border-bottom: 5px solid $red;
-}
-
-.navbar-light .navbar-nav .highlight a {
-  color: $red !important;
-}
-
 .optional {
   color: grey;
 }
@@ -183,4 +213,19 @@ section {
 // Hide placeholder on focus, not just on typing text
 input:focus::placeholder {
   color: transparent;
+}
+
+.navbar {
+  height: 140px;
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    height: 170px;
+    padding: 0px;
+  }
+
+  #logo {
+    display: inherit;
+  }
 }
