@@ -10,5 +10,5 @@ structure: corporate
 location: Nationwide
 is_member: true
 site_url: https://www.eaglefabrics.com/
-logo: /assets/uploads/eagle_logo_gray.png
+logo: /assets/uploads/eagle_logo_color.png
 ---
