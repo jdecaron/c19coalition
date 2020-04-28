@@ -6,7 +6,7 @@ description: Goggles for Docs is an effort to get used or new goggles into the
   COVID-19 patients.
 type:
   - connect-demand-with-supply
-structure: nonprofit
+structure: volunteer
 location: Nationwide
 is_member: false
 site_url: https://gogglesfordocs.com/
