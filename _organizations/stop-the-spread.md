@@ -9,6 +9,6 @@ type:
 structure: volunteer
 location: Nationwide
 is_member: true
-site_url: stopthespread.org
+site_url: https://www.stopthespread.org/
 logo: /assets/uploads/stopthespread.png
 ---
