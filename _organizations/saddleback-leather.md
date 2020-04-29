@@ -12,6 +12,6 @@ type:
   - sell-ppe-to-consumers
 structure: corporate
 location: Nationwide
-is_member: false
+is_member: true
 site_url: https://saddlebackleather.com/reusable-medical-supplies
 ---
