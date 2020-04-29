@@ -159,3 +159,9 @@ collections:
                     valueField: name
                     displayFields: ["name"]
           - {label: Outro, name: outro, widget: markdown}
+      - label: "Commitments Page"
+        name: "commitments"
+        file: "pages/commitments.html"
+        fields:
+          - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'default' }
+          - {label: Content, name: main, widget: markdown}
