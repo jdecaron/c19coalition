@@ -1,3 +1,4 @@
+@import "variables";
 
 .dropdown-menu label.radio input[type=radio]{
   visibility: hidden;
@@ -8,19 +9,17 @@
 
 .section-directory {
   .col-12 {
-    max-width: 900px;
+    max-width: $max-section-width;
+  }
+
+  .btn-light {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
   }
 }
 
 .section-hero {
-  background: #dbe7ff;
-
-  .btn {
-    color: #fff;
-    background: #255dad;
-    font-size: 14px;
-  }
-
   h2 {
     color: rgba(20, 34, 61, 1);
   }
@@ -36,7 +35,7 @@
   // box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
+  border-radius: $radius;
 }
 
 .organization-header {
@@ -50,17 +49,6 @@
     max-width: 70%;
     margin: 0;
     font-weight: 500;
-
-    a {
-      // color: rgba(20, 34, 61, 1);
-      color: #255dad;
-    }
-  }
-
-  .btn {
-    color: #fff;
-    background: #255dad;
-    font-size: 14px;
   }
 }
 
