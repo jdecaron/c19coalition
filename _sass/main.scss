@@ -122,6 +122,10 @@ section {
 .partner-logo {
   text-align: center;
   margin-bottom: 3rem;
+
+  img {
+    width: 100%;
+  }
 }
 
 .section-hotline {
@@ -229,5 +233,14 @@ input:focus::placeholder {
 
   #logo {
     display: inherit;
+  }
+
+  .partner-logo {
+    text-align: center;
+    margin-bottom: 3rem;
+
+    img {
+      width: auto;
+    }
   }
 }
