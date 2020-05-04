@@ -1,12 +1,10 @@
 ---
 layout: organization
 name: Project N95
-description: Project N95 is focused on delivering medical equipment into the
-  hands of healthcare providers as quickly as possibly by serving as the
-  nation's medical clearinghouse for hospital and healthcare requests and
-  suppliers who are able to provide medical equipment, including ventilators.
-  They’re working with FEMA, governments, and hospitals and healthcare networks
-  to determine where demand is and where it is most urgent.
+description: Project N95 is the National Clearinghouse for sourcing critical and
+  personal protective equipment (PPE). They help protect the frontline workers
+  by matching their organization’s procurement teams with vetted products and
+  suppliers.
 type:
   - connect-demand-with-supply
 structure: volunteer
