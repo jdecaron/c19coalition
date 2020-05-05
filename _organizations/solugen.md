@@ -12,5 +12,5 @@ structure: corporate
 location: Nationwide
 is_member: true
 site_url: https://www.solugentech.com/
-logo: ""
+logo: /assets/uploads/solugen.png
 ---
