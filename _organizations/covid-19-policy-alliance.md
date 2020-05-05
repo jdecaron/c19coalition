@@ -16,6 +16,7 @@ type:
 structure: nonprofit
 location: Nationwide
 is_member: true
+show_on_home_page: true
 site_url: https://www.covidalliance.com/
 logo: /assets/uploads/covid19-policyalliance.png
 ---
