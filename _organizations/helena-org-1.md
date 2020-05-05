@@ -8,6 +8,7 @@ type:
 structure: nonprofit
 location: Nationwide
 is_member: true
+show_on_home_page: true
 site_url: https://helena.org/
 logo: /assets/uploads/helenaorg.png
 ---
