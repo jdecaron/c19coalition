@@ -11,4 +11,5 @@ structure: corporate
 location: Nationwide
 is_member: false
 site_url: https://hello.wearfigs.com/covid-19-updates/
+logo: /assets/uploads/figs.png
 ---
