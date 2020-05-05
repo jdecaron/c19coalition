@@ -10,6 +10,7 @@ type:
 structure: corporate
 location: Multinational
 is_member: true
+show_on_home_page: true
 site_url: http://newsroom.vw.com/community/volkswagen-drives-bigger-to-fight-the-covid-19-outbreak/
 logo: /assets/uploads/vw_update.png
 ---
