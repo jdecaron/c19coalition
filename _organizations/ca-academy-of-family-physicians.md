@@ -11,5 +11,5 @@ structure: nonprofit
 location: California
 is_member: true
 site_url: https://familydocs.org/
-logo: ""
+logo: /assets/uploads/ca-acad-of-family-phys.png
 ---
