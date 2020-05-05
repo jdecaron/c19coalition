@@ -13,9 +13,9 @@ type:
   - provide-transportation-and-logistics
 structure: corporate
 location: Multinational
-is_member: false
+is_member: true
 site_url: http://www.bulkmro.com/
-logo: ""
+logo: /assets/uploads/bulkmro.png
 contact:
   name: " Alastair Trueger"
   email: a.trueger@gmail.com
