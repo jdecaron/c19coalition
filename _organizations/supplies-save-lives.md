@@ -14,7 +14,7 @@ structure: volunteer
 location: Nationwide
 is_member: true
 site_url: https://twitter.com/SaveSupplies
-logo: ""
+logo: /assets/uploads/supplies-save-lives.png
 contact:
   name: Raina Kumra
   email: rkumra@gmail.com
