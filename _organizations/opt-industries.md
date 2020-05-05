@@ -13,5 +13,5 @@ structure: corporate
 location: Nationwide
 is_member: true
 site_url: http://optindustries.com/npswab/
-logo: ""
+logo: /assets/uploads/optin.png
 ---
