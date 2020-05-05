@@ -12,5 +12,5 @@ structure: corporate
 location: Nationwide
 is_member: true
 site_url: https://www.aon3d.com/
-logo: ""
+logo: /assets/uploads/aon3d.png
 ---
