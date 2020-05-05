@@ -10,5 +10,5 @@ structure: volunteer
 location: Multinational
 is_member: true
 site_url: https://www.1billionmasks.com/
-logo: ""
+logo: /assets/uploads/1-billionmasks.png
 ---
