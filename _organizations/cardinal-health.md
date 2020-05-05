@@ -19,6 +19,7 @@ type:
 structure: corporate
 location: Multinational
 is_member: true
+show_on_home_page: true
 site_url: https://www.cardinalhealth.com/en.html
 logo: /assets/uploads/cardinal.png
 ---

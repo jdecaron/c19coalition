@@ -15,6 +15,7 @@ type:
 structure: corporate
 location: Nationwide
 is_member: true
+show_on_home_page: true
 site_url: https://www.fictiv.com/
 logo: /assets/uploads/fictiv.png
 ---

@@ -14,6 +14,7 @@ type:
 structure: volunteer
 location: Nationwide
 is_member: true
+show_on_home_page: true
 site_url: https://getusppe.org/
 logo: /assets/uploads/getusppe.png
 ---
