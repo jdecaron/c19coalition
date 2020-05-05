@@ -144,7 +144,7 @@ outro: The coalition is an open, constantly growing organization. Each of our
         <h2 class="my-5">C19 Coalition Partners</h2>
         <div class="row d-flex flex-wrap align-items-center">
           {% for org in site.organizations %}
-          {% if org.is_member and org.logo and org.logo != "" %}
+          {% if org.is_member and org.on_home_page and org.logo and org.logo != "" %}
           <div class="col-6 col-md-4 lg-gutter partner-logo">
             {% if org.site_url %}<a href="{{ org.site_url }}" target="_blank">{% endif %}
               <img src="{{ org.logo }}" alt="{{ org.name }}" />
