@@ -10,7 +10,8 @@ type:
 structure: corporate
 location: Nationwide
 is_member: false
-site_url: atoms.com/masks
+show_on_home_page: false
+site_url: http://www.atoms.com/masks
 logo: /assets/uploads/atoms.png
 contact:
   name: Sidra Qasim
