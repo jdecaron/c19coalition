@@ -14,4 +14,5 @@ structure: corporate
 location: Nationwide
 is_member: true
 site_url: https://saddlebackleather.com/reusable-medical-supplies
+logo: /assets/uploads/saddleback_leather.png
 ---
