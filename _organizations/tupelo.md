@@ -13,7 +13,7 @@ structure: corporate
 location: Nationwide
 is_member: true
 site_url: https://www.tupelo.org/
-logo: ""
+logo: /assets/uploads/tupelo.png
 contact:
   email: topper@quorumcontrol.com
   name: Topper Bowers
