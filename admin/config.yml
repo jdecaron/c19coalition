@@ -118,7 +118,7 @@ collections:
           - "West Virginia"
           - "Wyoming"
       - { label: 'Coalition Member', name: 'is_member', widget: 'boolean', default: false}
-      - { label: 'On Home Page', name: 'show_on_home_page', widget: 'boolean', default: false}
+      - { label: 'On Home Page', name: 'show_on_home_page', widget: 'boolean', default: false, required: false}
       - { label: 'URL', name: 'site_url', widget: 'string', required: false}
       - label: "Logo"
         name: "logo"
