@@ -15,4 +15,5 @@ structure: corporate
 location: Nationwide
 is_member: true
 site_url: https://indiesource.com/independence-mask/
+logo: /assets/uploads/indie_source.png
 ---
