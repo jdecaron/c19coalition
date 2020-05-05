@@ -11,5 +11,5 @@ structure: volunteer
 location: Nationwide
 is_member: true
 site_url: https://masksfordocs.com/
-logo: ""
+logo: /assets/uploads/masksfordocs.png
 ---
