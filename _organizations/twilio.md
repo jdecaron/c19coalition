@@ -14,5 +14,5 @@ structure: corporate
 location: Nationwide
 is_member: true
 site_url: https://twilio.com/
-logo: ""
+logo: /assets/uploads/twilio_logo.png
 ---
