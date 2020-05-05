@@ -13,5 +13,5 @@ structure: volunteer
 location: Nationwide
 is_member: true
 site_url: https://www.covid19-response.com/
-logo: ""
+logo: /assets/uploads/covid-19.png
 ---
