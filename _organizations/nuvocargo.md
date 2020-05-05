@@ -10,5 +10,5 @@ structure: corporate
 location: Multinational
 is_member: true
 site_url: https://www.nuvocargo.com/
-logo: ""
+logo: /assets/uploads/nuvocargo_1.png
 ---
