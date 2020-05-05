@@ -12,5 +12,5 @@ structure: corporate
 location: Nationwide
 is_member: true
 site_url: https://www.secondmuse.com/
-logo: ""
+logo: /assets/uploads/second_muse.png
 ---
