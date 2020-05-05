@@ -9,6 +9,7 @@ type:
 structure: corporate
 location: Nationwide
 is_member: true
+show_on_home_page: true
 site_url: https://www.eaglefabrics.com/
 logo: /assets/uploads/eagle_logo_color.png
 ---
