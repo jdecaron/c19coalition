@@ -12,6 +12,7 @@ type:
 structure: volunteer
 location: Nationwide
 is_member: true
+show_on_home_page: true
 site_url: https://opensourcemedicalsupplies.org/
 logo: /assets/uploads/open-source-ms.png
 ---
