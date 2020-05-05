@@ -10,5 +10,5 @@ structure: corporate
 location: Nationwide
 is_member: true
 site_url: https://pipelinemedical.com/
-logo: ""
+logo: /assets/uploads/pipeline-medical.png
 ---
