@@ -10,6 +10,7 @@ type:
 structure: volunteer
 location: Nationwide
 is_member: true
+show_on_home_page: true
 site_url: https://www.projectn95.org/
 logo: /assets/uploads/projectn95-logo-horz.png
 ---
