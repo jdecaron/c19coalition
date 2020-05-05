@@ -10,6 +10,7 @@ type:
 structure: corporate
 location: Nationwide
 is_member: true
+show_on_home_page: true
 site_url: http://www.hp.com/go/3Dprinting
 logo: /assets/uploads/hp.png
 ---
