@@ -15,5 +15,5 @@ structure: nonprofit
 location: Nationwide
 is_member: true
 site_url: https://www.xprize.org/
-logo: ""
+logo: /assets/uploads/xprize_1.png
 ---
