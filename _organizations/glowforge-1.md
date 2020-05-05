@@ -13,7 +13,7 @@ structure: corporate
 location: Nationwide
 is_member: true
 site_url: https://glowforge.com/
-logo: ""
+logo: /assets/uploads/glowforge.png
 contact:
   name: Therese Seldon
   email: therese@glowforge.com
