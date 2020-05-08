@@ -10,6 +10,5 @@ type:
 structure: corporate
 location: Ohio
 is_member: false
-site_url: https://www.facebook.com/johndgadd/posts/3330962726917832
-  https://medical.hotprints.com/?fbclid=IwAR2wlVQ9j-NkMO2TdoVTAXmP3nMJKyae-Gpj_ivPuIVciIzELHnPy8IbYH8
+site_url: https://hotcards.com/medical-supplies
 ---
