@@ -2,11 +2,10 @@
 layout: organization
 name: PAXAFE
 description: PAXAFE develops IoT solutions that monitor and communicate
-  real-time location and environmental conditions of B2B shipments. This
-  provides a central source of truth for all of the stakeholders in the value
-  chain (PPE supplier, logistics courier, hospital) so that pickups and
-  deliveries can be coordinated efficiently, and inventory is optimized towards
-  its greatest use.
+  real-time location and environmental conditions of B2B shipments. They’re
+  providing this information to all stakeholders in the PPE supply chain (PPE
+  supplier, logistics courier, hospital) so that pickups and deliveries can be
+  coordinated efficiently and inventory is optimized towards its greatest use.
 type:
   - other
 structure: corporate
