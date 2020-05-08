@@ -2,9 +2,9 @@
 layout: organization
 name: Bella  + Canvas
 description: Bella + Canvas is a producer of retail quality apparel for the
-  printwear market. Their LA manufacturing facility can produce non-medical face
-  covers quicly at a massive scale, helping to solve the face mask shortage
-  around the world. Masks are sold to retail and wholesale customers.
+  printwear market. Their LA manufacturing facility is producing non-medical
+  face covers at a massive scale for retail and wholesale customers around the
+  world.
 type:
   - supply-ppe
   - sell-ppe-to-consumers
