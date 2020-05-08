@@ -1,14 +1,11 @@
 ---
 layout: organization
 name: Tulip
-description: Tulip's enterprise scale manufacturing software platform has been
+description: Tulip’s enterprise scale manufacturing software platform has been
   adapted for distribution of PPE from suppliers to caregivers on the front
-  lines. [PPE Logistics](https://ppelogistics.org) by Tulip is now being made
-  available free to aid in the fight against the coronavirus epidemic.
-  Manufacturers of PPE, from grassroots organizations and healthcare providers,
-  stand to benefit greatly from utilization of this system. Adopters immediately
-  realize huge improvements to their operations from this end to end logistics
-  chain management capability.
+  lines.[PPE Logistics](https://ppelogistics.org/) by Tulip is now being made
+  available free to aid manufacturers of PPE, from grassroots organizations to
+  healthcare providers, with their operations from end to end.
 type:
   - other
 structure: corporate
