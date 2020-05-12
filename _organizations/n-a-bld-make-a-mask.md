@@ -1,6 +1,6 @@
 ---
 layout: organization
-name: "N.A.bld: Make A Mask"
+name: "Nineteenth Amendment: N.A.bld Make a Mask"
 description: Make A Mask is providing a tech kit with a free fabric face mask
   template, complete with digital pattern, suggested materials, and sourcing
   info for making masks at home. It’s also looking to partner with manufacturers
