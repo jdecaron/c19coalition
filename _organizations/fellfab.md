@@ -8,7 +8,7 @@ description: "FELLFAB engineers and manufactures innovative products from
   and biohazard privacy curtains. They have capacity in Hamilton, Canada;
   Atlanta, GA and Ft. Worth, Texas to service National demand."
 type:
-  - supply-ppe
+  - manufacture-ppe-and-other-equipment
 structure: corporate
 location: Nationwide
 is_member: false
