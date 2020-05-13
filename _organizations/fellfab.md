@@ -10,7 +10,7 @@ description: "FELLFAB engineers and manufactures innovative products from
 type:
   - manufacture-ppe-and-other-equipment
 structure: corporate
-location: Nationwide
+location: Multinational
 is_member: false
 show_on_home_page: false
 site_url: https://www.fellfab.com/
