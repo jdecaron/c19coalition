@@ -12,6 +12,7 @@ structure: corporate
 location: Nationwide
 is_member: false
 show_on_home_page: false
+site_url: https://www.ovadiacorporation.com/
 contact:
   name: Michael Ovadia
   email: ovadia.ppe@gmail.com
