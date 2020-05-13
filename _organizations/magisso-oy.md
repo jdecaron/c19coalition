@@ -6,7 +6,7 @@ description: "Magisso Oy has the ability to supply large quantities of three
   respirator mask (BFE>95%) and surgical face mask (BFE>95%). Currently they
   have the capability to supply at least 10 million units per week of all
   mentioned products and large quantities directly from the manufacturer. The
-  items are FDA approved and CE-certified and ll necessary documentation and
+  items are FDA approved and CE-certified and all necessary documentation and
   test results can be provided."
 type:
   - supply-ppe
