@@ -1,5 +1,9 @@
 @import "variables";
 
+html{
+  scroll-behavior:smooth
+}
+
 body {
   font-family: $font-family-regular;
 }
@@ -91,6 +95,18 @@ a, a:hover {
   font-weight: bold;
 }
 
+h1 {
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
 h1,
 h2,
 h3,
@@ -159,7 +175,6 @@ section {
 .section-content {
   h2 {
     text-transform: uppercase;
-    font-size: 2.5rem;
     letter-spacing: 0.01rem;
   }
 
@@ -173,8 +188,7 @@ section {
 }
 
 .section-intro {
-  h2 {
-    font-size: 1.5rem;
+  h3 {
     margin-bottom: 2rem;
   }
 }
@@ -250,4 +264,12 @@ input:focus::placeholder {
       max-width: 250px;
     }
   }
+}
+
+#external-link {
+  fill: $primary;
+}
+
+.container.longread {
+  max-width: 50rem;
 }

@@ -2,10 +2,10 @@
 permalink: /
 layout: default
 intro: >-
-  <h2>The C19 Coalition brings crucial partners together to help build an
+  <h3>The C19 Coalition brings crucial partners together to help build an
   efficient, unified supply chain for PPE and lifesaving medical devices. State
   governments, corporations, manufacturers, non-profits, and individuals can
-  connect through us to share and request resources and information.</h2>
+  connect through us to share and request resources and information.</h3>
 
 
   Our members are working on every part of the problem: supply, demand, fulfillment, logistics, funding, and information tracking. We use real-time updates about what every organization is doing in order to maximize efficiency and effectiveness.
@@ -84,7 +84,7 @@ outro: The coalition is an open, constantly growing organization. Each of our
               </a>
             </h2>
             <h2 class="hotline-number">
-              <a href="/pages/mental-health-resources" class="btn secondary">
+              <a href="/pages/health" class="btn secondary">
                 Mental Health Resources
               </a>
             </h2>
@@ -95,26 +95,35 @@ outro: The coalition is an open, constantly growing organization. Each of our
   </div>
 </section>
 
+
 <section class="section-content">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 my-4">
-        {% for sec in page.sections %}
-        {{sec.description | markdownify}}
-        <div class="col-10 my-2">
-          {% for featured_org in sec.orgs %}
-          {% assign org = site.organizations | where: "name", featured_org.org_name | first %}
-          {% if org %}
-          <h4>
-            {% if org.site_url %}<a href="{{org.site_url}}">{%endif%}
-            {{ org.name }}
-            {% if org.site_url %}</a>{%endif%}
-          </h4>
-          <p>{{org.description | markdownify}}</p>
-          {% endif %}
-          {% endfor %}
+    <div class="row">
+      <div class="col-12">
+
+        <div class="container longread mx-0">
+          <div class="row">
+            <div class="col-12 px-0 my-4">
+              {% for sec in page.sections %}
+              {{sec.description | markdownify}}
+              <div class="col-10 my-2">
+                {% for featured_org in sec.orgs %}
+                {% assign org = site.organizations | where: "name", featured_org.org_name | first %}
+                {% if org %}
+                <h4>
+                  {% if org.site_url %}<a href="{{org.site_url}}">{%endif%}
+                    {{ org.name }}
+                    {% if org.site_url %}</a>{%endif%}
+                </h4>
+                <p>{{org.description | markdownify}}</p>
+                {% endif %}
+                {% endfor %}
+              </div>
+              {% endfor %}
+            </div>
+          </div>
         </div>
-        {% endfor %}
+
       </div>
     </div>
   </div>

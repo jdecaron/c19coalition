@@ -1,0 +1,141 @@
+---
+layout: default
+---
+{% for collection in site.data.cms.collections %}
+{% if collection.name == "health" %}
+{% for field in collection.fields %}
+{% if field.name == "type" %}
+{% assign types = field.options %}
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endfor %}
+
+<style>
+  a {
+    overflow-wrap: break-word;
+  }
+
+  h2 {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  .external-link {
+    height: 0.6rem;
+    margin-left: 0.5rem;
+  }
+</style>
+
+<section class="background-secondary section-intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-12 col-lg-7">
+        <h1>Mental Health Resources</h1>
+      </div>
+      <div class="col-12 mb-5">
+        <div class="section-hotline">
+          <p>
+            <strong>National Suicide Prevention Lifeline | 1-800-273-8255</strong>
+          </p>
+          <p>
+            We can all help prevent suicide. The Lifeline provides 24/7, free and confidential support for people in
+            distress, prevention and crisis resources for you or your loved ones, and best practices for professionals.
+          </p>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-content">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+
+        <div class="container longread mx-0 my-4">
+          <div id="organizations" class="row">
+            <div class="col-12 my-2 list">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Resource Type
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  {% for type in types %}
+                  {% if type != "" %}
+                  <a class="dropdown-item" href="#{{ type.value }}">{{ type.label }}</a>
+                  {% endif %}
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container longread mx-0 my-4">
+          <div id="organizations" class="row">
+            <div class="col-12 my-2 list">
+
+
+              {% for org in site.health %}
+
+              {% if org.top_health == true %}
+
+                <h3>
+                  {% if org.site_url %}
+                  <a href="{{ org.site_url }}" class="name">{{ org.name }}<svg class="external-link" alt="external link"
+                      xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 8">
+                      <path id="external-link"
+                        d="M0 0v8h8v-2h-1v1h-6v-6h1v-1h-2zm4 0l1.5 1.5-2.5 2.5 1 1 2.5-2.5 1.5 1.5v-4h-4z" /></svg></a>
+                  {% else %}
+                  {{ org.name }}
+                  {% endif %}
+                </h3>
+
+                <div class="organization-content">
+                  <p>{{ org.description | markdownify }}</p>
+                </div>
+
+              {% endif %}
+
+              {% endfor %}
+
+
+              {% for type in types %}
+              {% if type != "" %}
+              <h2 id={{ type.value }}>{{ type.label }}</h2>
+
+              {% for org in site.health %}
+
+              {% assign orgType = org.type | first %}
+              {% if orgType == type.value %}
+              <h3>
+                {% if org.site_url %}
+                <a href="{{ org.site_url }}" class="name">{{ org.name }}<svg class="external-link" alt="external link"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 8">
+                    <path id="external-link"
+                      d="M0 0v8h8v-2h-1v1h-6v-6h1v-1h-2zm4 0l1.5 1.5-2.5 2.5 1 1 2.5-2.5 1.5 1.5v-4h-4z" /></svg></a>
+                {% else %}
+                {{ org.name }}
+                {% endif %}
+              </h3>
+
+              <div class="organization-content">
+                <p>{{ org.description | markdownify }}</p>
+              </div>
+              {% endif %}
+
+              {% endfor %}
+
+              {% endif %}
+              {% endfor %}
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
