@@ -2,6 +2,9 @@
 title: C19 Coalition
 timezone: UTC
 collections:
+  health:
+    title: Mental Health Resources
+    output: false
   posts:
     title: Posts
     output: true
