@@ -7,6 +7,6 @@ description: A free hotline and website with information for families impacted
   response to the crisis.
 type:
   - crisis-hotline
-top_health: yes
+top_health: true
 site_url: https://schoolclosures.org
 ---

@@ -12,6 +12,6 @@ description: The University of Iowa Mobile Clinic is a student-run,
   appointment.
 type:
   - virtual-therapy
-top_health: yes
+top_health: true
 site_url: https://docs.google.com/spreadsheets/d/1eI1Dkfj9NoJI4CufBfgHE1BM1ft1OJPVxnA04fZpvf8/edit#gid=1192713430
 ---

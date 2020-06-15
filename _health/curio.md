@@ -7,6 +7,6 @@ description: We offer facilitated support and growth groups for mental health
   We also have a program available to people on a sliding scale basis.
 type:
   - virtual-therapy
-top_health: yes
+top_health: true
 site_url: https://www.joincurio.com
 ---
