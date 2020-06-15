@@ -24,6 +24,6 @@ description: >-
   * From Puerto Rico, textHablanosto 1-787-339-2663
 type:
   - crisis-hotlines
-top_health: no
+top_health: false
 site_url: https://www.samhsa.gov/find-help/disaster-distress-helpline
 ---

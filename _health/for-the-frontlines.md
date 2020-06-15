@@ -12,6 +12,6 @@ description: >-
   Text FRONTLINE for support to dealing with anxiety, stress, fear, isolation, or other difficult emotions you are experiencing during coronavirus.
 type:
   - crisis-hotlines
-top_health: no
+top_health: false
 site_url: https://www.forthefrontlines.org
 ---

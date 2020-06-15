@@ -9,6 +9,6 @@ description: Now&Me is for all those seeking comfort and solace. During these
   list of professional help are also available on the site.
 type:
   - virtual-therapy
-top_health: yes
+top_health: true
 site_url: https://nowandme.com/
 ---
