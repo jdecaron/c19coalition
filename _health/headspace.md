@@ -1,13 +1,11 @@
 ---
 name: Headspace
-description: >-
-  Free for Healthcare Professionals:
-  [https://www.headspace.com/health-covid-19](https://www.google.com/url?q=https://www.headspace.com/health-covid-19&sa=D&ust=1592098159960000)
+description: |-
+  Free for Healthcare Professionals: <https://www.headspace.com/health-covid-19>
 
-
-  Free for Unemployed: [https://www.headspace.com/unemployed](https://www.google.com/url?q=https://www.headspace.com/unemployed&sa=D&ust=1592098159960000)
+  Free for Unemployed: <https://www.headspace.com/unemployed>
 type:
   - meditation
-top_health: no
+top_health: false
 site_url: https://www.headspace.com/
 ---
