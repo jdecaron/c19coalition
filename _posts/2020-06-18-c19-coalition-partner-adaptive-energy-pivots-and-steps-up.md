@@ -4,6 +4,10 @@ title: C19 Coalition Partner Adaptive Energy Pivots and Steps Up
 date: 2020-06-18T02:19:31.642Z
 author: David
 ---
+![Adaptive Energy Adapts to the Pandemic with PPE Production](/assets/uploads/adaptive-energy-ppe-production-1.jpg "Adaptive Energy PPE Production")
+
+![Adaptive Energy Adapts to the Pandemic with PPE Production](/assets/uploads/adaptive-energy-ppe-production-2.jpg "Adaptive Energy PPE Production")
+
 As soon as Covid-19 washed over the country and caused devastation to individuals and businesses at historic levels, Ranvir Gujral needed to do what the name of his company Adaptive Energy suggests.
 
 Adapt.
