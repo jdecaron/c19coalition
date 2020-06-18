@@ -272,4 +272,8 @@ input:focus::placeholder {
 
 .container.longread {
   max-width: 50rem;
+
+  img {
+      max-width: 100%;
+  }
 }
