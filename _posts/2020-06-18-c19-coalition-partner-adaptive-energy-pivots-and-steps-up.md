@@ -1,12 +1,10 @@
 ---
 layout: post
 title: C19 Coalition Partner Adaptive Energy Pivots and Steps Up
-date: 2020-06-18T15:00:00.000Z
+date: 2020-06-18T13:56:00.063Z
 author: David
 ---
 ![Adaptive Energy Adapts to the Pandemic with PPE Production](/assets/uploads/adaptive-energy-ppe-production-1.jpg "Adaptive Energy PPE Production")
-
-![Adaptive Energy Adapts to the Pandemic with PPE Production](/assets/uploads/adaptive-energy-ppe-production-2.jpg "Adaptive Energy PPE Production")
 
 As soon as Covid-19 washed over the country and caused devastation to individuals and businesses at historic levels, Ranvir Gujral needed to do what the name of his company Adaptive Energy suggests.
 
@@ -25,6 +23,8 @@ After getting over the initial shock, Gujral paused briefly then looked for a si
 Initially, he just wanted to see if Adaptive Energy could make the much-needed PPE products such as hand sanitizers and face shields.
 
 *“On Saturday night we told everyone what we were up to, and by Monday we got responses from FEMA, state governments, and first responders desperate for help way beyond what we had,” he said. “It was clear we were merely putting a dent in what people needed and had to ramp things up.”*
+
+![Adaptive Energy Adapts to the Pandemic with PPE Production](/assets/uploads/adaptive-energy-ppe-production-2.jpg "Adaptive Energy PPE Production")
 
 Quickly his facility and staff turned into a full-tilt PPE operation. Two weeks after they were furloughed, all his employees were rehired and his company was turning out production as fast as it could.
 
