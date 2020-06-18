@@ -16,7 +16,7 @@ Initially, many of the employees had to be furloughed. It was a tough reality th
 
 After getting over the initial shock, Gujral paused briefly then looked for a silver lining.
 
-“We had 50,000 square feet of manufacturing space that wasn’t being used to capacity, I had a staff of Ph.D. minds, and a highly proficient production team,” he said. “I just looked around and said, ‘Gosh there has to be something we can do?’”
+*“We had 50,000 square feet of manufacturing space that wasn’t being used to capacity, I had a staff of Ph.D. minds, and a highly proficient production team,” he said. “I just looked around and said, ‘Gosh there has to be something we can do?’”*
 
 Initially, he just wanted to see if Adaptive Energy could make the much-needed PPE products such as hand sanitizers and face shields.
 
@@ -42,4 +42,4 @@ For now, he hopes people and companies continue to team up and help solve this P
 
 Adaptive Energy asks for help to connect with people and institutions that need PPE help that it provides. Inquiries should be directed to the Arbor Apothecary Website.
 
-***C19 Coalition** is a 501 c3 founded by a group of entrepreneurs and technology leaders to bring crucial partners together to build an efficient, unified supply chain for PPE and lifesaving medical devices. To date, Coalition partners have helped deliver over 100M PPE items and are increasingly focused on supporting manufacturing efforts that can support state re-openings over the coming months.*
+**\*C19 Coalition** is a 501 c3 founded by a group of entrepreneurs and technology leaders to bring crucial partners together to build an efficient, unified supply chain for PPE and lifesaving medical devices. To date, Coalition partners have helped deliver over 100M PPE items and are increasingly focused on supporting manufacturing efforts that can support state re-openings over the coming months.*
