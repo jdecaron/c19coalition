@@ -270,6 +270,12 @@ input:focus::placeholder {
   fill: $primary;
 }
 
+.author,
+.posted {
+    color: grey;
+    font-size: .9rem;
+}
+
 .container.longread {
   max-width: 50rem;
 
