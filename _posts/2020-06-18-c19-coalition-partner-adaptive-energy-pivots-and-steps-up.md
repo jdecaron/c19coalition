@@ -8,6 +8,8 @@ As soon as Covid-19 washed over the country and caused devastation to individual
 
 Adapt.
 
+![Picture of a women waiting to cross a street](/assets/uploads/img_20200610_111641.jpg "Franceska is going to Montreal")
+
 If it didn’t, the fuel cell company easily could have met its match.
 
 *“Overnight we lost two-thirds of our revenue and we were severely impacted by Covid-19 like everyone else,” said Gujral, who serves as chairman of Adaptive Energy. “We were clearly in danger of being hurt.”*
