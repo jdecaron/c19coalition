@@ -306,4 +306,13 @@ blockquote {
   img {
       max-width: 100%;
   }
+
+  .share {
+    margin-top: 3rem;
+
+    a {
+      margin-right: 1rem;
+      color: $gray-600;
+    }
+  }
 }

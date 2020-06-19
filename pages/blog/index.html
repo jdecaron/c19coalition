@@ -10,8 +10,9 @@ title: Blog
       {% for post in site.posts %}
       <div>
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-          <div class="author">
-            Posted on <span class="date">{{ post.date | date_to_string }}</span>{% if post.author %} by {{ post.author }}{% endif %}
+          <div class="posted">
+            <div>Posted on {{ post.date | date_to_string }}</div>
+            {% if post.author %}<div>By {{ post.author }}</div>{% endif %}
           </div>
           <p class="reading-time">
             {{ post.reading_time }}
