@@ -1,8 +1,8 @@
 ---
 layout: post
-title: C19 Coalition Partner Adaptive Energy Pivots and Steps Up
+title: C19 Coalition Partner Adaptive Energy Pivots and Steps Up for COVID-19
 date: 2020-06-18T13:56:00.063Z
-reading-time: 4-5 minutes read
+reading_time: 4-5 minutes read
 author: David Morrill
 ---
 ![Adaptive Energy Adapts to the Pandemic with PPE Production](/assets/uploads/adaptive-energy-ppe-production-1.jpg "Adaptive Energy PPE Production")
