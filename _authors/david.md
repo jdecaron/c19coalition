@@ -1,6 +1,6 @@
 ---
 layout: author
-name: David
+name: David Morrill
 display_name: David Morrill
 position: Staff Writer
 ---
