@@ -7,10 +7,13 @@ layout: default
     <div class="col-12 mx-auto">
 
       <div>
-        <h3><a href="{{ post.url }}">{{ page.title }}</a></h3>
+        <h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
         <div class="content">
           {{ page.content }}
         </div>
+        <p class="what-is mt-5">
+          <em>The C19 Coalition is a non-profit, cross-sector group of more than 20 organizations, companies, states, and philanthropists working to address PPE shortages across the country.</em>
+        </p>
         <p class="author">
           Posted on <span class="date">{{ page.date | date_to_string }}</span>{% if page.author %} by {{ page.author }}{% endif %}
         </p>
