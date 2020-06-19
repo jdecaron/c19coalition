@@ -2,7 +2,7 @@
 # to the git repository, do not remove the file from the .gitignore file. For more details read
 # the comments in _admin/copy-cms-data-file.rb
 
-# Warning: This config drives the CMS UI available at /admin. The CMS persists changes against the git remote 
+# Warning: This config drives the CMS UI available at /admin. The CMS persists changes against the git remote
 # repository branch specified below. The default branch is setup against 'master' which is the production site.
 # This means that even if you run a local branch, edits to master will be persisted on the 'master' remote branch (if pushed and merged).
 # If you need to experiment with site content, either rename the branch in this config to something else.
@@ -27,6 +27,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Estimated Reading Time (x-y minutes read)", name: "reading_time", widget: "string" }
       - {
           label: "Author",
           name: "author",
@@ -189,7 +190,7 @@ collections:
       - label: "Contact"
         name: "contact"
         widget: "object"
-        fields: 
+        fields:
           - {label: "Name", name: "name", widget: "string", required: false}
           - {label: "Email", name: "email", widget: "string", required: false}
           - {label: "Phone", name: "phone", widget: "string", required: false}

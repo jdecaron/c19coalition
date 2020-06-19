@@ -2,8 +2,11 @@
 layout: post
 title: C19 Coalition Partner Adaptive Energy Pivots and Steps Up
 date: 2020-06-18T13:56:00.063Z
+reading-time: 4-5 minutes read
 author: David Morrill
 ---
+![Adaptive Energy Adapts to the Pandemic with PPE Production](/assets/uploads/adaptive-energy-ppe-production-1.jpg "Adaptive Energy PPE Production")
+
 As soon as Covid-19 washed over the country and caused devastation to individuals and businesses at historic levels, Ranvir Gujral needed to do what the name of his company Adaptive Energy suggests.
 
 Adapt.
@@ -18,7 +21,7 @@ After getting over the initial shock, Gujral paused briefly then looked for a si
 
 “We had 50,000 square feet of manufacturing space that wasn’t being used to capacity, I had a staff of Ph.D. minds, and a highly proficient production team,” he said. “I just looked around and said, ‘Gosh there has to be something we can do?’”
 
-![Adaptive Energy Adapts to the Pandemic with PPE Production](/assets/uploads/adaptive-energy-ppe-production-1.jpg "Adaptive Energy PPE Production")
+> “Adaptive Energy has become a leader in the COVID-spurred resurgence of American manufacturing,” said Joe Wilson, co-founder of C19 Coalition.
 
 Initially, he just wanted to see if Adaptive Energy could make the much-needed PPE products such as hand sanitizers and face shields.
 
@@ -30,9 +33,7 @@ Quickly his facility and staff turned into a full-tilt PPE operation. Two weeks 
 
 Among the first emails was one from the C19 Coalition, which gave Adaptive Energy the support and connections to various non-profits that it needed to make sure the PPE was made and ended up in the hands of those in need.
 
-> “Adaptive Energy has become a leader in the COVID-spurred resurgence of American manufacturing,” said Joe Wilson, co-founder of C19 Coalition."
-
-“Earlier this year, Adaptive pivoted operations to produce and ship critical PPE to frontline workers and essential employees. The C19 Coalition is proud to call them a partner.”
+“Adaptive Energy has become a leader in the COVID-spurred resurgence of American manufacturing,” said Joe Wilson, co-founder of C19 Coalition. “Earlier this year, Adaptive pivoted operations to produce and ship critical PPE to frontline workers and essential employees. The C19 Coalition is proud to call them a partner.”
 
 Since it started in late March,[ Adaptive Energy](https://www.adaptiveenergyllc.com) has produced or distributed more than 11 million pieces of PPE. Its biggest customers are New York and California which purchased large volumes of isolation gowns to direct to hard-hit hospital systems.
 

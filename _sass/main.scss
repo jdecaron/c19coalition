@@ -270,22 +270,29 @@ input:focus::placeholder {
   fill: $primary;
 }
 
-.blog h1 {
-  margin-bottom: 2rem;
+.blog h1,
+.longread h1 {
+  margin-bottom: 0rem;
 }
 
 blockquote {
   line-height: 1.1;
   font-size: 2rem;
-  padding: 1.5rem;
+  padding: 2rem;
   font-family: $font-family-semibold;
 }
 
 .author,
 .posted,
+.reading-time,
 .what-is {
-  color: grey;
+  color: $gray-600;
   font-size: .9rem;
+}
+
+.reading-time {
+  color: $gray-500;
+  margin-bottom: 2rem;
 }
 
 .container.longread img[src$='#square'] {
