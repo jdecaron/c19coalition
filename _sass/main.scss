@@ -14,6 +14,7 @@ strong {
 
 .navbar-nav {
   flex-direction: row;
+  display: none;
 }
 
 .navbar-nav .nav-item a {
@@ -26,6 +27,11 @@ strong {
   font-family: $font-family-medium;
 }
 
+.nav-icon svg {
+  fill: $primary;
+  height: 0.75rem;
+}
+
 .navbar-nav .nav-item a:hover {
   color: $deep-below;
 }
@@ -33,6 +39,79 @@ strong {
 .navbar-nav .nav-item.active a {
   color: $cold-azure;
   font-family: $font-family-bold;
+}
+
+
+.navbar .mobile {
+
+  #show-mobile-nav {
+    display: flex;
+  }
+
+  .navbar-nav#mobile-nav {
+    animation: fade-in .4s ease-in-out forwards;
+    animation: slide-in .3s ease-in-out forwards;
+    background-color: $background-secondary;
+    display: none;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-y: scroll;
+    padding-top: 30vh;
+    padding-left: 15px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    a {
+      font-size: 2rem;
+    }
+  }
+
+  #hide-mobile-nav svg {
+    fill: $primary;
+    position: fixed;
+    top: 1.5rem;
+    right: 1.5rem;
+  }
+
+  .navbar-nav.show#mobile-nav {
+    display: flex
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 100;
+  }
+}
+
+@keyframes slide-in {
+  from {
+    padding-top: 25vh;
+  }
+
+  to {
+    padding-top: 15vh;
+  }
+}
+
+@media (min-width: 660px) {
+  .navbar .mobile {
+    display: none;
+  }
+
+  .navbar-nav {
+    display: flex;
+  }
 }
 
 section .row div {
@@ -243,6 +322,11 @@ input:focus::placeholder {
 
 .navbar {
   height: 140px;
+}
+
+
+#logo {
+  z-index: 20;
 }
 
 @media (min-width: 992px) {
