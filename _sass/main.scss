@@ -27,9 +27,9 @@ strong {
   font-family: $font-family-medium;
 }
 
-.nav-icon svg {
+.nav-link svg {
   fill: $primary;
-  height: 0.75rem;
+  height: 0.8rem;
 }
 
 .navbar-nav .nav-item a:hover {
@@ -58,7 +58,7 @@ strong {
     width: 100%;
     min-height: 100vh;
     min-width: 100vw;
-    overflow-y: scroll;
+    overflow: hidden;
     padding-top: 30vh;
     padding-left: 15px;
     position: fixed;
@@ -77,6 +77,8 @@ strong {
     position: fixed;
     top: 1.5rem;
     right: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
   }
 
   .navbar-nav.show#mobile-nav {

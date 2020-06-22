@@ -15,33 +15,32 @@
             {% endfor %}
           </ul>
           <div class="mobile">
-            <ul class="navbar-nav" id="show-mobile-nav">
+            <ul class="navbar-nav" id="show-mobile-nav" aria-label="Show navigation menu">
               {% for item in site.data.main_nav_pages %}
                 {% if item.url == page.url %}
                 <li class="nav-item">
-                  <a class="nav-link" href="#">{{ item.title }}</a>
+                  <a class="nav-link" href="#" aria-labelledby="show-mobile-nav">{{ item.title }}</a>
                 </li>
                 {% endif %}
               {% endfor %}
-              <li>
-                <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <a class="nav-icon" href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="20" viewBox="0 0 34 20"><path d="M17 12.758L5.121.879a2.998 2.998 0 0 0-4.242 0 2.998 2.998 0 0 0 0 4.242l14 14a2.998 2.998 0 0 0 4.242 0l14-14C33.707 4.535 34 3.768 34 3s-.293-1.535-.879-2.121a2.998 2.998 0 0 0-4.242 0L17 12.758z"></path></svg>
-                  </a>
-                </button>
+                <li class="nav-item">
+                  <a class="nav-link ml-1" href="#" aria-labelledby="show-mobile-nav">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="34" height="20" viewBox="0 0 34 20"><path d="M17 12.758L5.121.879a2.998 2.998 0 0 0-4.242 0 2.998 2.998 0 0 0 0 4.242l14 14a2.998 2.998 0 0 0 4.242 0l14-14C33.707 4.535 34 3.768 34 3s-.293-1.535-.879-2.121a2.998 2.998 0 0 0-4.242 0L17 12.758z"></path></svg>
+                </a>
               </li>
             </ul>
-            <ul class="navbar-nav" id="mobile-nav">
+            <ul class="navbar-nav" id="mobile-nav" role="dialog" aria-modal="true">
+              <li class="nav-link">
+                <a href="#" id="hide-mobile-nav" aria-label="Hide navigation menu">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 16.1 16.1"><path d="M10.9 8.1l4.9-4.9c.4-.4.4-1 0-1.4L14.4.4c-.4-.4-1-.4-1.4 0L8.1 5.2 3.1.3c-.4-.4-1-.4-1.4 0L.3 1.7c-.4.4-.4 1 0 1.4L5.2 8 .3 13c-.4.4-.4 1 0 1.4l1.4 1.4c.4.4 1 .4 1.4 0L8 10.9l4.9 4.9c.4.4 1 .4 1.4 0l1.4-1.4c.4-.4.4-1 0-1.4l-4.8-4.9z"></path></svg>
+                </a>
+              </li>
               {% for item in site.data.main_nav_pages %}
-              <li
-                class="nav-item {% if item.class %}{{item.class}}{% endif %} {% if item.url == page.url %}active{% endif %}">
+              <li class="nav-item {% if item.class %}{{item.class}}{% endif %} {% if item.url == page.url %}active{% endif %}">
                 <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
               </li>
               {% endfor %}
-              <a href="#" id="hide-mobile-nav">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 16.1 16.1"><path d="M10.9 8.1l4.9-4.9c.4-.4.4-1 0-1.4L14.4.4c-.4-.4-1-.4-1.4 0L8.1 5.2 3.1.3c-.4-.4-1-.4-1.4 0L.3 1.7c-.4.4-.4 1 0 1.4L5.2 8 .3 13c-.4.4-.4 1 0 1.4l1.4 1.4c.4.4 1 .4 1.4 0L8 10.9l4.9 4.9c.4.4 1 .4 1.4 0l1.4-1.4c.4-.4.4-1 0-1.4l-4.8-4.9z"></path></svg>
-              </a>
-              </ul>
+            </ul>
           </div>
         </nav>
       </div>
@@ -50,9 +49,15 @@
 </section>
 <script>
   document.getElementById('show-mobile-nav').addEventListener('click', function () {
-    document.getElementById('mobile-nav').classList.add("show")
+    document.getElementById('mobile-nav').classList.add('show')
+    document.documentElement.style.overflow = 'hidden';
+    document.body.scroll = 'no';
+    document.getElementById('hide-mobile-nav').focus()
   })
   document.getElementById('hide-mobile-nav').addEventListener('click', function () {
-    document.getElementById('mobile-nav').classList.remove("show")
+    document.getElementById('mobile-nav').classList.remove('show')
+    document.documentElement.style.overflow = 'scroll';
+    document.body.scroll = 'yes';
+    document.getElementById('show-mobile-nav').focus()
   })
 </script>
