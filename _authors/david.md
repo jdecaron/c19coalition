@@ -1,7 +1,5 @@
 ---
-layout: author
 name: David Morrill
-display_name: David Morrill
 position: Staff Writer
+social: https://www.linkedin.com/in/davidbmorrill
 ---
- Hello

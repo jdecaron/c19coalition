@@ -34,8 +34,8 @@ collections:
           name: "author",
           widget: "relation",
           collection: "authors",
-          displayFields: [display_name],
-          searchFields: [display_name],
+          displayFields: [name],
+          searchFields: [name],
           valueField: "name",
         }
       - { label: "Body", name: "body", widget: "markdown" }
@@ -47,11 +47,9 @@ collections:
       preview: false
     identifier_field: 'name'
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "author" }
-      - { label: "Short Name", name: "name", widget: "string" }
-      - { label: "Diplay Name", name: "display_name", widget: "string" }
+      - { label: "Full Name", name: "name", widget: "string" }
       - { label: "Position", name: "position", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Favored social media profile URL", name: "social", widget: "string", required: false }
   - name: "health"
     label: "Mental Health Resources"
     folder: "_health/"
