@@ -4,6 +4,12 @@ title: "C19 Coalition Volunteer Highlight: Mary Robertson"
 date: 2020-06-30T19:30:07.921Z
 reading_time: "2-3 minutes "
 author: Alizay Rizvi
+footer: >-
+  *If you are interested in joining Mary and volunteering with C19 Coalition,
+  reach out to us at* [info@c19coalition.org](mailto:info@c19coalition.org)
+
+
+  *Alizay Rizvi is a blogger with the C19 Coalition. She has worked on health equity programs, including at the American Heart Association, to increase diversity in the health sector and aid in finding solutions to lessen health disparities and inequities in the United States. As a young professional, she is passionate about educating and empowering her generation to become agents of change. You can find her on [LinkedIn](https://www.linkedin.com/in/alizayrizvi/).*
 ---
 ![](/assets/uploads/img_3074.jpg)
 
@@ -33,10 +39,4 @@ I enjoy research - seeing what motivates people and using what I learn to make t
 
 **What made you interested in volunteering with C19 Coalition?**
 
-During a time where more individuals have a bit more free time, volunteering seemed to be a good way to spend my time. C19 Coalition was the first that got back to me. The team was very prompt, responsive, coordinated quickly. Although that may not seem like the best response to this question, it is important to work within a team that is quick in this everchanging climate. 
-
-*If you are interested in joining Mary and volunteering with C19 Coalition, reach out to us!*
-
-*Author: Alizay Rizvi*
-
-*Alizay Rizvi is a blogger with the C19 Coalition, an experienced non-profit professional, and health equity specialist. Alizay has worked on health equity programs, including at the American Heart Association, to increase diversity in the health sector and aid in finding solutions to lessen health disparities and inequities in the United States. As a young professional, she is passionate about educating and empowering her generation to become agents of change. You can find her on [LinkedIn](https://www.linkedin.com/in/alizayrizvi/).*
+During a time where more individuals have a bit more free time, volunteering seemed to be a good way to spend my time. C19 Coalition was the first that got back to me. The team was very prompt, responsive, coordinated quickly. Although that may not seem like the best response to this question, it is important to work within a team that is quick in this everchanging climate.
