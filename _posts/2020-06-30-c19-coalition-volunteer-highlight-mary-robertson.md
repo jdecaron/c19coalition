@@ -19,6 +19,4 @@ From volunteering with the help desk to conducting communication analysis, Rober
 
 Robertson continues to strategize how the organization will pursue such individuals to address their concerns and lessen disparities with COVID-19.
 
-![]()
-
-*If you are interested in joining Mary and volunteering with C19 Coalition, reach out to us!*
+**Volunteers, such as Roberston, have been the driving force for C19 Coalition's accomplishments and efforts. We continue to inspire our volunteers and partners to empower change within their communities. If you are interested in joining Mary and volunteering with C19 Coalition, reach out to us!**
