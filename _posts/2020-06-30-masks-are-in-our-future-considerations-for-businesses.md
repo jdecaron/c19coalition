@@ -20,27 +20,28 @@ The Covid-19 pandemic is a human tragedy and has severely affected how we are ab
 
 Common response strategies to safeguard workers from infection include usage of PPE (personal protective equipment), such as masks, shields and gloves. Additional strategic measures include tracking and tracing (and adjacent technology development), hygiene measures, as well as social distancing. While most measures add some level of protection for workers and patrons, for businesses faced with the task of safeguarding their workers, procuring safe masks should be a top priority. Masks, when used correctly, can be a valuable tool to prevent viral transmission between individuals. Here are some aspects to consider when making procurement decisions for masks. 
 
-### Mask Types
+## Mask Types
 
 Most masks are either reusable, or disposable. Common mask types include disposable surgical masks (3-ply, 4-ply), N95 or KN95 standard masks with a “fitted” shape and cloth masks with or without insertable filters. Other mask types that have recently gathered attention in the market offer antimicrobial nano-coating to sterilize any virus particles. Protection results from deflection and filtration efficiency (blocking incoming particles), as well as fit. If the mask seals around the face, this can increase protection capabilities.
 
 Depending on intended usage, your preferred mask type may vary. Disposable surgical masks are best for patrons entering your place of business that do not have masks of their own. They are highly protective and available at a low cost. Fitted high-filtration masks are best for workers who closely engage with customers, often speaking, while reusable masks with antiviral coating may work best for workers who are active in high-touchpoint settings. 
 
-### Filtration Efficiency
+## Filtration Efficiency
 
 Cloth masks often have low filtration efficiency (between 2-38%) which makes them an inadequate choice for many businesses, since they no do not provide adequate protection for workers or patrons. Quality 3-ply, N95/KN95 and multiple other mask types (such as the AIrQueen, or the InvisiSmart) provide over 95% filtration efficiency. If you are able to, I recommend opting for high filtration masks, instead of low-filtration cloth mask options. Look for FDA-approved masks and masks that have been certifiably tested for filtering efficacy. 
 
-### Cost per month / price-per wear
+## Cost per month / price-per wear
 
 Determine your business/customer mask uses and use this to guide your decisions, regarding which mask types will best fit your needs. A good way to model out costs, is to chart out the cost per employee, per month, based on the required number of wears. With this long-term perspective, reusable options may turn out to be more economical than disposable.
 
-### Economic Impact
+## Economic Impact
 
 Sourcing masks from domestic providers is usually more expensive than sourcing similar quality masks produced in China. However, we also need to think about strengthening domestic supply chains for masks in light of the unstable situation around import and export from China. If your business has budgets available to support local producers, investing in domestic products could help with setting a market-demand-based foundation for more PPE production from within the US.
 
-### Marketing / Branding Value
+## Marketing / Branding Value
 
-Many masks can be obtained with custom branding. This gives any customer-facing business an opportunity to gain increased visibility by integrating branded masks into your marketing strategy. 
+Many masks can be obtained with custom branding. This gives any customer-facing business an opportunity to gain increased visibility by integrating branded masks into your marketing strategy.
+  
 
 ## Masks are in our Future
 
