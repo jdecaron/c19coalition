@@ -27,7 +27,7 @@ layout: default
         </div>
         {% if page.footer %}
         <p class="what-is mt-5">
-          <em>{{ page.footer }}</em>
+          <em>{{ page.footer | markdownify }}</em>
         </p>
         {% endif %}
         <div class="share">
