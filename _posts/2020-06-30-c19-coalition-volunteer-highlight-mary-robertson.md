@@ -23,16 +23,20 @@ Volunteers, such as Roberston, have been the driving force for C19 Coalition's a
 
 #### Q&A with Mary Robertson
 
-*Tell us about your background.*
+***Tell us about your background.***
 
 I moved to Chicago back in 2009 to study Anthropology. I looked at the history of advertising in South Africa and how groups talk to different groups of people, and how organizations are trying to fix representation. After graduating, I moved into research to create tech experiences that are good for people (in general). I did some digital consulting and now, I want to use my time consciously and help with the pandemic.
 
-*What are some of your passions?*
+***What are some of your passions?***
 
 I enjoy research - seeing what motivates people and using what I learn to make things better for people. I solving problems for people, learning new things, challenging myself to new things. I also love to Latin dance, however, I haven’t danced much due to COVID. Dancing is hard as it is, but dancing 6ft apart is even harder.
 
-*What made you interested in volunteering with C19 Coalition?*
+**What made you interested in volunteering with C19 Coalition?**
 
-During a time where more individuals have a bit more free time, volunteering seemed to be a good way to spend my time. C19 Coalition was the first that got back to me. The team was very prompt, responsive, coordinated  quickly.
+During a time where more individuals have a bit more free time, volunteering seemed to be a good way to spend my time. C19 Coalition was the first that got back to me. The team was very prompt, responsive, coordinated quickly. Although that may not seem like the best response to this question, it is important to work within a team that is quick in this everchanging climate. 
 
 *If you are interested in joining Mary and volunteering with C19 Coalition, reach out to us!*
+
+*`Author: Alizay Rizvi`*
+
+*`Alizay Rizvi is a blogger with the C19 Coalition, an experienced non-profit professional, and health equity specialist. Alizay has worked on health equity programs, including at the American Heart Association, to increase diversity in the health sector and aid in finding solutions to lessen health disparities and inequities in the United States. As a young professional, she is passionate about educating and empowering her generation to become agents of change. You can find her on `[`LinkedIn`](https://www.linkedin.com/in/alizayrizvi/)`.`*
