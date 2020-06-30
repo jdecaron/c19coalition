@@ -15,7 +15,7 @@ Through various user experience (UX) and design research, she continues to gain 
 
 From volunteering with the help desk to conducting communication analysis, Robertson continues to impact the mission of the organization. Through professional experience, Robertson has used her skill set to determine C19 Coalition’s outreach through the help desk and beyond.
 
-> “I want to share the experiences of people who are on the front lines, people who are on the ground, and people who have expressed and shared their concerns with us.”, said Roberston as she discussed her vision of the organization. 
+> “I want to share the experiences of people who are on the front lines, people who are on the ground, and people who have expressed and shared their concerns with us”, said Roberston, as she discussed her vision of the organization. 
 
 Robertson continues to strategize how the organization will pursue such individuals to address their concerns and lessen disparities with COVID-19.
 
