@@ -21,4 +21,18 @@ Robertson continues to strategize how the organization will pursue such individu
 
 Volunteers, such as Roberston, have been the driving force for C19 Coalition's accomplishments and efforts. We continue to inspire our volunteers and partners to empower change within their communities. 
 
+#### Q&A with Mary Robertson
+
+*Tell us about your background.*
+
+I moved to Chicago back in 2009 to study Anthropology. I looked at the history of advertising in South Africa and how groups talk to different groups of people, and how organizations are trying to fix representation. After graduating, I moved into research to create tech experiences that are good for people (in general). I did some digital consulting and now, I want to use my time consciously and help with the pandemic.
+
+*What are some of your passions?*
+
+I enjoy research - seeing what motivates people and using what I learn to make things better for people. I solving problems for people, learning new things, challenging myself to new things. I also love to Latin dance, however, I haven’t danced much due to COVID. Dancing is hard as it is, but dancing 6ft apart is even harder.
+
+*What made you interested in volunteering with C19 Coalition?*
+
+During a time where more individuals have a bit more free time, volunteering seemed to be a good way to spend my time. C19 Coalition was the first that got back to me. The team was very prompt, responsive, coordinated  quickly.
+
 *If you are interested in joining Mary and volunteering with C19 Coalition, reach out to us!*
