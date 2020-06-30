@@ -40,7 +40,8 @@ Sourcing masks from domestic providers is usually more expensive than sourcing s
 
 ## Marketing / Branding Value
 
-Many masks can be obtained with custom branding. This gives any customer-facing business an opportunity to gain increased visibility by integrating branded masks into your marketing strategy.
+Many masks can be obtained with custom branding. This gives any customer-facing business an opportunity to gain increased visibility by integrating branded masks into your marketing strategy.  
+  
 
 ## Masks are in our Future
 
