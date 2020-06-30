@@ -4,6 +4,9 @@ title: C19 Coalition Partner Adaptive Energy Pivots and Steps Up for COVID-19
 date: 2020-06-18T13:56:00.063Z
 reading_time: 4-5 minutes read
 author: David Morrill
+footer: The C19 Coalition is a non-profit, cross-sector group of more than 20
+  organizations, companies, states, and philanthropists working to address PPE
+  shortages across the country.
 ---
 ![Adaptive Energy Adapts to the Pandemic with PPE Production](/assets/uploads/adaptive-energy-ppe-production-1.jpg "Adaptive Energy PPE Production")
 
