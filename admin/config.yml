@@ -39,6 +39,7 @@ collections:
           valueField: "name",
         }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Footer", name: "footer", widget: "markdown", required: false }
   - name: "authors"
     label: "Authors"
     folder: "_authors/"
