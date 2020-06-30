@@ -42,6 +42,8 @@ Sourcing masks from domestic providers is usually more expensive than sourcing s
 
 Many masks can be obtained with custom branding. This gives any customer-facing business an opportunity to gain increased visibility by integrating branded masks into your marketing strategy. 
 
+
+
 ## Masks are in our Future
 
 In response to the Coronavirus pandemic, wearing masks has become part of the “new normal”. Going forward, I expect that access to masks will be included in health plans or become part of a basic nurture of health package that will be available in a workplace setting. Beyond protecting from infection, masks are going to play a bigger role as air quality in urban settings decreases. N95-masks were a go-to solution for many California residents, during past wildfire seasons. The possibility of future pandemics, and the looming threat of poor air quality may require us to look beyond the limits of our capitalist structures. We need to establish open communication lines across industries. We are facing a collective issue and we need collaborative solutions. Masks will be part of our economy and every business needs to understand how to manage mask selection and procurement. Ultimately, masks help ensure the protection of goods, which affects all segments of the population.
