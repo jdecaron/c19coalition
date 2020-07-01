@@ -376,6 +376,7 @@ blockquote {
   color: $gray-600;
   font-size: .9rem;
   font-style: italic;
+  margin-top: 2rem;
 }
 
 .reading-time {
@@ -395,7 +396,7 @@ blockquote {
       max-width: 100%;
   }
 
-  .content {
+  .post {
     margin-bottom: 3rem;
   }
 
