@@ -35,8 +35,8 @@ I moved to Chicago back in 2009 to study Anthropology. I looked at the history o
 
 ***What are some of your passions?***
 
-I enjoy research - seeing what motivates people and using what I learn to make things better for people. I solving problems for people, learning new things, challenging myself to new things. I also love to Latin dance, however, I haven’t danced much due to COVID. Dancing is hard as it is, but dancing 6ft apart is even harder.
+I enjoy research - seeing what motivates people and using what I learn to make things better for people. I love solving problems for people, learning new things, challenging myself to new things. I also love to Latin dance, however, I haven’t danced much due to COVID. Dancing is hard as it is, but dancing 6ft apart is even harder.
 
-**What made you interested in volunteering with C19 Coalition?**
+***What made you interested in volunteering with C19 Coalition?***
 
 During a time where more individuals have a bit more free time, volunteering seemed to be a good way to spend my time. C19 Coalition was the first that got back to me. The team was very prompt, responsive, coordinated quickly. Although that may not seem like the best response to this question, it is important to work within a team that is quick in this everchanging climate.
