@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "C19 Coalition Volunteer Highlight: Mary Robertson"
-date: 2020-06-30T19:30:07.921Z
+date: 2020-07-01T19:30:07.921Z
 reading_time: "2-3 minutes "
 author: Alizay Rizvi
 footer: >-
