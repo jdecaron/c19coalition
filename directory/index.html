@@ -98,6 +98,7 @@ layout: default
     <div id="organizations" class="row justify-content-center">
       <div class="col-12 my-2 list">
         {% for org in site.organizations %}
+        {% if org.only_on_home_page != true %}
         <div class="organization">
           <div class="organization-header">
             <h3>
@@ -149,6 +150,7 @@ layout: default
             </div>
           </div>
         </div>
+        {% endif %}
         {% endfor %}
       </div>
     </div>
