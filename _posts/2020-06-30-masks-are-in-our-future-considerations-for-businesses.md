@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Masks are in our Future - Considerations for Businesses
-date: 2020-06-30T20:40:13.971Z
+date: 2020-07-03T16:20:47.536Z
 reading_time: 6-7 minutes read
 author: Alicia Ferratusco
 footer: >
