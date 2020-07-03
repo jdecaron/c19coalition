@@ -10,6 +10,7 @@ type:
 structure: volunteer
 location: Nationwide
 is_member: true
+show_on_home_page: true
 site_url: https://masks4all.co/
 logo: /assets/uploads/m4all.png
 ---
