@@ -14,7 +14,7 @@ footer: >
 ---
 ![](/assets/uploads/virus-4999857_1280.png)
 
-Covid-19 has brought business and safety considerations around masks to the forefront of our zeitgeist. This note offers an overview of challenges and opportunities around protecting America’s workforce through masks. 
+Covid-19 has brought business and safety considerations around masks to the forefront of our zeitgeist. This note offers an overview of challenges and opportunities around protecting America’s workforce through masks. I'm not a doctor, and direct medical advice should be sought from a physician, but science has shown that wearing masks is a must.  
 
 The Covid-19 pandemic is a human tragedy and has severely affected how we are able to live our lives in 2020 and beyond. Aside from changing the ways we greet each other, work and live, it has also led to a temporary shutdown of business activities across industries. Parts of the economy, such as retail or entertainment venues, can remain closed for longer periods of time, with few drastic consequences for our livelihood. Some “essential” industries, such as food [supply chains](https://www.nationalgeographic.com/science/2020/05/covid-19-disrupts-complex-food-chains-beef-milk-eggs-produce/) and energy have been affected by the crisis in a way that could put the very foundation of our social fabric at risk. For business owners in essential industries, safeguarding workers is a top priority to ensure they can continue with core business and production tasks. Other industries need to implement measures to safeguard workers and patrons, as a push towards re-opening our economy on a broader level is currently underway. As President Trump stated in May, the US is to open again [“vaccine or no vaccine”](https://www.bbc.com/news/world-us-canada-52685487). 
 
@@ -40,9 +40,10 @@ Sourcing masks from domestic providers is usually more expensive than sourcing s
 
 ## Marketing / Branding Value
 
-Many masks can be obtained with custom branding. This gives any customer-facing business an opportunity to gain increased visibility by integrating branded masks into your marketing strategy.  
+Many masks can be obtained with custom branding. This gives any customer-facing business an opportunity to gain increased visibility by integrating branded masks into your marketing strategy.\
 <br/>
 <br/>
+
 ## Masks are in our Future
 
 In response to the Coronavirus pandemic, wearing masks has become part of the “new normal”. Going forward, I expect that access to masks will be included in health plans or become part of a basic nurture of health package that will be available in a workplace setting. Beyond protecting from infection, masks are going to play a bigger role as air quality in urban settings decreases. [N95-masks](https://www3.epa.gov/airnow/smoke_fires/respiratory-protection-508.pdf) were a go-to solution for many California residents, during past wildfire seasons. The possibility of future pandemics, and the looming threat of poor air quality may require us to look beyond the limits of our capitalist structures. We need to establish open communication lines across industries. We are facing a collective issue and we need collaborative solutions. Masks will be part of our economy and every business needs to understand how to manage mask selection and procurement. Ultimately, masks help ensure the protection of goods, which affects all segments of the population.
