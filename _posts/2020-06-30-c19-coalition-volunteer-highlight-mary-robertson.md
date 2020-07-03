@@ -22,11 +22,13 @@ Through various user experience (UX) and design research, she continues to gain 
 
 From volunteering with the help desk to conducting communication analysis, Robertson continues to impact the mission of the organization. Through professional experience, Robertson has used her skill set to determine C19 Coalition’s outreach through the help desk and beyond.
 
-> “I want to share the experiences of people who are on the front lines, people who are on the ground, and people who have expressed and shared their concerns with us”, said Roberston, as she discussed her vision of the organization. 
+> “I want to share the experiences of people who are on the front lines, people who are on the ground, and people who have expressed and shared their concerns with us”
+>
+> Mary Robertson, C19 Coalition Volunteer 
 
 Robertson continues to strategize how the organization will pursue such individuals to address their concerns and lessen disparities with COVID-19.
 
-Volunteers, such as Roberston, have been the driving force for C19 Coalition's accomplishments and efforts. We continue to inspire our volunteers and partners to empower change within their communities. 
+Volunteers, such as Robertson, have been the driving force for C19 Coalition's accomplishments and efforts. We continue to inspire our volunteers and partners to empower change within their communities. 
 
 #### Q&A with Mary Robertson
 
@@ -40,4 +42,4 @@ I enjoy research - seeing what motivates people and using what I learn to make t
 
 ***What made you interested in volunteering with C19 Coalition?***
 
-During a time where more individuals have a bit more free time, volunteering seemed to be a good way to spend my time. C19 Coalition was the first that got back to me. The team was very prompt, responsive, coordinated quickly. Although that may not seem like the best response to this question, it is important to work within a team that is quick in this everchanging climate.
+During a time where more individuals have a bit more free time, volunteering seemed to be a good way to spend my time. C19 Coalition was the first that got back to me. The team was very prompt, responsive, coordinated quickly. Although that may not seem like the best response to this question, it is important to work within a team that is quick in this ever changing climate.
