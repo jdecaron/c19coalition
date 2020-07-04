@@ -13,4 +13,5 @@ location: Nationwide
 is_member: true
 show_on_home_page: true
 site_url: https://masks.bellacanvas.com/
+logo: /assets/uploads/bella-canvas.png
 ---
