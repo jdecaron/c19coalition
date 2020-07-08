@@ -12,13 +12,13 @@ footer: >-
 
   *Alizay Rizvi is a blogger with the C19 Coalition. She has worked on health equity programs, including at the American Heart Association, to increase diversity in the health and social justice sector and aid in finding solutions to lessen health disparities and inequities in the United States. As a young professional, she is passionate about educating and empowering her generation to become agents of change. You can find her on [LinkedIn](https://www.linkedin.com/in/alizayrizvi/).*
 ---
-![]()
+![](/assets/uploads/img_3251-2.jpg)
 
 Activism. Reform. Impact.
 
 These three words have become the driving force between Generation Z, or Gen Z, and their ambitions. Gen Z is considered the cohort after millennials and has been called the “innovation generation”. In a [report by Girls With Impact](https://drive.google.com/file/d/1l1sA333bB406n0Grw4W7Mc6jGrErnOsm/view), 65% of Gen Z’ers strive to create something world-changing and impact-driven. This impact is apparent as Gen Z leads the Black Lives Matter Movement through grassroots efforts, such as peaceful protesting and social media campaigning. Due to the increased accessibility of technology and knowledge, Gen Z tends to educate themselves further on actions to support various social issues, including COVID-19 related challenges.
 
-As a Gen Z herself, Tracy Chen, volunteer with the C19 Coalition and the youngest member of the team, upholds the virtue of ‘doing something greater’. She is an upcoming senior in High School with ambitions to go into the medical field. As a future healthcare professional, her motivation to volunteer with the Coalition is to help others. At her young age, opportunities to reach a greater audience are not always evident. However, Chen went beyond to find COVID-19 related volunteer opportunities.
+As a Gen Z herself, Tracy Chen, a volunteer with the C19 Coalition and the youngest member of the team, upholds the virtue of ‘doing something greater’. She is an upcoming senior in High School with ambitions to go into the medical field. As a future healthcare professional, her motivation to volunteer with the Coalition is to help others. At her young age, opportunities to reach a greater audience are not always evident. However, Chen went beyond to find COVID-19 related volunteer opportunities.
 
 She researched to find volunteer listings and stumbled upon a Facebook group full of medical students. They were able to connect her with the Coalition around the end of March.
 
@@ -42,4 +42,4 @@ I wanted to do something, to be honest. I'm doing some coursework right now, but
 
 ***When you think about our mission, what motivates you to continue volunteering?***
 
-I started volunteering late March or so where I helped with the helpdesk by answering calls and sometimes emails. I remember in April, there were so many calls. But it was also an opportunity for me to see the effects of COVID. There was actually an indivdual who called and we emailed back and forth for a while so that I could provide them additional resources. They thanked me, which felt great.
+I started volunteering late March or so where I helped with the helpdesk by answering calls and sometimes emails. I remember in April, there were so many calls. But it was also an opportunity for me to see the effects of COVID. There was actually an individual who called and we emailed back and forth for a while so that I could provide them additional resources. They thanked me. It felt great.
