@@ -20,13 +20,13 @@ These three words have become the driving force between Generation Z, or Gen Z, 
 
 As a Gen Z herself, Tracy Chen, volunteer with the C19 Coalition and the youngest member of the team, upholds the virtue of ‘doing something greater’. She is an upcoming senior in High School with ambitions to go into the medical field. As a future healthcare professional, her motivation to volunteer with the Coalition is to help others. At her young age, opportunities to reach a greater audience are not always evident. However, Chen went beyond to find COVID-19 related volunteer opportunities.
 
-She researched opportunities to find these volunteer opportunities and stumbled upon a Facebook group full of medical students. They were able to connect her with the Coalition around the end of March.
+She researched to find volunteer listings and stumbled upon a Facebook group full of medical students. They were able to connect her with the Coalition around the end of March.
 
 Chen started with the help desk team to answer calls and assist with emails, however, through her hard work she has expanded into the social media team. Being Gen Z and quick to social media trends, Chen is currently strategizing the C19 Coalition’s upcoming Instagram.
 
 Her dedication to C19 Coalition’s mission stems from her experience with the helpdesk.
 
-> “I know it’s cliche, but when I spoke with a lady on the phone, she said ‘thank you so much’ because I helped her our to find a resource”, said Chen as she recalled her motivation to continue volunteering.
+> “I know it’s cliche, but when I spoke with a lady on the phone, she said ‘thank you so much’ because I helped her out to find a resource”, said Chen as she recalled her motivation to continue volunteering.
 
 For Chen, being in a position to help someone out uplifts all the unprecedented events that have occurred due to COVID-19. The small ‘thank yous’ that come with volunteering often become the force that keeps many of the C19 Coalition’s team to strive for better outcomes.
 
@@ -42,4 +42,4 @@ I wanted to do something, to be honest. I'm doing some coursework right now, but
 
 ***When you think about our mission, what motivates you to continue volunteering?***
 
-I started volunteering late March or so where I helped with the helpdesk by answering calls and sometimes help with emails. I remember in April, there were so many calls. But it was also an opportunity for me to see the effects of COVID. There was actually a man who called and we emailed back and forth for a while so that I could provide him additional resources. He thanked me, which felt great.
+I started volunteering late March or so where I helped with the helpdesk by answering calls and sometimes emails. I remember in April, there were so many calls. But it was also an opportunity for me to see the effects of COVID. There was actually an indivdual who called and we emailed back and forth for a while so that I could provide them additional resources. They thanked me, which felt great.
