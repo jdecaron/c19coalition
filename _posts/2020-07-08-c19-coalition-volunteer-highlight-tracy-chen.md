@@ -30,7 +30,7 @@ Her dedication to C19 Coalition’s mission stems from her experience with the h
 
 For Chen, being in a position to help someone out uplifts all the unprecedented events that have occurred due to COVID-19. The small ‘thank yous’ that come with volunteering often become the force that keeps many of the C19 Coalition’s team to strive for better outcomes.
 
-## Q&A with Tracy Chen
+### Q&A with Tracy Chen
 
 ***Tell us about your background.***
 
