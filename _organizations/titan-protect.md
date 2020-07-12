@@ -8,7 +8,7 @@ description: Titan Protect's mission is to provide customers and those working
 type:
   - sell-ppe-to-consumers
 structure: corporate
-location: Nationwide
+location: California
 is_member: false
 show_on_home_page: false
 only_on_home_page: false
