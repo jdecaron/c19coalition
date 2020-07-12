@@ -10,7 +10,7 @@ type:
   - sell-ppe-to-consumers
   - supply-ppe
 structure: corporate
-location: Multinational
+location: Georgia
 is_member: false
 show_on_home_page: false
 only_on_home_page: false
