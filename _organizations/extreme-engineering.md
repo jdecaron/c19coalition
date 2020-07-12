@@ -7,7 +7,7 @@ description: Extreme Engineering makes reusable face shields that are clear and
 type:
   - sell-ppe-to-consumers
 structure: corporate
-location: Nationwide
+location: Texas
 is_member: false
 show_on_home_page: false
 only_on_home_page: false
