@@ -7,7 +7,7 @@ description: Bomme Studio is a sustainable clothing manufacturer based in Los
 type:
   - supply-ppe
 structure: corporate
-location: Nationwide
+location: California
 is_member: false
 show_on_home_page: false
 only_on_home_page: false
