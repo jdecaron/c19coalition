@@ -8,7 +8,7 @@ description: Kinnos has created a patented color additive called Highlight®,
 type:
   - other
 structure: corporate
-location: Nationwide
+location: New York
 is_member: false
 show_on_home_page: false
 only_on_home_page: false
