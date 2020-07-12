@@ -8,7 +8,7 @@ description: Project Phoenix by Aster Impact, facilitates governments,
 type:
   - other
 structure: nonprofit
-location: Multinational
+location: Delaware
 is_member: false
 show_on_home_page: false
 only_on_home_page: false
