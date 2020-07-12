@@ -8,7 +8,7 @@ description: KEK Associates is a Rochester, NY based industrial design and
 type:
   - sell-ppe-to-consumers
 structure: corporate
-location: Nationwide
+location: New York
 is_member: false
 show_on_home_page: false
 only_on_home_page: false
