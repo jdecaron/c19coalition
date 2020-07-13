@@ -14,7 +14,7 @@ structure: corporate
 location: Nationwide
 is_member: true
 show_on_home_page: true
-only_on_home_page: false
+only_on_home_page: true
 site_url: https://kaastailored.com/ppe/
 logo: /assets/uploads/kaas-tailored.png
 ---
