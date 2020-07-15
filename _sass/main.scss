@@ -403,6 +403,39 @@ blockquote {
     margin-bottom: 3rem;
   }
 
+  .post.post-list {
+    border-radius: 0.5rem;
+    border: 1px solid $gray-600;
+    cursor: pointer;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+
+    h3 a:hover {
+      text-decoration: none;
+    }
+
+    .content {
+      max-height: 3rem;
+      overflow-y: hidden;
+
+      img {
+        display: none;
+      }
+
+      p {
+        margin: 0;
+      }
+    }
+
+    .read-full {
+      color: $primary;
+    }
+
+    .triple-dot {
+      color: $gray-600;
+    }
+
+  }
+
   .share {
     margin-top: 3rem;
 
