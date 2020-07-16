@@ -331,27 +331,6 @@ input:focus::placeholder {
   z-index: 20;
 }
 
-@media (min-width: 992px) {
-  .navbar {
-    height: 170px;
-    padding: 0px;
-  }
-
-  #logo {
-    display: inherit;
-  }
-
-  .partner-logo {
-    text-align: center;
-    margin-bottom: 3rem;
-
-    img {
-      width: auto;
-      max-width: 240px;
-    }
-  }
-}
-
 #external-link {
   fill: $primary;
 }
@@ -392,6 +371,24 @@ blockquote {
   margin: 0 15%;
 }
 
+.thumbnail {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+.thumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
 .container.longread {
   max-width: 50rem;
 
@@ -399,18 +396,26 @@ blockquote {
       max-width: 100%;
   }
 
-  .post {
-    margin-bottom: 3rem;
+  .separator .col {
+    border-bottom: 1px solid $gray-600;
+    margin: 1.5rem 0 1.5rem 0;
   }
 
   .post.post-list {
-    border-radius: 0.5rem;
-    border: 1px solid $gray-600;
     cursor: pointer;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0;
 
     h3 a:hover {
       text-decoration: none;
+    }
+
+    .col {
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    .col-auto {
+      padding-right: 0;
     }
 
     .content {
@@ -444,5 +449,47 @@ blockquote {
       color: $gray-600;
       font-size: .9rem;
     }
+  }
+
+  #box {
+    fill: $gray-400;
+  }
+}
+
+@media (min-width: 992px) {
+  .container.longread {
+    .separator {
+      display: none;
+    }
+
+    .post.post-list {
+      padding: 0.5rem 1rem 0.5rem 1rem;
+      border-radius: 0.5rem;
+      border: 1px solid $gray-600;
+    }
+  }
+
+  .navbar {
+    height: 170px;
+    padding: 0px;
+  }
+
+  .partner-logo {
+    text-align: center;
+    margin-bottom: 3rem;
+
+    img {
+      width: auto;
+      max-width: 240px;
+    }
+  }
+
+  .post {
+    margin-bottom: 3rem;
+  }
+
+
+  #logo {
+    display: inherit;
   }
 }
