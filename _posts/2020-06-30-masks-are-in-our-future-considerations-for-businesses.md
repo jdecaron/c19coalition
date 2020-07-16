@@ -11,6 +11,9 @@ footer: >
 
 
   Alicia Ferratusco, the founder of SF-based innovation hub Starfish, joined C19 Coalition with a focus on developing a secure masks supply chain for US-businesses.
+summary: Masks, when used correctly, can be a valuable tool to prevent viral
+  transmission between individuals. Here are some aspects to consider when
+  making procurement decisions for masks.
 ---
 ![](/assets/uploads/virus-4999857_1280.png)
 
