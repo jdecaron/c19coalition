@@ -11,6 +11,11 @@ footer: >-
 
 
   *Alizay Rizvi is a blogger with the C19 Coalition. She has worked on health equity programs, including at the American Heart Association, to increase diversity in the health and social justice sector and aid in finding solutions to lessen health disparities and inequities in the United States. As a young professional, she is passionate about educating and empowering her generation to become agents of change. You can find her on [LinkedIn](https://www.linkedin.com/in/alizayrizvi/).*
+summary: Tracy Chen is the youngest of the C19 Coalition volunteers and one of
+  the most helpful. A jack-of-all-trades, she has helped both working the
+  hotline and helping the social media and content team. For Chen, being in a
+  position to help someone out uplifts all the unprecedented events that have
+  occurred due to COVID-19.
 ---
 ![](/assets/uploads/img_3251-2.jpg)
 
