@@ -15,10 +15,10 @@ footer: >-
 thumbnail: /assets/uploads/img_0124.jpg
 summary: >-
   3,658 deaths. 302,000 cases. Texas reports the highest 1-day toll of deaths
-  since the pandemic *began*.
+  since the pandemic began.
 
 
-  As a Texas native, Alizay Rizvi saw first-hand the toll COVID-19 was taking on her community but also realized how many were not acknowledging the pandemic and its effect on underfunded communities, especially where the majority of the population is Black and Brown. With a background and passion for health equity, Rizvi knew she had to step up and contribute to solving the PPE crisis.
+  As a Texas native, Alizay Rizvi saw first-hand the toll COVID-19 was taking on her community but also realized how many were not acknowledging the pandemic
 ---
 ![](/assets/uploads/img_0124.jpg)
 
