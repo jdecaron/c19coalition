@@ -18,7 +18,7 @@ summary: >-
   since the pandemic began.
 
 
-  As a Texas native, Alizay Rizvi saw first-hand the toll COVID-19 was taking on her community but also realized how many were not acknowledging the pandemic
+  As a Texas native, Alizay Rizvi saw first-hand the toll COVID-19 was taking on her community but also realized how many were not acknowledging the pandemic...
 ---
 ![](/assets/uploads/img_0124.jpg)
 
