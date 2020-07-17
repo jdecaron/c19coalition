@@ -27,13 +27,13 @@ This type of distribution is needed as COVID-19 cases continue to increase, espe
 
 ![https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/racial-ethnic-minorities.html](/assets/uploads/disparities.png "Data from CDC. ")
 
-In response, priority and mission are placed on distributing PPE and other medical equipment to communities that need it the most at C19 Coalition. Laura Mingott, volunteer and lead of the coalition’s disproportionate impact team, has formed this mission into reality. Mingott created rules for the coalition and partners to connect with communities of color and lead by empathy.
+In response, priority and mission are placed on distributing PPE and other medical equipment to communities that need it the most at C19 Coalition. Laura Mignott, volunteer and lead of the coalition’s disproportionate impact team, has formed this mission into reality. Mignott created rules for the coalition and partners to connect with communities of color and lead by empathy.
 
 Empathy is essential to reach and support organizations that serve disproportionately impacted communities.
 
-> As Mingott says, “Bear in mind that not everyone has the access or abilities that we have living in larger coastal cities. It may be July 2020 in NY or LA, but it might be July 1998 in smaller rural communities. Not everyone can just Slack a question and yes, people still use fax machines. There might be limitations as to how fast people can move based on their local capabilities."
+> As Mignott says, “Bear in mind that not everyone has the access or abilities that we have living in larger coastal cities. It may be July 2020 in NY or LA, but it might be July 1998 in smaller rural communities. Not everyone can just Slack a question and yes, people still use fax machines. There might be limitations as to how fast people can move based on their local capabilities."
 
-Often, community leaders are not brought into the equation when decisions are made. Getting local and asking those on the frontlines is key for sustainable and scalable action. “Listen, Learn & then take meaningful action.", as Mingott says when asked about how to reach out to different communities.
+Often, community leaders are not brought into the equation when decisions are made. Getting local and asking those on the frontlines is key for sustainable and scalable action. “Listen, Learn & then take meaningful action.", as Mignott says when asked about how to reach out to different communities.
 
 There is much to be done to reach equity and the Coalition is doing their part to be of the solution.
 
