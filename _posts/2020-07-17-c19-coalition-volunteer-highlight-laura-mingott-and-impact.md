@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "C19 Coalition Volunteer Highlight: Laura Mignott and Impact "
+title: "C19 Coalition Volunteer Highlight: Laura Mingott and Impact "
 date: 2020-07-17T03:17:19.546Z
 reading_time: 4-5 minutes
 author: Alizay Rizvi
