@@ -46,4 +46,4 @@ I started at C19 in the content marketing team where I was in charge of writing 
 
 ***When you think about our mission, what motivates you to continue volunteering?***
 
-Our mission is one that is easy to stand behind. Earlier in this pandemic and even now, we can see that there was a lack of PPE and how there wasn’t any funding to get ahead of this issue. The coalition is a great opportunity for me to advocate for the continuous use of PPE and for me to make a small dent in the PPE crisis our nation is facing. Ultimately, it is an opportunity to save lives.
+Our mission is one that is easy to stand behind. Earlier in this pandemic and even now, we can see that there was a lack of PPE and how there wasn’t any funding to get ahead of this issue. The coalition is a great opportunity to advocate for the continuous use of PPE and to make a dent in the PPE crisis our nation is facing. Ultimately, it is an opportunity to save lives.
