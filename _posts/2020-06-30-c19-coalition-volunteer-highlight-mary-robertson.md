@@ -11,10 +11,11 @@ footer: >-
 
 
   *Alizay Rizvi is a blogger with the C19 Coalition. She has worked on health equity programs, including at the American Heart Association, to increase diversity in the health and social justice sector and aid in finding solutions to lessen health disparities and inequities in the United States. As a young professional, she is passionate about educating and empowering her generation to become agents of change. You can find her on [LinkedIn](https://www.linkedin.com/in/alizayrizvi/).*
+thumbnail: /assets/uploads/img_3074.jpg
 summary: Mary Robertson joined the C19 Coalition as a volunteer in April.  She
   is focused on how to strategize how the organization will pursue such
   individuals to address their concerns and lessen disparities with COVID-19.
-  She is passionate about helping people overcome the pandemic.
+  She is passionate about helping people overcome the pandemic...
 ---
 ![](/assets/uploads/img_3074.jpg)
 
@@ -28,11 +29,11 @@ From volunteering with the help desk to conducting communication analysis, Rober
 
 > “I want to share the experiences of people who are on the front lines, people who are on the ground, and people who have expressed and shared their concerns with us”
 >
-> Mary Robertson, C19 Coalition Volunteer 
+> Mary Robertson, C19 Coalition Volunteer
 
 Robertson continues to strategize how the organization will pursue such individuals to address their concerns and lessen disparities with COVID-19.
 
-Volunteers, such as Robertson, have been the driving force for C19 Coalition's accomplishments and efforts. We continue to inspire our volunteers and partners to empower change within their communities. 
+Volunteers, such as Robertson, have been the driving force for C19 Coalition's accomplishments and efforts. We continue to inspire our volunteers and partners to empower change within their communities.
 
 #### Q&A with Mary Robertson
 

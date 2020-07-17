@@ -7,12 +7,13 @@ author: David Morrill
 footer: The C19 Coalition is a non-profit, cross-sector group of more than 20
   organizations, companies, states, and philanthropists working to address PPE
   shortages across the country.
+thumbnail: /assets/uploads/adaptive-energy-ppe-production-1.jpg
 summary: C19 Coalition partner Adaptive Energy was challenged by Covid-19 and
   pivoted their manufacturing capabilities in a way to help those  facing PPE
   shortages across the country. Additionally Adaptive Energy created an
   e-commerce store at [arboraphothecary.com](https://arborapothecary.com) where
   they sell PPE items such as hand sanitizers, gowns, masks, and touchless door
-  openers. Read their story here.
+  openers...
 ---
 ![Adaptive Energy Adapts to the Pandemic with PPE Production](/assets/uploads/adaptive-energy-ppe-production-1.jpg "Adaptive Energy PPE Production")
 

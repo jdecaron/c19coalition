@@ -11,11 +11,12 @@ footer: >-
 
 
   *Alizay Rizvi is a blogger with the C19 Coalition. She has worked on health equity programs, including at the American Heart Association, to increase diversity in the health and social justice sector and aid in finding solutions to lessen health disparities and inequities in the United States. As a young professional, she is passionate about educating and empowering her generation to become agents of change. You can find her on [LinkedIn](https://www.linkedin.com/in/alizayrizvi/).*
+thumbnail: /assets/uploads/img_3251-2.jpg
 summary: Tracy Chen is the youngest of the C19 Coalition volunteers and one of
   the most helpful. A jack-of-all-trades, she has helped both working the
   hotline and helping the social media and content team. For Chen, being in a
   position to help someone out uplifts all the unprecedented events that have
-  occurred due to COVID-19.
+  occurred due to COVID-19...
 ---
 ![](/assets/uploads/img_3251-2.jpg)
 
@@ -39,11 +40,11 @@ For Chen, being in a position to help someone out uplifts all the unprecedented 
 
 ***Tell us about your background.***
 
-I live in Queens, NY where I commute about two hours just to get to school. I'm an upcoming senior in High School right now where I do track. In school, there's a mentorship program with freshmen so I have a little sib. When I was a freshman, I had a big sib so I've always wanted to pay it forward and become a big sib to help someone else. I have my own Depop store where I sell jewelry. I've made about 900 sales on there. The money that I received from my jewelry, I always use some of it to donate. 
+I live in Queens, NY where I commute about two hours just to get to school. I'm an upcoming senior in High School right now where I do track. In school, there's a mentorship program with freshmen so I have a little sib. When I was a freshman, I had a big sib so I've always wanted to pay it forward and become a big sib to help someone else. I have my own Depop store where I sell jewelry. I've made about 900 sales on there. The money that I received from my jewelry, I always use some of it to donate.
 
 ***What made you interested in volunteering with C19 Coalition?***
 
-I wanted to do something, to be honest. I'm doing some coursework right now, but it typically lasts an hour or so. I wanted to help with the pandemic and a lot of my interests are in healthcare so I thought right now would be a great opportunity to volunteer. 
+I wanted to do something, to be honest. I'm doing some coursework right now, but it typically lasts an hour or so. I wanted to help with the pandemic and a lot of my interests are in healthcare so I thought right now would be a great opportunity to volunteer.
 
 ***When you think about our mission, what motivates you to continue volunteering?***
 

@@ -10,10 +10,11 @@ footer: >-
 
 
   Alizay Rizvi is a blogger with the C19 Coalition. She has worked on health equity programs, including at the American Heart Association, to increase diversity in the health and social justice sector and aid in finding solutions to lessen health disparities and inequities in the United States. As a young professional, she is passionate about educating and empowering her generation to become agents of change. You can find her on [LinkedIn](https://www.linkedin.com/in/alizayrizvi/).
+thumbnail: /assets/uploads/lmignott2019-headshot-1.jpg
 summary: Without access to proper food, housing, schooling, capital, and
   healthcare, being ‘healthy’ can easily be put on the backburner. When there
   are built-in systems that fail an individual to meet their full potential, the
-  gap of equality widens.
+  gap of equality widens...
 ---
 ![](/assets/uploads/lmignott2019-headshot-1.jpg)
 
