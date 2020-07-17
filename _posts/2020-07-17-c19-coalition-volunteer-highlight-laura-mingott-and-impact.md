@@ -41,15 +41,15 @@ There is much to be done to reach equity, however, the Coalition is doing their 
 
 ### Q&A with Laura Mignott
 
-*Tell us about your background.*
+***Tell us about your background.***
 
 I am based in New York City. My day job for the last 10 years is being the CEO of DFlash, a communications agency where we create experiences that are at the intersection of culture & technology. We have worked with large brands like Netflix, Microsoft, and Bose. I am also the creator and host of “The Reset Podcast” where I bring in and interview a C-level executive on marketing, businesses, and even government to see what’s happening in the industry. Outside of this, I sit on multiple women-led boards within my community, including education and youth empowerment boards.
 
-*What are some of your passions?*
+***What are some of your passions?***
 
 Doing good for people. I have built a course on how to be nice to people as that is the key to being successful in business. I always follow the golden rule in every task that I am to do. As a Black woman, I have a passion for the Black community and communities of color. I grew up in Long Island and carried certain privileges growing up. I attended NYU where I further my education and I knew that it was important for me to lift as I progressed. It’s important to use that opportunity to help others and elevate those that do not hold the same privileges that I do.
 
-*What made you interested in volunteering with C19 Coalition?*
+***What made you interested in volunteering with C19 Coalition?***
 
 Once COVID hit, a number of my family members got hit by the disease. I was saddened by what happened and couldn’t understand why these organizations couldn’t get PPE. So I was like okay, let me find the right good people. That is how I found the C19 Coalition. I started by speaking to one of the team members of the coalition about what I was seeing on the ground and how people of color were dying from the disease and why they were being hit the hardest. I knew that’s why my voice was. So I was onboarded to lead this mission - to ensure that these communities are being looked at.
 
