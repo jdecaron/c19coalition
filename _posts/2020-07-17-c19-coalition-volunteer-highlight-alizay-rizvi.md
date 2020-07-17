@@ -3,7 +3,7 @@ layout: post
 title: "C19 Coalition Volunteer Highlight: Alizay Rizvi"
 date: 2020-07-17T17:08:37.988Z
 reading_time: "3-4 Minutes "
-author: Alizay Rizvi
+author: Tracy Chen
 footer: >-
   If you are interested in joining Alizay and volunteering with the C19
   Coalition, reach out to us at info@c19coalition.org.
