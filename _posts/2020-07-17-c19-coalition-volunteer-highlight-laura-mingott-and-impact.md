@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "C19 Coalition Volunteer Highlight: Laura Mingott and Impact "
+title: "C19 Coalition Volunteer Highlight: Laura Mignott and Impact "
 date: 2020-07-17T03:17:19.546Z
 reading_time: 4-5 minutes
 author: Alizay Rizvi
@@ -19,9 +19,9 @@ summary: Without access to proper food, housing, schooling, capital, and
 
 Without access to proper food, housing, schooling, capital, and healthcare, being ‘healthy’ can easily be put on the backburner.
 
-When there are built-in systems that fail an individual to meet their full potential, the gap of equality widens.
+When built-in systems fail to help an individual meet their full potential, the gap of equality widens.
 
-Thus, the concept of equality cannot exist, without equity - the distribution of resources in a fair and impartial method.
+Thus, the concept of equality cannot exist without equity - the distribution of resources in a fair and impartial method.
 
 This type of distribution is needed as COVID-19 cases continue to increase, especially within members of racial and ethnic underrepresented populations. [According to the Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/racial-ethnic-minorities.html), Indigenous, Black, and Latino communities have disproportionately higher rates of infection and hospitalizations. These are the communities that have been affected by long-standing systemic health and social inequities.
 
