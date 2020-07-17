@@ -23,7 +23,7 @@ When there are built-in systems that fail an individual to meet their full poten
 
 Thus, the concept of equality cannot exist, without equity - the distribution of resources in a fair and impartial method.
 
-This type of distribution is needed as COVID-19 cases continue to increase, especially within members of racial and ethnic underrepresented populations. [According to the Centers of Disease Control and Prevention (CDC)](https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/racial-ethnic-minorities.html), Indigenous, Black, and Latino communities have disproportionately higher rates of infection and hospitalizations. These are the communities that have been affected by long-standing systemic health and social inequities.
+This type of distribution is needed as COVID-19 cases continue to increase, especially within members of racial and ethnic underrepresented populations. [According to the Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/racial-ethnic-minorities.html), Indigenous, Black, and Latino communities have disproportionately higher rates of infection and hospitalizations. These are the communities that have been affected by long-standing systemic health and social inequities.
 
 ![https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/racial-ethnic-minorities.html](/assets/uploads/disparities.png "Data from CDC. ")
 
