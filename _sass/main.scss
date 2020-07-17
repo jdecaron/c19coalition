@@ -366,7 +366,7 @@ blockquote {
   margin-bottom: 2rem;
 }
 
-.container.longread img[src$='#square'] {
+.container.longread img.portrait {
   max-width: 70%;
   margin: 0 15%;
 }
@@ -382,6 +382,7 @@ blockquote {
 .container.longread .thumbnail img {
   max-width: none;
   display: none;
+  margin: 0;
 }
 
 .thumbnail img {
