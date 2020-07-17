@@ -27,7 +27,7 @@ Thus, the concept of equality cannot exist, without equity - the distribution of
 
 This type of distribution is needed as COVID-19 cases continue to increase, especially within members of racial and ethnic underrepresented populations. According to the Centers of Disease Control and Prevention (CDC), Indigenous, Black, and Latino communities have disproportionately higher rates of infection and hospitalizations. These are the communities that have been affected by long-standing systemic health and social inequities.
 
-![https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/racial-ethnic-minorities.html](/assets/uploads/disparities.png)
+![https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/racial-ethnic-minorities.html](/assets/uploads/disparities.png "Data from CDC. ")
 
 In response, priority and mission are placed on distributing PPE and other medical equipment to communities that need it the most at C19 Coalition. Laura Mingott, volunteer and lead of the coalition’s disproportionate impact team, has formed this mission into reality. Mingott created rules for the coalition and partners to connect with communities of color and lead by empathy.
 
