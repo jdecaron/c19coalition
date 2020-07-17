@@ -9,9 +9,7 @@ footer: >-
   Coalition, reach out to us at info@c19coalition.org.
 
 
-
-
-  ADD TRACY BIO
+  Tracy Chen works on the hotline and social media for the coalition. She is a high school student planning on studying neuroscience on a pre-professional path. She spends most of her time running or on Depop. You can find her on [LinkedIn](https://www.linkedin.com/in/tracy-chen-3614661a4/).
 thumbnail: /assets/uploads/img_0124.jpg
 summary: >-
   3,658 deaths. 302,000 cases. Texas reports the highest 1-day toll of deaths
