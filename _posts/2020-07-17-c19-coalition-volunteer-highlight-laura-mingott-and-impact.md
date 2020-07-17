@@ -35,7 +35,7 @@ Empathy is essential to reach and support organizations that serve disproportion
 
 Often, community leaders are not brought into the equation when decisions are made. Getting local and asking those on the frontlines is key for sustainable and scalable action. “Listen, Learn & then take meaningful action.", as Mingott says when asked about how to reach out to different communities.
 
-There is much to be done to reach equity, however, the Coalition is doing their part to be of the solution.
+There is much to be done to reach equity and the Coalition is doing their part to be of the solution.
 
 ### Q&A with Laura Mignott
 
