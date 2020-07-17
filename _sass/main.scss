@@ -377,7 +377,13 @@ blockquote {
   height: 100px;
   overflow: hidden;
   border-radius: 0.5rem;
+  background-color: $gray-400;
 }
+.container.longread .thumbnail img {
+  max-width: none;
+  display: none;
+}
+
 .thumbnail img {
   position: absolute;
   left: 50%;
@@ -387,6 +393,13 @@ blockquote {
   -webkit-transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
+}
+.thumbnail img.portrait {
+  width: 100%;
+  height: auto;
+}
+.container.longread .thumbnail img.loaded {
+  display: inline;
 }
 
 .container.longread {
@@ -411,7 +424,6 @@ blockquote {
 
     .col {
       padding: 0;
-      overflow-x: hidden;
     }
 
     .col-auto {
@@ -419,9 +431,6 @@ blockquote {
     }
 
     .content {
-      max-height: 3rem;
-      overflow-y: hidden;
-
       img {
         display: none;
       }
@@ -449,10 +458,6 @@ blockquote {
       color: $gray-600;
       font-size: .9rem;
     }
-  }
-
-  #box {
-    fill: $gray-400;
   }
 }
 
