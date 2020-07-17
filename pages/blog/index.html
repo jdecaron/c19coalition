@@ -59,13 +59,22 @@ title: Blog
 </section>
 
 <script>
+  function resize (target) {
+    console.log(target.height, target.width)
+    if (target.height === 0 || target.width === 0) {
+      target.onload = function (event) {
+        resize(event.target)
+      }
+    } else if (target.height > target.width) {
+      target.classList.add('portrait')
+      target.classList.add('loaded')
+    } else {
+      target.classList.add('loaded')
+    }
+  }
+
   var posts = document.querySelectorAll('.post-list')
   for (var i = 0; i < posts.length; i++) {
-    posts[i].querySelector('img').onload = function (event) {
-      event.target.classList.add('loaded')
-      if (event.target.height > event.target.width) {
-        event.target.classList.add('portrait')
-      }
-    }
+    resize(posts[i].querySelector('img'))
   }
 </script>
