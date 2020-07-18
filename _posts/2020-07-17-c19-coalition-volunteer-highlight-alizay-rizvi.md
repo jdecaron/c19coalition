@@ -26,8 +26,6 @@ As a Texas native, Alizay Rizvi saw first-hand the toll COVID-19 was taking on h
 
 Rizvi initially saw the listing for volunteers on LinkedIn and knew it was the perfect way to help. She sees health equity as the forefront of the pandemic and her equity-first approach for the coalition has been essential in growing and moving forward.
 
-Rizvi’s long term goal is to create a startup that will help build an equitable society. In her free time, she does some freelance photography, listens to music, and enjoys cooking. She also loves her cats, Ace and Milky.
-
 > “I don’t think people have fully understood the toll COVID-19 disproportionately takes on Black and Brown communities. There’s a reason why Black and Brown people are dying 3-4 times the rate of white people, and I’m here to show others why and to stop this from continuing.
 >
 > — Alizay Rizvi, C19 Coalition Volunteer
@@ -47,3 +45,7 @@ I started at C19 in the content marketing team where I was in charge of writing 
 ***When you think about our mission, what motivates you to continue volunteering?***
 
 Our mission is one that is easy to stand behind. Earlier in this pandemic and even now, we can see that there was a lack of PPE and how there wasn’t any funding to get ahead of this issue. The coalition is a great opportunity to advocate for the continuous use of PPE and to make a dent in the PPE crisis our nation is facing. Ultimately, it is an opportunity to save lives.
+
+***Fun facts.***
+
+Rizvi’s long term goal is to create a startup that will help build an equitable society. In her free time, she does some freelance photography, listens to music, and enjoys cooking. She also loves her cats, Ace and Milky.
