@@ -22,15 +22,15 @@ summary: >-
 
 3,658 deaths. 302,000 cases. Texas reports the highest 1-day toll of deaths since the pandemic *began*.
 
-As a Texas native, Alizay Rizvi saw first-hand the toll COVID-19 was taking on her community but also realized how many were not acknowledging the pandemic and its effect on underfunded communities, especially where the majority of the population is Black and Brown. With a background and passion for health equity, Rizvi knew she had to step up and contribute to solving the PPE crisis.
+As a Texas native, Alizay Rizvi saw first-hand the toll COVID-19 was taking on her community. Also, she realized that many were not acknowledging the pandemic and its effect on underfunded communities, especially where the majority of the population is Black and Brown. With a background and passion for health equity, Rizvi knew she had to step up and contribute to solving the PPE crisis.
 
 Rizvi initially saw the listing for volunteers on LinkedIn and knew it was the perfect way to help. She sees health equity as the forefront of the pandemic and her equity-first approach for the coalition has been essential in growing and moving forward.
 
-Rizvi’s long term goal is to create a startup that will help build an equitable society. In her free time, she does some freelance photography, listening to music, and cooking! She also loves her cats, Ace and Milky!
+Rizvi’s long term goal is to create a startup that will help build an equitable society. In her free time, she does some freelance photography, listens to music, and enjoys cooking. She also loves her cats, Ace and Milky.
 
 > “I don’t think people have fully understood the toll COVID-19 disproportionately takes on Black and Brown communities. There’s a reason why Black and Brown people are dying 3-4 times the rate of white people, and I’m here to show others why and to stop this from continuing,” Rizvi said in our interview on why she joined the coalition.
 
-Rizvi’s passion and dedication to health equity have allowed our coalition to grow! She wants to continue our mission of solving our PPE crisis while also tackling the issues of inequity.
+Rizvi’s passion and dedication to health equity have allowed our coalition to grow. She wants to continue our mission of solving our PPE crisis while also tackling the issues of inequity.
 
 ### Q&A with Alizay Rizvi
 
