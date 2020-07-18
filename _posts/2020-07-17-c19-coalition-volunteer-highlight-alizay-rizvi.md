@@ -28,7 +28,9 @@ Rizvi initially saw the listing for volunteers on LinkedIn and knew it was the p
 
 Rizvi’s long term goal is to create a startup that will help build an equitable society. In her free time, she does some freelance photography, listens to music, and enjoys cooking. She also loves her cats, Ace and Milky.
 
-> “I don’t think people have fully understood the toll COVID-19 disproportionately takes on Black and Brown communities. There’s a reason why Black and Brown people are dying 3-4 times the rate of white people, and I’m here to show others why and to stop this from continuing,” Rizvi said in our interview on why she joined the coalition.
+> “I don’t think people have fully understood the toll COVID-19 disproportionately takes on Black and Brown communities. There’s a reason why Black and Brown people are dying 3-4 times the rate of white people, and I’m here to show others why and to stop this from continuing.
+>
+> — Alizay Rizvi, C19 Coalition Volunteer
 
 Rizvi’s passion and dedication to health equity have allowed our coalition to grow. She wants to continue our mission of solving our PPE crisis while also tackling the issues of inequity.
 
