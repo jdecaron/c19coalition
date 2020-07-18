@@ -10,21 +10,18 @@ footer: >-
 
 
   Alizay Rizvi is a blogger with the C19 Coalition. She has worked on health equity programs, including at the American Heart Association, to increase diversity in the health and social justice sector and aid in finding solutions to lessen health disparities and inequities in the United States. As a young professional, she is passionate about educating and empowering her generation to become agents of change. You can find her on [LinkedIn](https://www.linkedin.com/in/alizayrizvi/).
-thumbnail: /assets/uploads/lmignott2019-headshot-1.jpg
 summary: Without access to proper food, housing, schooling, capital, and
   healthcare, being ‘healthy’ can easily be put on the backburner. When there
   are built-in systems that fail an individual to meet their full potential, the
-  gap of equality widens...
+  gap of equality widens.
 ---
 ![](/assets/uploads/lmignott2019-headshot-1.jpg)
 
-Without access to proper food, housing, schooling, capital, and healthcare, being ‘healthy’ can easily be put on the backburner.
+The concept of equality cannot exist without equity, especially in times of complex hardship as we are facing today. There are communities living in this country that do not have access to basic systems like housing, schooling, capital, healthcare, or even nutritious meals.
 
-When built-in systems fail to help an individual meet their full potential, the gap of equality widens.
+COVID19 has amplified this lack of equitable distribution and its time to face the facts, hear their voices, and close the gap of equity, for good. [](https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/racial-ethnic-minorities.html)
 
-Thus, the concept of equality cannot exist without equity - the distribution of resources in a fair and impartial method.
-
-This type of distribution is needed as COVID-19 cases continue to increase, especially within members of racial and ethnic underrepresented populations. [According to the Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/racial-ethnic-minorities.html), Indigenous, Black, and Latino communities have disproportionately higher rates of infection and hospitalizations. These are the communities that have been affected by long-standing systemic health and social inequities.
+**[According to the Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/racial-ethnic-minorities.html),** Indigenous, Black, and Latino communities have disproportionately higher rates of infection and hospitalizations. These are the communities that have been affected by long-standing systemic health and social inequities.
 
 ![https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/racial-ethnic-minorities.html](/assets/uploads/disparities.png "Data from CDC. ")
 
