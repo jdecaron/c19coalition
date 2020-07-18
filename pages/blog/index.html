@@ -60,7 +60,6 @@ title: Blog
 
 <script>
   function resize (target) {
-    console.log(target.height, target.width)
     if (target.height === 0 || target.width === 0) {
       target.onload = function (event) {
         resize(event.target)
