@@ -5,11 +5,11 @@ html{
 }
 
 body {
-  font-family: $font-family-regular;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 strong {
-  font-family: $font-family-bold;
+  font-weight: 700;
 }
 
 .navbar-nav {
@@ -24,7 +24,7 @@ strong {
   padding-right: 0;
   padding-bottom: 0;
   color: $cold-azure;
-  font-family: $font-family-medium;
+  font-weight: 500;
 }
 
 .nav-link svg {
@@ -38,7 +38,7 @@ strong {
 
 .navbar-nav .nav-item.active a {
   color: $cold-azure;
-  font-family: $font-family-bold;
+  font-weight: 700;
 }
 
 
@@ -160,7 +160,7 @@ a, a:hover {
 .btn, .btn:hover {
   @extend .primary;
 
-  font-family: $font-family-semibold;
+  font-weight: 600;
 }
 
 .secondary.btn, .secondary.btn:hover {
@@ -193,11 +193,11 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: $font-family-semibold;
+  font-weight: 600;
 }
 
 h3 {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 footer,
@@ -345,7 +345,7 @@ blockquote {
   line-height: 1.1;
   font-size: 2rem;
   padding: 2rem;
-  font-family: $font-family-semibold;
+  font-family: 600;
 }
 
 .author,
