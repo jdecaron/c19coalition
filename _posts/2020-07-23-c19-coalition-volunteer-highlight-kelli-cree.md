@@ -14,8 +14,8 @@ thumbnail: /assets/uploads/kelli2.jpg
 summary: Meet self-described "Serial Volunteer", Kelli Cree! She is helping C19
   Coalition's mission through managing emails and updating the directory. As a
   way to deal with the frustrations that have arisen due to COVID19, Cree
-  continues to be motivated to volunteer with the Coalition to create a positive
-  impact.
+  continues to be motivated to volunteer with the Coalition to create a
+  positive, long-lasting impact.
 ---
 ![](/assets/uploads/kelli2.jpg)
 
