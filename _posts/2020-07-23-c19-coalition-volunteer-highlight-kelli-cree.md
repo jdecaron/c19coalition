@@ -11,13 +11,15 @@ footer: >-
 
   Alizay Rizvi is a blogger with the C19 Coalition. She has worked on health equity programs, including at the American Heart Association, to increase diversity in the health and social justice sector and aid in finding solutions to lessen health disparities and inequities in the United States. As a young professional, she is passionate about educating and empowering her generation to become agents of change. You can find her on [LinkedIn](https://www.linkedin.com/in/alizayrizvi/).
 thumbnail: /assets/uploads/kelli2.jpg
-summary: For C19 Coalition volunteer, Kelli Cree, volunteering has been her
-  constant. A self-described "Serial Volunteer", Cree has been involved in a
-  number of education-related nonprofit boards prior to COVID19...
+summary: Meet self-described "Serial Volunteer", Kelli Cree! She is helping C19
+  Coalition's mission through managing emails and updating the directory. As a
+  way to deal with the frustrations that has arisen due to COVID19, Cree
+  continues to be motivated to volunteer with the Coalition to create a positive
+  impact.
 ---
 ![](/assets/uploads/kelli2.jpg)
 
-As quarantine has switched up everyone’s routines, the word ‘pivot’ has been used to demonstrate the ‘new normal’ to adapt to these changes. For some, that means to be more active, indulge in hobbies that were overlooked, and reach out for new endeavors.
+As Quarantine has switched up everyone’s routines, the word ‘pivot’ has been used to demonstrate the ‘new normal’ to adapt to these changes. For some, that means to be more active, indulge in hobbies that were overlooked, and reach out for new endeavors.
 
 These ‘pivots’ are dire as we get into the next phases of reopening and increasing cases in some areas of the United States. For C19 Coalition volunteer, Kelli Cree, volunteering has been her constant. A self-described "Serial Volunteer", Cree has been involved in a number of education-related nonprofit boards prior to COVID19. As a mother of three, she saw gaps that needed to be filled in her community’s school system. She initially started volunteering with her children’s schools. This later turned into involvement with different levels of PTA, foundations, school district forums, and other education boards.
 
@@ -39,6 +41,6 @@ I saw gaps that needed to be filled. I wanted to help out and show that people c
 
 ***When you think about our mission, what motivates you to continue volunteering?***
 
-Things really changed after we started the Shelter In Place in Californa; so many of our events in the spring were cancelled. During COVID19, I came across programs to sew masks or gowns, and those appealed to the Maker in me. 
+Things really changed after we started the Shelter In Place in Californa; so many of our events in the spring were canceled. During COVID19, I came across programs to sew masks or gowns, and those appealed to the Maker in me. 
 
 When I was approached by my college friend about the C19 Coalition, it seemed like a great opportunity to contribute. When I think about our mission, I'm faced with frustrations with this national crisis and how it's being addressed. The work of the Coalition sees that and moves toward positive change.
