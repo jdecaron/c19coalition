@@ -5,7 +5,7 @@ date: 2020-07-23T18:21:58.668Z
 reading_time: "3-4 minutes "
 author: Alizay Rizvi
 footer: >-
-  If you are interested in joining Laura and volunteering with the C19
+  If you are interested in joining Kelli and volunteering with the C19
   Coalition, reach out to us at info@c19coalition.org.
 
 
@@ -19,13 +19,13 @@ summary: Meet self-described "Serial Volunteer", Kelli Cree! She is helping C19
 ---
 ![](/assets/uploads/kelli2.jpg)
 
-As Quarantine has switched up everyone’s routines, the word ‘pivot’ has been used to demonstrate the ‘new normal’ to adapt to these changes. For some, that means to be more active, indulge in hobbies that were overlooked, and reach out for new endeavors.
+As Quarantine switched up everyone’s routines, the word ‘pivot’ has been used to demonstrate the ‘new normal’ to adapt to these changes. For some, that means to be more active, indulge in hobbies that were overlooked, and reach out for new endeavors.
 
-These ‘pivots’ are dire as we get into the next phases of reopening and increasing cases in some areas of the United States. For C19 Coalition volunteer, Kelli Cree, volunteering has been her constant. A self-described "Serial Volunteer", Cree has been involved in a number of education-related nonprofit boards prior to COVID19. As a mother of three, she saw gaps that needed to be filled in her community’s school system. She initially started volunteering with her children’s schools. This later turned into involvement with different levels of PTA, foundations, school district forums, and other education boards.
+These ‘pivots’ are dire as we get into the next phases of reopening and increasing cases in some areas of the United States. For C19 Coalition volunteer, Kelli Cree, volunteering has been her constant. As a self-described "Serial Volunteer", Cree has been involved in a number of education-related nonprofit boards prior to COVID19. As a mother of three, she saw gaps that needed to be filled in her community’s school system. She initially started volunteering with her children’s schools. This later turned into involvement with different levels of PTA, foundations, school district forums, and other education boards.
 
 When schools started to shut down due to COVID19, many community-based events were also postponed or canceled. For Cree, this meant that much of her in-person volunteer work had to take the back-burner. Looking for opportunities in the community during the early stages of shelter in place, Cree came across many people who were creating masks or sewing gowns at home. Although this was one way to help in the pandemic, Cree was approached by a college friend who was involved with the Coalition to connect organizations with PPE on a larger scale.
 
-Ever since, Cree has used her extra time to move the Coalition’s mission by managing emails and updating the directory. The hotline is the Coalition’s first contact for those interested in learning more about the organization and/or PPE requests. Cree’s work has been essential in keeping the Coalition organized and streamlined.
+Ever since, Cree has used her extra time to move the Coalition’s mission by managing emails and updating the directory. The hotline is the Coalition’s first point of contact for those interested in learning more about the organization and/or PPE requests. Cree’s work has been essential in keeping the Coalition organized and streamlined.
 
 There is more work to be done, however, and volunteers like Cree have been fundamental to the Coalition’s impact.
 
@@ -41,6 +41,6 @@ I saw gaps that needed to be filled. I wanted to help out and show that people c
 
 ***When you think about our mission, what motivates you to continue volunteering?***
 
-Things really changed after we started the Shelter In Place in Californa; so many of our events in the spring were canceled. During COVID19, I came across programs to sew masks or gowns, and those appealed to the Maker in me. 
+Things really changed after we started the shelter in place in Californa; so many of our events in the spring were canceled. During COVID19, I came across programs to sew masks or gowns, and those appealed to the maker in me. 
 
 When I was approached by my college friend about the C19 Coalition, it seemed like a great opportunity to contribute. When I think about our mission, I'm faced with frustrations with this national crisis and how it's being addressed. The work of the Coalition sees that and moves toward positive change.
