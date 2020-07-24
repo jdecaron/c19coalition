@@ -11,11 +11,11 @@ footer: >-
 
   Alizay Rizvi is a blogger with the C19 Coalition. She has worked on health equity programs, including at the American Heart Association, to increase diversity in the health and social justice sector and aid in finding solutions to lessen health disparities and inequities in the United States. As a young professional, she is passionate about educating and empowering her generation to become agents of change. You can find her on [LinkedIn](https://www.linkedin.com/in/alizayrizvi/).
 thumbnail: /assets/uploads/kelli2.jpg
-summary: Meet self-described "Serial Volunteer", Kelli Cree! She is helping C19
-  Coalition's mission through managing emails and updating the directory. As a
-  way to deal with the frustrations that have arisen due to COVID19, Cree
-  continues to be motivated to volunteer with the Coalition to create a
-  positive, long-lasting impact.
+summary: Meet our self-described "Serial Volunteer", Kelli Cree. She helps with
+  C19 Coalition's mission through the hotline department, the first point of
+  contact for C19 Coalition. As a way to deal with the frustrations that have
+  arisen due to COVID19, Cree continues to be a motivated volunteer with the
+  Coalition to create a positive, long-lasting impact.
 ---
 ![](/assets/uploads/kelli2.jpg)
 
