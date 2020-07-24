@@ -341,11 +341,26 @@ input:focus::placeholder {
   margin-bottom: 0rem;
 }
 
+blockquote::before {
+  content: url(/assets/images/quotes.svg);
+  height: 2rem;
+}
+
 blockquote {
   line-height: 1.1;
   font-size: 2rem;
   padding: 2rem;
   font-family: 600;
+
+  cite::before {
+    content: "–";
+  }
+  cite {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: $gray-600;
+    display: block;
+  }
 }
 
 .author,
@@ -366,9 +381,15 @@ blockquote {
   margin-bottom: 2rem;
 }
 
-.container.longread img.portrait {
-  max-width: 70%;
-  margin: 0 15%;
+.container.longread {
+  img.portrait {
+    max-width: 50%;
+    margin: 0 25%;
+  }
+  img.square {
+    max-width: 70%;
+    margin: 0 15%;
+  }
 }
 
 .thumbnail {

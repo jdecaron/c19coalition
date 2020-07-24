@@ -30,7 +30,7 @@ After getting over the initial shock, Gujral paused briefly then looked for a si
 
 “We had 50,000 square feet of manufacturing space that wasn’t being used to capacity, I had a staff of Ph.D. minds, and a highly proficient production team,” he said. “I just looked around and said, ‘Gosh there has to be something we can do?’”
 
-> “Adaptive Energy has become a leader in the COVID-spurred resurgence of American manufacturing,” said Joe Wilson, co-founder of C19 Coalition.
+> Adaptive Energy has become a leader in the COVID-spurred resurgence of American manufacturing.<cite>Joe Wilson, co-founder of C19 Coalition</cite>
 
 Initially, he just wanted to see if Adaptive Energy could make the much-needed PPE products such as hand sanitizers and face shields.
 
