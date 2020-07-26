@@ -16,7 +16,7 @@ summary: Without access to proper food, housing, schooling, capital, and
   are built-in systems that fail an individual to meet their full potential, the
   gap of equality widens.
 ---
-![](/assets/uploads/lmignott2019-headshot-1.jpg)
+![](/assets/uploads/lmignott2019-headshot-1.jpg#portrait)
 
 The concept of equality cannot exist without equity, especially in times of complex hardship as we are facing today. There are communities living in this country that do not have access to basic systems like housing, schooling, capital, healthcare, or even nutritious meals.
 

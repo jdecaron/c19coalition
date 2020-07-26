@@ -387,8 +387,7 @@ blockquote {
     margin: 0 25%;
   }
   img.square {
-    max-width: 70%;
-    margin: 0 15%;
+    max-width: 100%;
   }
 }
 
@@ -493,6 +492,12 @@ blockquote {
       padding: 0.5rem 1rem 0.5rem 1rem;
       border-radius: 0.5rem;
       border: 1px solid $gray-600;
+    }
+
+    img[src$='#portrait'] {
+      width: 260px;
+      float: left;
+      margin: 0 2rem 1rem 0;
     }
   }
 

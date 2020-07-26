@@ -18,7 +18,7 @@ summary: Tracy Chen is the youngest of the C19 Coalition volunteers and one of
   position to help someone out uplifts all the unprecedented events that have
   occurred due to COVID-19...
 ---
-![](/assets/uploads/img_3251-2.jpg)
+![](/assets/uploads/img_3251-2.jpg#portrait)
 
 Activism. Reform. Impact.
 

@@ -17,7 +17,7 @@ summary: Mary Robertson joined the C19 Coalition as a volunteer in April.  She
   individuals to address their concerns and lessen disparities with COVID-19.
   She is passionate about helping people overcome the pandemic...
 ---
-![](/assets/uploads/img_3074.jpg)
+![](/assets/uploads/img_3074.jpg#portrait)
 
 The new, uncharted territory of COVID-19 holds to be the challenge for public health officials, researchers, and policymakers alike. With new developments and various forecasts for the future, adaptability and flexibility have been the gold star for many individuals to focus on their intended mission and goals.
 

@@ -17,7 +17,7 @@ summary: Meet our self-described "Serial Volunteer", Kelli Cree. She helps with
   arisen due to COVID19, Cree continues to be a motivated volunteer with the
   Coalition to create a positive, long-lasting impact.
 ---
-![](/assets/uploads/kelli2.jpg)
+![](/assets/uploads/kelli2.jpg#portrait)
 
 As Quarantine switched up everyone’s routines, the word ‘pivot’ has been used to demonstrate the ‘new normal’ to adapt to these changes. For some, that means to be more active, indulge in hobbies that were overlooked, and reach out for new endeavors.
 
