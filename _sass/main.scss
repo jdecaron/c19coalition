@@ -386,8 +386,9 @@ blockquote {
     max-width: 50%;
     margin: 0 25%;
   }
-  img.square {
-    max-width: 100%;
+  img[src$='#square'] {
+    max-width: 70%;
+    margin: 0 15%;
   }
 }
 
