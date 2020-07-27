@@ -9,7 +9,8 @@ type:
   - sell-ppe-to-consumers
 structure: corporate
 location: Nationwide
-is_member: false
+is_member: true
+show_on_home_page: true
 site_url: https://hello.wearfigs.com/covid-19-updates/
 logo: /assets/uploads/figs.png
 ---
