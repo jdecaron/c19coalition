@@ -13,9 +13,12 @@ description: CoProcure is a venture-backed technology startup on a mission to
   tracking down and group purchasing PPE items.
 type:
   - connect-demand-with-supply
+  - supply-ppe
 structure: corporate
 location: Nationwide
 is_member: true
+show_on_home_page: true
+only_on_home_page: false
 site_url: https://www.coprocure.us/
 logo: /assets/uploads/coprocure_1.png
 ---
