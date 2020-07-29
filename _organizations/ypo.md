@@ -1,8 +1,8 @@
 ---
 layout: organization
-name: YPO
+name: YPO Manufacturing Coalition
 description: YPO is a global leadership community of chief executives that has
-  formed a manufacturing coalition made up of 500 manufacturers to assist with
+  formed a Manufacturing Coalition made up of 500 manufacturers to assist with
   the PPE shortages across the US.
 type:
   - connect-demand-with-supply
