@@ -44,6 +44,6 @@ This brings upon the second call to action - mental health in the workplace. The
 At the C19 Coaltion, we see the importance that leadership can have on mental health across a company. As COVID-19 effects continue, we have geared a focus on obtaining a commitment from decision-makers and leaders to ensure that mental health is at the forefront.
 
 > Due to Covid-19, we are seeing diverse pathways to poorer mental health. Recent studies in the U.S. show an increase in experiences of anxiety, fearfulness, sleep problems, irritability, and feelings of hopelessness. We are looking for ways to design support for that into our solutions. 
-> <cite>Frank Yang, Advisor to C19 Coalition’s Mental Health initiative</cite)
+> <cite>Frank Yang, Advisor to C19 Coalition’s Mental Health initiative</cite>
 
 We have a mission to equip partners with the knowledge and resources needed to support and protect their organizations physically and mentally. Initially, we offered partners and volunteers a hotline (1-855-904-3506) to be connected with existing resources and provided a list of resources through the [website](https://c19coalition.org/pages/health). We continue to offer these resources, however, we have now expanded to partner with organizations such as the [Black Mental Health Alliance](https://blackmentalhealth.com/), to bridge the gap in mental health resources, onboarded a mental health expert, and continue to share mental health resources across all social media platforms. We are constantly ‘pivoting’ to bring innovation and resources to our partners and beyond.
