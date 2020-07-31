@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "C19 Coalitiion Volunteer Highlight: Sandy Kamp"
+title: "C19 Coalition Volunteer Highlight: Sandy Kamp"
 date: 2020-07-31T19:31:18.336Z
 reading_time: "2-3 Minutes "
 author: Alizay Rizvi
