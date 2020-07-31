@@ -10,5 +10,5 @@ is_member: true
 show_on_home_page: true
 only_on_home_page: true
 site_url: https://www.nga.org/
-logo: /assets/uploads/nga.png
+logo: /assets/uploads/national_gov_assoc.png
 ---
