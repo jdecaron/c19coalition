@@ -18,11 +18,11 @@ summary: Meet the 'Jill of all trades', Sandy Kamp, who has been managing
 ---
 ![](/assets/uploads/img_8559.jpg)
 
-Frontline and essential workers do not have the luxury of working from home and feeling safe from COVID-19. Some are grounded to their jobs due to financial commitments and some hope to impact their own community. Whatever their reason may be, those on the ground are fighting for the rest.
+Frontline and essential workers do not have the luxury of working from home and feeling safe from COVID-19. Some are grounded to their jobs due to financial commitments while some hope to impact their own community. Whatever their reason may be, those on the frontline are fighting for the rest.
 
-With the increasing cases of COVID-19, frontline workers continue to face a shortage in PPE and often resort to reusing their equipment. For C19 Coalition volunteer, Sany Kamp, this has been the driving force to help in the PPE crisis and the Coalition’s mission. Kamp describes herself as a ‘Jill of all trades’ due to her ability to easily adapt in any role or opportunity that is presented to her. From working from sales to community outreach, Kamp has a diverse portfolio that has led her to the Coalition.
+With the increasing cases of COVID-19, frontline workers continue to face shortages in PPE and often resort to reusing equipment. For C19 Coalition volunteer, Sany Kamp, this has been the driving force to help in the PPE crisis and the Coalition’s mission. Kamp describes herself as a ‘Jill of all trades’ due to her ability to easily adapt in any role or opportunity that is presented to her. From working in sales to community outreach, Kamp has a diverse portfolio that has led her to the Coalition.
 
-As ‘shelter in place’ has rearranged everyone’s routine, Kamp had extra time on her hands that she wanted to make useful. After hearing about the mission of the Coalition through a team member, Kamp took the opportunity to join the Coalition.
+As ‘shelter in place’ has rearranged everyone’s routine, Kamp had extra time on her hands that she wanted to make useful. After hearing about C19's mission through a team member, Kamp took the opportunity to join the Coalition.
 
 Just as her nickname describes, Kamp covers an array of duties on the team, including partner engagement, Townhall assistance, and helping with the hotline.
 
