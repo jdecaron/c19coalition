@@ -10,13 +10,13 @@ footer: >-
 
 
   Alizay Rizvi is a blogger with the C19 Coalition. She has worked on health equity programs, including at the American Heart Association, to increase diversity in the health and social justice sector and aid in finding solutions to lessen health disparities and inequities in the United States. As a young professional, she is passionate about educating and empowering her generation to become agents of change. You can find her on [LinkedIn](https://www.linkedin.com/in/alizayrizvi/).
-thumbnail: /assets/uploads/img_8559.jpg
+thumbnail: /assets/uploads/sandy-kamp-c19-portrait.jpg
 summary: Meet the 'Jill of all trades', Sandy Kamp, who has been managing
   partner engagement with the Coalition. With a motivation to help frontline
   workers, Kamp has been fundamental to moving our work forward with our
   partners.
 ---
-![](/assets/uploads/img_8559.jpg#portrait)
+![Sandy Kamp portrait](/assets/uploads/sandy-kamp-c19-portrait.jpg#portrait)
 
 Frontline and essential workers do not have the luxury of working from home and feeling safe from COVID-19. Some are grounded to their jobs due to financial commitments while some hope to impact their own community. Whatever their reason may be, those on the frontline are fighting for the rest.
 
