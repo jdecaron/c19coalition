@@ -16,7 +16,7 @@ summary: Meet the 'Jill of all trades', Sandy Kamp, who has been managing
   workers, Kamp has been fundamental to moving our work forward with our
   partners.
 ---
-![](/assets/uploads/img_8559.jpg)
+![](/assets/uploads/img_8559.jpg#portrait)
 
 Frontline and essential workers do not have the luxury of working from home and feeling safe from COVID-19. Some are grounded to their jobs due to financial commitments while some hope to impact their own community. Whatever their reason may be, those on the frontline are fighting for the rest.
 
