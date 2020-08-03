@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mental Health doesn't discriminate, right? "
-date: 2020-07-31T18:04:15.823Z
+date: 2020-08-03T22:51:34.355Z
 reading_time: 4-5 Minutes
 author: Alizay Rizvi
 footer: Alizay Rizvi is a blogger with the C19 Coalition. She has worked on
@@ -15,9 +15,9 @@ thumbnail: /assets/uploads/sarah-kilian-ghtvhowmqvo-unsplash.jpg
 summary: July marks the end of Minority Mental Health Month, but this doesn't
   mean it's time to close out stories and resources needed to dismantle the gaps
   prevalent in mental health. These gaps have only widened as COVID-19 continues
-  to push communties further from their baseline...
+  to push communities further from their baseline.
 ---
-Long before COVID-19, accessibility to mental health resources and services has been fragmented and overlooked, especially for communities of color and underrepresented populations. The end of July marks the Minority Mental Health Month, or more recently known as Black, Indigenous People, and People of Color (BIPOC) Mental Health Month.
+Long before COVID-19, accessibility to mental health resources and services has been fragmented and overlooked, especially for communities of color and underrepresented populations. The end of July marks the Minority Mental Health Month, or more recently known as Black, Indigenous People, and People of Color (BIPOC) Mental Health Month - to accurately distinguish and honor the experiences of each group. 
 
 Mental health conditions do not discriminate based on race, ethnicity, or gender, however, these factors contribute to the ease or the lack of access for mental health treatment and information.
 
