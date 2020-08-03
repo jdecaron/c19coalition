@@ -20,7 +20,7 @@ summary: Meet the 'Jill of all trades', Sandy Kamp, who has been managing
 
 Frontline and essential workers do not have the luxury of working from home and feeling safe from COVID-19. Some are grounded to their jobs due to financial commitments while some hope to impact their own community. Whatever their reason may be, those on the frontline are fighting for the rest.
 
-With the increasing cases of COVID-19, frontline workers continue to face shortages in PPE and often resort to reusing equipment. For C19 Coalition volunteer, Sany Kamp, this has been the driving force to help in the PPE crisis and the Coalition’s mission. Kamp describes herself as a ‘Jill of all trades’ due to her ability to easily adapt in any role or opportunity that is presented to her. From working in sales to community outreach, Kamp has a diverse portfolio that has led her to the Coalition.
+With the increasing cases of COVID-19, frontline workers continue to face shortages in PPE and often resort to reusing equipment. For C19 Coalition volunteer, Sandy Kamp, this has been the driving force to help in the PPE crisis and the Coalition’s mission. Kamp describes herself as a ‘Jill of all trades’ due to her ability to easily adapt in any role or opportunity that is presented to her. From working in sales to community outreach, Kamp has a diverse portfolio that has led her to the Coalition.
 
 As ‘shelter in place’ has rearranged everyone’s routine, Kamp had extra time on her hands that she wanted to make useful. After hearing about C19's mission through a team member, Kamp took the opportunity to join the Coalition.
 
@@ -48,4 +48,4 @@ Also some fun facts, I have three sisters and we all look the same. People alway
 
 ***When you think about our mission, what motivates you to continue volunteering?***
 
-I try to always work for an organization that has a great mission. I definitely align with C19 Coalition’s mission to help with the PPPE crisis and everything that is happening right now. I have a lot of friends and family members who are frontline workers. I see them having to reuse their masks, which really motivates me to help out wherever I can.
+I try to always work for an organization that has a great mission. I definitely align with C19 Coalition’s mission to help with the PPE crisis and everything that is happening right now. I have a lot of friends and family members who are frontline workers. I see them having to reuse their masks, which really motivates me to help out wherever I can.
