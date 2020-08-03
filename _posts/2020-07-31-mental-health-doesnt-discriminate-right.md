@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mental Health doesn't discriminate, right? "
-date: 2020-08-03T22:51:34.355Z
+date: 2020-08-03T22:55:40.577Z
 reading_time: 4-5 Minutes
 author: Alizay Rizvi
 footer: Alizay Rizvi is a blogger with the C19 Coalition. She has worked on
