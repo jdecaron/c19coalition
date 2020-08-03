@@ -18,7 +18,7 @@ summary: July marked the end of Minority Mental Health Month, but this doesn't
 ---
 ![](/assets/uploads/clay-banks-h4elzpxuxlu-unsplash.jpg)
 
-Long before COVID-19, accessibility to mental health resources and services has been fragmented and overlooked, especially for communities of color and underrepresented populations. The end of July marks the Minority Mental Health Month, or more recently known as Black, Indigenous People, and People of Color (BIPOC) Mental Health Month - to accurately distinguish and honor the experiences of each group. 
+Long before COVID-19, accessibility to mental health resources and services has been fragmented and overlooked, especially for communities of color and underrepresented populations. The end of July marks the Minority Mental Health Month, or more recently known as Black, Indigenous People, and People of Color (BIPOC) Mental Health Month - to accurately distinguish and honor the experiences of each group and individual.
 
 Mental health conditions do not discriminate based on race, ethnicity, or gender, however, these factors contribute to the ease or the lack of access for mental health treatment and information.
 
@@ -47,6 +47,6 @@ At the C19 Coaltion, we see the importance that leadership can have on mental he
 > Due to Covid-19, we are seeing diverse pathways to poorer mental health. Recent studies in the U.S. show an increase in experiences of anxiety, fearfulness, sleep problems, irritability, and feelings of hopelessness. As we work to create physically safe environments in this pandemic, the importance of creating emotionally safe environments for ourselves and our communities should be a priority as well.
 > <cite> Frank Yang, Advisor to C19 Coalition’s Mental Health initiative</cite>
 
-We have a mission to equip partners with the knowledge and resources needed to support and protect their organizations physically and mentally. Initially, we offered partners and volunteers a hotline (1-855-904-3506) to be connected with existing resources and provided a list of resources through the [website](https://c19coalition.org/pages/health). We continue to offer these resources, however, we have now expanded to partner with organizations such as the [Black Mental Health Alliance](https://blackmentalhealth.com/), to bridge the gap in mental health resources, onboarded a mental health expert, and continue to share mental health resources across all social media platforms. 
+Our mission is to equip partners with the knowledge and resources needed to support and protect their organizations physically and mentally. Initially, we offered partners and volunteers a hotline (1-855-904-3506) to be connected with existing resources and provided a list of resources through the [website](https://c19coalition.org/pages/health). We continue to offer these resources, however, we have now expanded to partner with organizations such as the [Black Mental Health Alliance](https://blackmentalhealth.com/), to bridge the gap in mental health resources, onboarded a mental health expert, and continue to share mental health resources across all social media platforms. 
 
 We are constantly ‘pivoting’ to bring innovation and resources to our partners and beyond to aid in mental health awareness. Let us strive to practice self-care and protect communities, mentally and physically.
