@@ -9,12 +9,14 @@ footer: >-
 
 
   Alizay Rizvi is a blogger with the C19 Coalition. She has worked on health equity programs, including at the American Heart Association, to increase diversity in the health and social justice sector and aid in finding solutions to lessen health disparities and inequities in the United States. As a young professional, she is passionate about educating and empowering her generation to become agents of change. You can find her on [LinkedIn](https://www.linkedin.com/in/alizayrizvi/).
-thumbnail: /assets/uploads/sarah-kilian-ghtvhowmqvo-unsplash.jpg
+thumbnail: /assets/uploads/clay-banks-h4elzpxuxlu-unsplash.jpg
 summary: July marks the end of Minority Mental Health Month, but this doesn't
   mean it's time to close out stories and resources needed to dismantle the gaps
   prevalent in mental health. These gaps have only widened as COVID-19 continues
   to push communities further from their baseline.
 ---
+![](/assets/uploads/clay-banks-h4elzpxuxlu-unsplash.jpg)
+
 Long before COVID-19, accessibility to mental health resources and services has been fragmented and overlooked, especially for communities of color and underrepresented populations. The end of July marks the Minority Mental Health Month, or more recently known as Black, Indigenous People, and People of Color (BIPOC) Mental Health Month - to accurately distinguish and honor the experiences of each group. 
 
 Mental health conditions do not discriminate based on race, ethnicity, or gender, however, these factors contribute to the ease or the lack of access for mental health treatment and information.
