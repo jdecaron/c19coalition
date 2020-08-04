@@ -16,7 +16,7 @@ summary: July marked the end of Minority Mental Health Month, but this doesn't
   gaps prevalent in mental health. These gaps have only widened as COVID-19
   continues to push communities further from their baseline.
 ---
-![](/assets/uploads/clay-banks-h4elzpxuxlu-unsplash.jpg)
+![](/assets/uploads/clay-banks-h4elzpxuxlu-unsplash.jpg#portrait)
 
 Long before COVID-19, accessibility to mental health resources and services has been fragmented and overlooked, especially for communities of color and underrepresented populations. The end of July marks the Minority Mental Health Month, or more recently known as Black, Indigenous People, and People of Color (BIPOC) Mental Health Month - to accurately distinguish and honor the experiences of each group and individual.
 
