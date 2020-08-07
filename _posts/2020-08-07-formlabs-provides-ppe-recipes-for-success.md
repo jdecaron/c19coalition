@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Formlabs Provides PPE Recipes for Success
+title: Formlabs Provides Tool to Fight Covid-19
 date: 2020-08-06T19:46:19.633Z
 reading_time: 3-5 minutes
 author: David Morrill
