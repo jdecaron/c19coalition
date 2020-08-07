@@ -31,7 +31,7 @@ For the individual that just needs a few to supply an office or personal needs, 
 
 Officially the 3D printer has been around since the 1980s, but has recently seen a rise in popularity as prices have come down and design software has improved. The devices work by printing objects layer-by-layer before being rinsed by a solvent and hardened with ultraviolet light. Typically the printers have been used for making jewelry, dental parts, or prototype designs for engineers and inventors.
 
-![](/assets/uploads/image-20-.png)
+![](/assets/uploads/image-20-.png#portrait)
 
 In March, Formlabs teamed up with the University of South Florida (USF) Health and Northwell Health, New York's largest healthcare provider, to provide 3D printed nasal swabs which were used by hospitals and healthcare teams as testing increased. Northwell Health now is able to print as many as 3,000 swabs a day if needed.
 
