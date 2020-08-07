@@ -19,7 +19,7 @@ Sometimes the fishing pole is more important than the fish itself.
 
 In the fight against COVID-19, a 3D printer can be just as vital as the PPE and medical devices it creates.
 
-[Formlabs](formlabs.com) has proved this well.
+[Formlabs](https://formlabs.com/) has proved this well.
 
 Headquartered in Sommerville, Mass., the developer and manufacturer of 3D printers has a network of innovators to come up with a number of "recipes" that can be used on its more than 70,000 3D units.
 
