@@ -1,8 +1,11 @@
-- title: Home
-  url: /
+- title: Directory
+  url: /directory/
+
+- title: PPE Supply Chain
+  url: /ppe-supply-chain
 
 - title: Blog
   url: /blog/
 
-- title: Directory
-  url: /directory/
+- title: About
+  url: /commitments/

@@ -1,0 +1,74 @@
+---
+permalink: /ppe-supply-chain
+layout: default
+sections:
+  - description: >-
+      ### Sourcing new supply
+
+
+      Organizations that are finding or producing new sources of equipment. Groups of entrepreneurs in technology, healthcare and logistics are securing production and shipment of all types of PPE supplies. Others are contributing to production through efforts as varied as sewing and 3-D printing. Early “sourcing new supply” projects include the [YPO](https://manufacturingcoalition.com/) global leadership community, [OPT Industries](http://optindustries.com/npswab/) producing 3D supplies, and non-profit [Operation Masks](https://operationmasks.org/) working to source and distribute large quantities of PPE to frontline workers.
+    orgs: []
+  - description: >-
+      ### Connecting need to supply
+
+
+      Clearinghouses that are tracking urgent medical supplies needs and matching buyers to suppliers to ensure that PPE gets to where it is needed most. Organizations like [GetUsPPE](https://getusppe.org/) , [Project N95](https://www.projectn95.org/), and [Find the Masks](https://findthemasks.com/) have taken in thousands of institutional requests so far and started making matches with suppliers.
+    orgs: []
+  - description: >-
+      ### Providing resources for makers
+
+
+      With hundreds of thousands of people mobilizing to help globally there’s a great need for open-source designs, requirements, and tutorials for individuals and maker communities of all kinds who are assisting with the production of PPE, including face shields, gowns and other supplies. Examples are [The Mask Pros](https://themaskpros.com/masks/), [Masks Now](https://www.masksnow.org/), and [Open Source Medical Supplies](https://opensourcemedicalsupplies.org/) (OSMS) with a repository of medically-reviewed requirements for medical supply designs, then providing open-source designs for supplies that meet those requirements.
+    orgs: []
+  - description: >-
+      ### Coordinating logistics and transportation
+
+
+      These organizations are assisting with the enormous task of physically moving urgently needed PPE from one location to another, locally, nationally and globally. Some of the earliest examples were [Flexport](https://flexport.org/), [Harbor Freight](https://www.harborfreight.com/), and [Worldwide Supply Chain Federation](https://www.tnyscm.com/).
+    orgs: []
+  - description: >-
+      ### Coordinating Financial Support
+
+
+      Foundations, nonprofits, and grassroots efforts are floating capital and raising funds needed to purchase all batch sizes of PPE and distribute them to hospital systems that are most in need, or fund other supportive efforts for first responders. [Helena.org](https://helena.org/) finances purchases of critical PPE and other equipment, [Help Feed the Frontline](https://charity.gofundme.com/o/en/campaign/help-feed-the-frontline-fighting-covid-19) is raising the required funding to feed healthcare workers, and the [First Responders First Fund](https://thriveglobal.com/categories/first-responders-first/) is raising donations to provide essential supplies, equipment and resources for protecting frontline healthcare workers and their patients.
+    orgs: []
+  - description: >-
+      ### Providing data
+
+
+      Accurate, timely information helps everyone protect each other be it health guidelines or infection data. [\#Masks4All](https://masks4all.co/) is a grassroots movement to get people to follow the overwhelming scientific evidence that shows we need to wear homemade masks in public to slow COVID-19. Each with their own approach, [End CoronaVirus.org](https://www.endcoronavirus.org/) built and maintained by the [New England Complex Systems Institute (NECSI)](https://necsi.edu/), and [Coronavirus Army](https://coronavirusarmy.org/) serves as a gathering place for those looking for ways to help.
+    orgs: []
+---
+
+<section class="section-content">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+
+        <div class="container longread mx-0">
+          <div class="row">
+            <div class="col-12 px-0 my-4">
+              {% for sec in page.sections %}
+              {{sec.description | markdownify}}
+              <div class="col-10 my-2">
+                {% for featured_org in sec.orgs %}
+                {% assign org = site.organizations | where: "name", featured_org.org_name | first %}
+                {% if org %}
+                <h4>
+                  {% if org.site_url %}<a href="{{org.site_url}}">{%endif%}
+                    {{ org.name }}
+                    {% if org.site_url %}</a>{%endif%}
+                </h4>
+                <p>{{org.description | markdownify}}</p>
+                {% endif %}
+                {% endfor %}
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>

@@ -8,12 +8,6 @@
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="c19-index-03" transform="translate(-192.000000, -84.000000)">
-            <g id="hero">
-                <mask id="mask-2" fill="white">
-                    <use xlink:href="#path-1"></use>
-                </mask>
-                <use id="Rectangle" fill="#E3EDFF" xlink:href="#path-1"></use>
-            </g>
             <g id="header" transform="translate(0.000000, 60.000000)">
                 <g id="logo" transform="translate(192.000000, 24.000000)">
                     <path d="M122.062,14.7787 L62.034,14.7787 C62.356,13.8747 62.311,9.9347 62.311,9.9347 L122.062,9.9347 L122.062,14.7787 Z" id="Fill-1-Copy" fill="#1C75BB"></path>
