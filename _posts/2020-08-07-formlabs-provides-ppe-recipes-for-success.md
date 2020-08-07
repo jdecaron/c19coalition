@@ -21,7 +21,9 @@ In the fight against COVID-19, a 3D printer can be just as vital as a mask fitte
 
 Formlabs has proved this well.
 
-> "If you need a custom face mask fitter or nasal swabs, we can provide the instructions that the printers in homes, dental labs, and health care facilities can print out on the devices they already have"<cite>*Diana Verdugo, Partnership and Community Lead for Formlabs*</cite>
+> "If you need a custom face mask fitter or nasal swabs, we can provide the instructions that the printers in homes, dental labs, and health care facilities can print out on the devices they already have"
+>
+> *Diana Verdugo, Partnership and Community Lead for Formlabs*
 
 Headquartered in Sommerville, Mass., the developer and manufacturer of 3D printers has a network of innovators to come up with a number of "recipes" that can be used on its more than 70,000 units around the world.
 
@@ -30,6 +32,8 @@ For the individual that just needs a few to supply an office or personal needs, 
 "If you need a custom face mask fitter or nasal swabs, we can provide the instructions that the printers in homes, dental labs, and health care facilities can print out on the devices they already have," said Diana Verdugo, Partnership and Community Lead for Formlabs. "By sharing these, we hope ultimately lives can be saved."
 
 Officially the 3D printer has been around since the 1980s, but has recently seen a rise in popularity as prices have come down and design software has improved. The devices work by printing objects layer-by-layer before being rinsed by a solvent and hardened with ultraviolet light. Typically the printers have been used for making jewelry, dental parts, or prototype designs for engineers and inventors.
+
+![](/assets/uploads/image-20-.png)
 
 In March, Formlabs teamed up with the University of South Florida (USF) Health and Northwell Health, New York's largest healthcare provider, to provide 3D printed nasal swabs which were used by hospitals and healthcare teams as testing increased. Northwell Health now is able to print as many as 3,000 swabs a day if needed.
 
