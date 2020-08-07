@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Formlabs Provides Tool to Fight Covid-19
-date: 2020-08-06T19:46:19.633Z
+date: 2020-08-07T23:30:18.509Z
 reading_time: 3-5 minutes
 author: David Morrill
 footer: The C19 Coalition is a non-profit, cross-sector group of organizations,
