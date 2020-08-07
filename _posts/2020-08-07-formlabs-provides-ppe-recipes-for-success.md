@@ -19,7 +19,7 @@ Sometimes the nail and hammer is just as important as the house it builds.
 
 In the fight against COVID-19, a 3D printer can be just as vital as a mask fitter or nasal swab it produces.
 
-[Formlabs](https://formlabs.com) has proved this well.
+[Formlabs](https://formlabs.com/) has proved this well.
 
 > "If you need a custom face mask fitter or nasal swabs, we can provide the instructions that the printers in homes, dental labs, and health care facilities can print out on the devices they already have"
 >
