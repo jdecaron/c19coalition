@@ -21,9 +21,7 @@ In the fight against COVID-19, a 3D printer can be just as vital as a mask fitte
 
 Formlabs has proved this well.
 
-> "If you need a custom face mask fitter or nasal swabs, we can provide the instructions that the printers in homes, dental labs, and health care facilities can print out on the devices they already have"
->
-> *Diana Verdugo, Partnership and Community Lead for Formlabs*
+> "If you need a custom face mask fitter or nasal swabs, we can provide the instructions that the printers in homes, dental labs, and health care facilities can print out on the devices they already have"<cite>*Diana Verdugo, Partnership and Community Lead for Formlabs*</cite>
 
 Headquartered in Sommerville, Mass., the developer and manufacturer of 3D printers has a network of innovators to come up with a number of "recipes" that can be used on its more than 70,000 units around the world.
 
