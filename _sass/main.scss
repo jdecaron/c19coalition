@@ -18,13 +18,10 @@ strong {
 }
 
 .navbar-nav .nav-item a {
-  font-size: 18px;
   margin-left: 20px;
-  padding-left: 0;
-  padding-right: 0;
-  padding-bottom: 0;
+  font-size: 1rem;
+  padding: 0;
   color: $cold-azure;
-  font-weight: 500;
 }
 
 .nav-link svg {
@@ -33,7 +30,7 @@ strong {
 }
 
 .navbar-nav .nav-item a:hover {
-  color: $deep-below;
+  color: $cold-azure;
 }
 
 .navbar-nav .nav-item.active a {
@@ -130,7 +127,6 @@ a, a:hover {
 }
 
 .background-secondary {
-  background: $background-secondary;
   color: $on-background-secondary;
 }
 
@@ -226,10 +222,11 @@ section {
 }
 
 .section-hotline {
-  @extend .surface;
+  border: 1px solid $primary;
+  box-shadow: 0 3px 16px rgba(0,0,0,.05);
 
   border-radius: 5px;
-  padding: 40px;
+  padding: 2rem;
 
   h2 {
     font-weight: 500;
@@ -251,6 +248,16 @@ section {
       margin-right: 5px;
     }
   }
+
+  .mental-health-resources {
+    text-align: center;
+  }
+
+}
+
+.section-directory-home {
+  box-shadow: 0 3px 16px rgba(0,0,0,.05);
+  background-color: $gray-100;
 }
 
 .section-content {
@@ -289,10 +296,10 @@ section {
 .site-footer {
   padding-bottom: 2rem;
   padding-top: 2rem;
-  text-align: center;
+  background-color: $gray-100;
 
   h5 {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
   }
 
   a {
@@ -322,10 +329,26 @@ input:focus::placeholder {
   color: transparent;
 }
 
-.navbar {
-  height: 140px;
+.top-menu {
+  background-color: $primary;
+
+  .row {
+    align-items: center;
+  }
+
+  .col {
+    margin: 0.5rem 0 0.5rem 0;
+  }
+
+  .col.get-listed {
+    text-align: right;
+  }
 }
 
+.middle-menu {
+  padding: 0.5rem 0 0.5rem 0;
+  border-bottom: 1px solid $gray-200;
+}
 
 #logo {
   z-index: 20;
@@ -503,7 +526,6 @@ blockquote {
   }
 
   .navbar {
-    height: 170px;
     padding: 0px;
   }
 
@@ -524,5 +546,11 @@ blockquote {
 
   #logo {
     display: inherit;
+  }
+
+  .site-footer {
+    #logo {
+      display: inline;
+    }
   }
 }
