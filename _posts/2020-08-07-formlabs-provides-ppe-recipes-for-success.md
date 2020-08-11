@@ -35,7 +35,7 @@ Officially the 3D printer has been around since the 1980s, but has recently seen
 
 In March, Formlabs teamed up with the University of South Florida (USF) Health and Northwell Health, New York's largest healthcare provider, to provide 3D printed nasal swabs which were used by hospitals and healthcare teams as testing increased. Northwell Health now is able to print as many as 3,000 swabs a day if needed.
 
-"The speed and scale at which these swabs were designed, 3D printed, tested, and put into clinical use around the world represents a great example of the incredible impact that can be achieved when teams of experts across academia, healthcare, and the tech industry come together with a common purpose," said Guarav Manchanda, Healthcare Director of Formlabs.
+"The speed and scale at which these swabs were designed, 3D printed, tested, and put into clinical use around the world represents a great example of the incredible impact that can be achieved when teams of experts across academia, healthcare, and the tech industry come together with a common purpose," said Gaurav Manchanda, Healthcare Director of Formlabs.
 
 At Yale, Dr. Luiz Maracaja, an anesthesiologist with an engineering background, designed a frame for a face shield where one side is open and can be connected to any compressed air. He printed it on his Formlabs printer at home, and has since provided several hundred of these masks to doctors and dentists.
 
