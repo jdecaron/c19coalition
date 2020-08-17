@@ -4,7 +4,7 @@ name: Instant Procurement Services Private Limited
 description: Instant Procurement Services Private Limited has teamed up with
   suppliers all over India and other countries to supply PPE and safety items
   without cutting any corners. They have supplied millions of units of PPE and
-  insure that the manufacturing organizations involved in the production of
+  ensure that the manufacturing organizations involved in the production of
   essential items do not experience disruptions in the supply chain.
 type:
   - sell-ppe-to-consumers
