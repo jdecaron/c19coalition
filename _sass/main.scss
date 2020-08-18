@@ -32,6 +32,10 @@ strong {
   padding: .375rem .75rem;
 }
 
+.navbar-nav .nav-item .btn:hover {
+  color: $on-primary;
+}
+
 .nav-link svg {
   fill: $primary;
   height: 0.8rem;
