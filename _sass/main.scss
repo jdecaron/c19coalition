@@ -20,9 +20,17 @@ strong {
   font-weight: 700;
 }
 
+.navbar {
+  padding: 0;
+}
+
 .navbar-nav {
   flex-direction: row;
   display: none;
+}
+
+.navbar-nav .nav-title {
+  max-width: 14ch;
 }
 
 .navbar-nav .nav-item a {

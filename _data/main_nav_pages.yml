@@ -1,14 +1,17 @@
 - title: Directory
-  url: /directory/
+  url: /directory
 
 - title: Mental Health Resources
-  url: /pages/health
+  url: /health
 
 - title: PPE Supply Chain
   url: /ppe-supply-chain
 
 - title: Blog
-  url: /blog/
+  url: /blog
 
 - title: About Us
-  url: /commitments/
+  url: /commitments
+
+- title: Donate
+  url: /donate

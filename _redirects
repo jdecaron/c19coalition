@@ -2,7 +2,8 @@
 # https://docs.netlify.com/routing/redirects/#syntax-for-the-redirects-file
 /join          /get-listed
 /join          /get-listed
-/pages/blog/   /blog/
+/pages/blog    /blog
+/pages/health  /health
 http://ppecoalition.com/* https://c19coalition.org/:splat 301!
 https://ppecoalition.com/* https://c19coalition.org/:splat 301!
 http://www.ppecoalition.com/* https://c19coalition.org/:splat 301!
