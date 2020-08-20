@@ -1,11 +1,15 @@
 @import "variables";
 
-html{
-  scroll-behavior:smooth
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 strong {
@@ -266,23 +270,6 @@ section {
 
 }
 
-.section-donate {
-  border: 1px solid $primary;
-  box-shadow: 0 3px 16px rgba(0,0,0,.10);
-  border-radius: 5px;
-  padding: 2rem;
-  text-align: center;
-
-  h2 {
-    font-weight: 500;
-  }
-
-  .donate-id {
-    text-align: center;
-    justify-content: center;
-  }
-}
-
 .section-directory-home {
   box-shadow: 0 3px 16px rgba(0,0,0,.10);
   background-color: $gray-100;
@@ -327,6 +314,10 @@ section {
   a {
     text-decoration: none;
   }
+}
+
+#content {
+  flex: 1;
 }
 
 #content .multiselect-container>li>a>label {
@@ -384,14 +375,6 @@ input:focus::placeholder {
 .longread h2,
 .longread h1 {
   margin-bottom: 0rem;
-}
-
-.highlight {
-  font-size: 1.1rem;
-  // background-color: $on-background;
-  // color: $on-primary;
-  font-weight: bold;
-  padding: 2px;
 }
 
 blockquote::before {
@@ -573,6 +556,19 @@ blockquote {
     margin-bottom: 3rem;
   }
 
+  .section-donate {
+    border: 1px solid $primary;
+    box-shadow: 0 3px 16px rgba(0,0,0,.10);
+    border-radius: 5px;
+    padding: 2rem;
+    text-align: center;
+    width: 70%;
+
+    .donate-id {
+      text-align: center;
+      justify-content: center;
+    }
+  }
 
   #logo {
     display: inherit;
