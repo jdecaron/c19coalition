@@ -1,15 +1,27 @@
 @import "variables";
 
-html{
-  scroll-behavior:smooth
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+  overflow-wrap: break-word;
 }
 
 strong {
   font-weight: 700;
+}
+
+.navbar {
+  padding: 0;
 }
 
 .navbar-nav {
@@ -17,11 +29,26 @@ strong {
   display: none;
 }
 
+.navbar-nav .nav-title {
+  max-width: 14ch;
+}
+
 .navbar-nav .nav-item a {
   margin-left: 20px;
   font-size: 1rem;
   padding: 0;
   color: $cold-azure;
+}
+
+.navbar-nav .nav-item .btn {
+  margin-left: 20px;
+  font-size: 1rem;
+  color: $on-primary;
+  padding: .375rem .75rem;
+}
+
+.navbar-nav .nav-item .btn:hover {
+  color: $on-primary;
 }
 
 .nav-link svg {
@@ -281,12 +308,6 @@ section {
   }
 }
 
-.section-hotline {
-  h2 {
-    margin-bottom: 1rem;
-  }
-}
-
 .section-logo {
   img {
     width: 240px;
@@ -305,6 +326,10 @@ section {
   a {
     text-decoration: none;
   }
+}
+
+#content {
+  flex: 1;
 }
 
 #content .multiselect-container>li>a>label {
@@ -543,6 +568,19 @@ blockquote {
     margin-bottom: 3rem;
   }
 
+  .section-donate {
+    border: 1px solid $primary;
+    box-shadow: 0 3px 16px rgba(0,0,0,.10);
+    border-radius: 5px;
+    padding: 2rem;
+    text-align: center;
+    width: 70%;
+
+    .donate-id {
+      text-align: center;
+      justify-content: center;
+    }
+  }
 
   #logo {
     display: inherit;
