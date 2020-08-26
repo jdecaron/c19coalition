@@ -36,7 +36,11 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
     {% seo %}
+    {% if page.layout == "post" %}
+    <meta property="og:image" content="{{ site.url }}{{ page.thumbnail }}" />
+    {% else %}
     <meta property="og:image" content="{{ site.url }}/assets/images/c19-og.png" />
+    {% endif %}
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
 
