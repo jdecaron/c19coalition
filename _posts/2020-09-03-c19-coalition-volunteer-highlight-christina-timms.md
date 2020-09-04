@@ -27,6 +27,8 @@ Being involved in social movements and being apart of the change, no matter how 
 
 Christina Timms, Social Media Manager & Volunteer
 
+![](/assets/uploads/engagement-photo-.jpg)
+
 This is what Timms said when asked about how she sees the pandemic playing out. For Timms, the small victories matter.
 
 ### Q&A with Christina Timms
