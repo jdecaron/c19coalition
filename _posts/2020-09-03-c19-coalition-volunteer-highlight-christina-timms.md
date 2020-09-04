@@ -5,7 +5,7 @@ date: 2020-09-03T18:52:01.987Z
 reading_time: 4-5 minutes
 author: Alizay Rizvi
 footer: >-
-  If you are interested in joining Sandy and volunteering with the C19
+  If you are interested in joining Christina and volunteering with the C19
   Coalition, reach out to us at info@c19coalition.org.
 
 
