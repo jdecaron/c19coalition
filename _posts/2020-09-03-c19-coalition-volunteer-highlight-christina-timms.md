@@ -31,23 +31,23 @@ This is what Timms said when asked about how she sees the pandemic playing out. 
 
 ### Q&A with Christina Timms
 
-*Tell us about your background.*
+***Tell us about your background.***
 
 I was born in England, but moved to Texas. I resided in Austin for 15 years. In Austin, I managed and ran successful restaurants. I loved to managed farm to table type of restaurants. I worked in restaurants for about 20 years. In Austin, I was wine steward and featured in wine magazines. After managing these restaurants, I decided I wanted to do something different so I sold everything I had a bought a one-way ticket to England. I did some backpacking there for some years, then moved to Thailand. Since then, I have been in Thailand for 5 years. In Thailand, I ended up meeting my husband and have been happy on this Island ever since. I did managed some restaurants here as well.
 
 Because of my restaurant background, food and wine is something I love. Even more, I love to take my dog to the beach everyday too.
 
-*What made you interested in volunteering with C19 Coalition?*
+***What made you interested in volunteering with C19 Coalition?***
 
 I lived in Texas most of my life. I was really passionate about politics so it was always important for me to be apart of social movements and be apart of change, now matter how big or small. So when I moved to Thailand, I never stopped caring about this country. When I found out about C19 Coalition, through David, I felt that working with the coalition was a way for me to fight the good fight now.
 
 Now, I am the Social Media manager and editor. I manage a team to handle social media and get inspiration for the rest of my team. I am happy to be in the social media and content team because I get to speak with everyone and amplify their voices. By speaking with everyone, it also gives me the ability to see how I can be useful and multifunctional.
 
-*When you think about our mission, what motivates you to continue volunteering?*
+***When you think about our mission, what motivates you to continue volunteering?***
 
 Because it’s not over yet, and it’s not going to be. When something happens, everyone is excited about it at first, but that doesn’t mean there won’t be problems even after the virus subsides. This virus has shown us that there are many systems that need to be fixed. That is what keeps me motivated.
 
-*How do you see this pandemic playing out?*
+***How do you see this pandemic playing out?***
 
 It’s hard to say and I have no idea what is going to happen. There are vaccines being tested, so we are underway in that aspect. However, we need to continue to tackle this pandemic. Let us tackle what we can and keep moving. When you look at the big picture, that is when the world seems easier, rather than looking at what’s going to happen in x months. We need the small victories. They matter. Then, we can start planning for something bigger.
 
