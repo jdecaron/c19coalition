@@ -17,17 +17,17 @@ summary: Meet our Social Media manager from across the ocean, Christina Timms,
 ---
 Up and downs.
 
-This has been the typical trend for both COVID-19 cases and individuals. The month of September, for many, has abruptly sprouted, while safety regulations and masks requirements continue to exist. For other countries, COVID-19 regulations have lessened as cases trend low. This holds true for many Asian countries, including Thailand, where C19 Coalition’s Social Media Manager, Christina Timms, resides.
+This has been the typical trend for both COVID-19 cases and individuals. The month of September, for many, has abruptly sprouted, while safety regulations and masks requirements continue to exist. For other countries, COVID-19 regulations have lessened as cases trend low, and where mask wearing is common practice. This holds true for many Asian countries, including Thailand, where C19 Coalition’s Social Media Manager, Christina Timms, resides.
 
 As an England born-Texan who has been living in Thailand for 5 years, Timms brings in a different perspective to C19 as she saw joining the Coalition as a way to impact and amplify the voices of those in the Coalition and beyond. Timms holds a diverse history in running and managing successful restaurants, which has translated into a Social Media Manager and editor. Her proactiveness and multi-functioning ability has allowed Timms to speak with everyone and in turn, broadcast the Coalition’s message as one.
 
-Being involved in social movements and being apart of the change, no matter how big or small, has been Timms’ underlying motivator. Even after moving to a different country, Timms never stopped caring about the United States, or the diverse communities that live there. After learning about the Coalition through another team member, Timms knew that working with the coalition was a way to “fight the good fight now”. She continues to be a mentor and friend for many at the Coalition to continue this fight.
+Being involved in social movements and being apart of the change, no matter how big or small, has been Timms’ underlying motivator. Even after moving to a different country, Timms never stopped caring about the United States, or the diverse communities that live here. After learning about the Coalition through another team member, Timms knew that working with the coalition was a way to “fight the good fight now”. She continues to be a mentor and friend for many at the Coalition to continue this fight.
 
 “It’s hard to say and I have no idea what is going to happen...so let’s take what we can and keep moving. It is often easy to be fixated on small problems, however, when we begin to look at the bigger picture together, and all it’s moving parts, that’s when the solutions seem possible, together.”
 
 Christina Timms, Social Media Manager & Volunteer
 
-![](/assets/uploads/engagement-photo-.jpg)
+![](/assets/uploads/bloh-shot.jpg)
 
 This is what Timms said when asked about how she sees the pandemic playing out. For Timms, the small victories matter.
 
@@ -47,10 +47,10 @@ Now, I am the Social Media manager and editor. I manage a team to handle social 
 
 When you think about our mission, what motivates you to continue volunteering?
 
-Because it’s not over yet, and it’s not going to be. When something happens, everyone is excited about it at first, but that doesn’t mean there won’t be problems even after the virus subsides. This virus has shown us that there are many systems that need to be fixed. That is what keeps me motivated.
+Because it’s not over yet, and it’s not going to be. This has proven to go on a lot longer than most of us realized, so our mission is to be sustainable and actionable so we can continue long after the cases have decreased. This virus has shown us that there are many systems that need to be fixed. That is what keeps me motivated.
 
 How do you see this pandemic playing out?
 
-It’s hard to say and I have no idea what is going to happen. There are vaccines being tested, so we are underway in that aspect, but who knows how and when that will help people all over the world. So, we need to continue to tackle this pandemic. Let us tackle what we can and keep finding ways to solve the problems that came with the pandemic as well as the problems amplified by it. We need victories, we need to do our part to ensure the safety of as many people as we can. They matter. Then, we can keep moving forward.
+It’s hard to say and I have no idea what is going to happen. There are vaccines being tested, so we are underway in that aspect, but who knows how and when that will help people all over the world. So, we need to continue to tackle this pandemic. Let us tackle what we can and keep finding ways to solve the problems that came with the pandemic as well as the problems amplified by it. We need to do our part to ensure the safety of as many people as we can. They matter. Then, we can keep moving forward.
 
 To learn more about Christina Timms’ story, connect with her on [LinkedIn](https://www.linkedin.com/in/timmschristina/)!
