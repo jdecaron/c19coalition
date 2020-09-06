@@ -33,23 +33,23 @@ This is what Timms said when asked about how she sees the pandemic playing out. 
 
 ### Q&A with Christina Timms
 
-Tell us about your background.
+##### Tell us about your background.
 
 I was born in England but moved to Texas as a child, and lived in my hometown of Austin for over 15 years. In Austin, I graduated from St. Edward’s University, but most of my education came from growing up in the restaurant industry. In Austin, I was a Sommelier and had the privilege to manage one of the best farm to table restaurants in the city. After managing restaurants, I decided I wanted to do something different so I sold everything I had and bought a one-way ticket to England. I ended up hiking across Spain and visiting 11 other countries, then I found my new home in Thailand on Koh Lanta. I have lived here for 5 years, and during this time I have volunteered for local charities, worked in restaurants, changed careers, met and married my husband on the beach and we built a house together.
 
 Because of my restaurant background, food and wine is something I love. Even more, I love spending time with my husband, our dog, Austin, and connecting with friends and family all over the world.
 
-What made you interested in volunteering with C19 Coalition?
+##### What made you interested in volunteering with C19 Coalition?
 
 I lived in Texas for most of my life. I was really passionate about politics so it was always important for me to be a part of social movements and be a part of change, no matter how big or small. So when I moved to Thailand, I never stopped caring about this country. When I found out about C19 Coalition, I felt that working with the coalition was a way for me to fight the good fight now.
 
 Now, I am the Social Media manager and editor. I manage a team to handle social media and get inspiration for the rest of my team. I am happy to be in the social media and content team because I get to speak with everyone and amplify their voices. By speaking with everyone, it also gives me the ability to see how I can be useful and multifunctional.
 
-When you think about our mission, what motivates you to continue volunteering?
+##### When you think about our mission, what motivates you to continue volunteering?
 
 Because it’s not over yet, and it’s not going to be. This has proven to go on a lot longer than most of us realized, so our mission is to be sustainable and actionable so we can continue long after the cases have decreased. This virus has shown us that there are many systems that need to be fixed. That is what keeps me motivated.
 
-How do you see this pandemic playing out?
+##### How do you see this pandemic playing out?
 
 It’s hard to say and I have no idea what is going to happen. There are vaccines being tested, so we are underway in that aspect, but who knows how and when that will help people all over the world. So, we need to continue to tackle this pandemic. Let us tackle what we can and keep finding ways to solve the problems that came with the pandemic as well as the problems amplified by it. We need to do our part to ensure the safety of as many people as we can. They matter. Then, we can keep moving forward.
 
