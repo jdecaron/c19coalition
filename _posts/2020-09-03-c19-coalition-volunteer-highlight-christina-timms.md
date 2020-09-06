@@ -41,7 +41,7 @@ Because of my restaurant background, food and wine is something I love. Even mor
 
 What made you interested in volunteering with C19 Coalition?
 
-I lived in Texas for most of my life. I was really passionate about politics so it was always important for me to be apart of social movements and be apart of change, no matter how big or small. So when I moved to Thailand, I never stopped caring about this country. When I found out about C19 Coalition, I felt that working with the coalition was a way for me to fight the good fight now.
+I lived in Texas for most of my life. I was really passionate about politics so it was always important for me to be a part of social movements and be a part of change, no matter how big or small. So when I moved to Thailand, I never stopped caring about this country. When I found out about C19 Coalition, I felt that working with the coalition was a way for me to fight the good fight now.
 
 Now, I am the Social Media manager and editor. I manage a team to handle social media and get inspiration for the rest of my team. I am happy to be in the social media and content team because I get to speak with everyone and amplify their voices. By speaking with everyone, it also gives me the ability to see how I can be useful and multifunctional.
 
