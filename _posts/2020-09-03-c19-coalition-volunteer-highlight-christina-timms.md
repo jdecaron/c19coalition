@@ -10,7 +10,7 @@ footer: >-
 
 
   Alizay Rizvi is a blogger with the C19 Coalition. She has worked on health equity programs, including at the American Heart Association, to increase diversity in the health and social justice sector and aid in finding solutions to lessen health disparities and inequities in the United States. As a young professional, she is passionate about educating and empowering her generation to become agents of change. You can find her on [LinkedIn](https://www.linkedin.com/in/alizayrizvi/).
-thumbnail: /assets/uploads/atoms.png
+thumbnail: /assets/uploads/bloh-shot.jpg
 summary: Meet our Social Media manager from across the ocean, Christina Timms,
   who leads our social media team and continues to amplify the Coalition's
   messaging.
