@@ -17,13 +17,13 @@ summary: Meet our Social Media manager from across the ocean, Christina Timms,
 ---
 Up and downs.
 
-This has been the typical trend for both COVID-19 cases and individuals. The month of September, for many, has abruptly sprouted, while safety regulations and masks requirements continue to exist. For other countries, COVID-19 regulations have lessened as cases trend low, and where mask wearing is common practice. This holds true for many Asian countries, including Thailand, where C19 Coalition’s Social Media Manager, Christina Timms, resides.
+This has been the typical trend for both COVID-19 cases and individuals. The month of September, for many, has abruptly sprouted, while safety regulations and masks requirements continue to exist. For other countries, COVID-19 regulations have lessened as cases trend low, but where mask wearing is common practice. This holds true for many Asian countries, including Thailand, where C19 Coalition’s Social Media Manager, Christina Timms, resides.
 
 As an England born-Texan who has been living in Thailand for 5 years, Timms brings in a different perspective to C19 as she saw joining the Coalition as a way to impact and amplify the voices of those in the Coalition and beyond. Timms holds a diverse history in running and managing successful restaurants, which has translated into a Social Media Manager and editor. Her proactiveness and multi-functioning ability has allowed Timms to speak with everyone and in turn, broadcast the Coalition’s message as one.
 
 Being involved in social movements and being apart of the change, no matter how big or small, has been Timms’ underlying motivator. Even after moving to a different country, Timms never stopped caring about the United States, or the diverse communities that live here. After learning about the Coalition through another team member, Timms knew that working with the coalition was a way to “fight the good fight now”. She continues to be a mentor and friend for many at the Coalition to continue this fight.
 
-“It’s hard to say and I have no idea what is going to happen...so let’s take what we can and keep moving. It is often easy to be fixated on small problems, however, when we begin to look at the bigger picture together, and all it’s moving parts, that’s when the solutions seem possible, together.”
+“It’s hard to say and I have no idea what is going to happen...so let’s take what we can and keep moving. It is often easy to be fixated on problems, however, when we begin to look at the bigger picture together, and all it’s moving parts, that’s when the solutions seem possible, together.”
 
 Christina Timms, Social Media Manager & Volunteer
 
