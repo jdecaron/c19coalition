@@ -8,7 +8,7 @@ type:
   - provide-data
 structure: other
 location: Nationwide
-is_member: false
+is_member: true
 show_on_home_page: true
 only_on_home_page: false
 site_url: https://sensorydatacorp.com/
