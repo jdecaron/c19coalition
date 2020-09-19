@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CMTA Prioritizes of Domestic PPE Supplies "
+title: "CMTA Prioritizes Solutions to Domestic PPE Supply Challenges "
 date: 2020-09-18T23:05:41.780Z
 reading_time: 4-5 minute read
 author: David Morrill
@@ -8,8 +8,10 @@ footer: The C19 Coalition is a non-profit, cross-sector group of more than 20
   organizations, companies, states, and philanthropists working to address PPE
   shortages across the country.
 thumbnail: /assets/uploads/anshu-a-yaxbfq1wi7i-unsplash.jpg
-summary: There's still great demand for PPE from multiple sectors. And there are
-  technology companies that have pivoted
+summary: As Covid-19 cases continue to rise, domestically there are various
+  challenges of producing and selling non-medical grade PPE. The CMTA held a
+  recent webinar to look at potential solutions and ways to make the efforts
+  worthwhile so sectors in need of help can be served.
 ---
 ![](/assets/uploads/anshu-a-yaxbfq1wi7i-unsplash.jpg)
 
