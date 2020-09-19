@@ -7,13 +7,13 @@ author: David Morrill
 footer: The C19 Coalition is a non-profit, cross-sector group of more than 20
   organizations, companies, states, and philanthropists working to address PPE
   shortages across the country.
-thumbnail: /assets/uploads/anshu-a-yaxbfq1wi7i-unsplash.jpg
+thumbnail: /assets/uploads/usan95.jpg
 summary: As Covid-19 cases continue to rise, domestically there are various
   challenges of producing and selling non-medical grade PPE. The CMTA held a
   recent webinar to look at potential solutions and ways to make the efforts
   worthwhile so sectors in need of help can be served.
 ---
-![](/assets/uploads/anshu-a-yaxbfq1wi7i-unsplash.jpg)
+![](/assets/uploads/usan95.jpg)
 
 As the Covid-19 crisis continues to strike the United States at tragic levels, it’s clear the demand for PPE is likely to remain indefinitely.
 
@@ -35,9 +35,9 @@ Similarly, the [California Association of Winegrape Growers](https://www.cawg.or
 
 Companies represented on the call such as [Adaptive Energy](https://www.adaptiveenergyllc.com/), [Licap Technologies ](https://www.licaptech.com/) and [Lumenous](http://www.lumenous.com/) each produce PPE products. C19 Coalition partner [Gerber Technologies](bertechnology.com) has worked with more than 1,600 companies making pivots of their manufacturing to PPE capabilities.
 
-If these pivots don’t take into account questions such as “How to connect with the right suppliers of raw materials?” and “How to find the right buyers for PPE” then the efforts might be good hearted but the outcome unfulfilled.
+If these pivots don’t take into account questions such as “How to connect with the right suppliers of raw materials?” and “How to find the right buyers for PPE” then the efforts might be good-hearted, but the outcome unfulfilled.
 
-For example, [C19 Coalition partner Adaptive Energy ](https://c19coalition.org/2020/06/18/c19-coalition-partner-adaptive-energy-pivots-and-steps-up.html)currently sits on more than a half million units of PPE with not enough buyers. Additionally it also has the facilities, equipment, materials and knowledge to manufacture the holy grail of PPE masks, the N95, right now.
+For example, [C19 Coalition partner Adaptive Energy ](https://c19coalition.org/2020/06/18/c19-coalition-partner-adaptive-energy-pivots-and-steps-up.html)currently sits on more than a half million units of PPE with not enough buyers. Additionally, it also has the facilities, equipment, materials and knowledge to manufacture the holy grail of PPE masks, the N95, right now.
 
 ![Adaptive Energy has set up its manufacturing facilities to manufacture PPE. Now they need buyers as they have more than a half million PPE units in their facility.](/assets/uploads/adaptive-energy-ppe-production-3.jpg)
 
@@ -47,7 +47,7 @@ While the challenges are real on both the supply and demand side, the roundtable
 
 There’s no debate that cost comparisons will always be an uphill battle. Asking legislators to forgo sales tax on all domestically produced PPE products, automate production, and finding cheaper delivery options is a start, but to compete based on costs is an uphill battle.
 
-Instead an emphasis on quality and being able to deliver exactly what the user needs might be a better competitive starting point. One way to do this is to get an edification from third party beacons such as Stanford and UCSF through “small symbolic buys” which could show the end users that a pivot made by a previously unrelated technology company can manufacture top-notch products, said Todd Dickson, president of Lumenous which manufactures high quality gowns.
+Instead, an emphasis on quality and being able to deliver exactly what the user needs might be a better competitive starting point. One way to do this is to get edification from third party beacons such as Stanford and UCSF through “small symbolic buys” which could show the end users that a pivot made by a previously unrelated technology company can manufacture top-notch products, said Todd Dickson, president of Lumenous which manufactures high-quality gowns.
 
 The good news is that where there are challenges, there are also windows of opportunity to move fast and drive a lot of change.
 
