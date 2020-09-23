@@ -31,7 +31,7 @@ For example, Emily Rooney is president of the [Agricultural Council of Californi
 
 Similarly, the [California Association of Winegrape Growers](https://www.cawg.org/) says each region of California could use another 10,000 masks for the coastal wine sectors it represents.
 
-> “We have a shovel ready project that can make these masks that would get FDA approval, but what we don’t have is a long-term contract and supply need to make a significant 7-figure investment to bring N-95 manufacturing to reality,” said Ranvir Gujral chairman of Adaptive Energy.
+> “We have a shovel ready project that can make these masks that would get FDA approval, but what we don’t have is a long-term contract and supply need to make a significant 7-figure investment to bring N-95 manufacturing to reality,” <cite> Ranvir Gujral chairman of Adaptive Energy</cite>
 
 Companies represented on the call such as [Adaptive Energy](https://www.adaptiveenergyllc.com/), [Licap Technologies ](https://www.licaptech.com/) and [Lumenous](http://www.lumenous.com/) each produce PPE products. C19 Coalition partner [Gerber Technologies](bertechnology.com) has worked with more than 1,600 companies making pivots of their manufacturing to PPE capabilities.
 
