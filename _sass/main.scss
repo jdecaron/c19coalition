@@ -244,7 +244,7 @@ section {
   margin-bottom: 3rem;
 
   img {
-    width: 100%;
+    width: 60%;
   }
 }
 
@@ -365,8 +365,10 @@ input:focus::placeholder {
     margin: 0.5rem 0 0.5rem 0;
   }
 
-  .col.get-listed {
+  .col.million-new-units {
     text-align: right;
+    font-weight: 600;
+    color: $on-primary;
   }
 }
 
@@ -531,6 +533,14 @@ blockquote {
   }
 }
 
+@media (min-width: 720px) {
+  .partner-logo {
+    img {
+      width: 80%;
+    }
+  }
+}
+
 @media (min-width: 992px) {
   .container.longread {
     .separator {
@@ -560,7 +570,7 @@ blockquote {
 
     img {
       width: auto;
-      max-width: 240px;
+      max-width: 160px;
     }
   }
 

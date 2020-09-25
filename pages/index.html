@@ -81,7 +81,7 @@ outro: The coalition is an open, constantly growing organization. Each of our
         <div class="row d-flex flex-wrap align-items-center">
           {% for org in site.organizations %}
           {% if org.is_member and org.show_on_home_page and org.logo and org.logo != "" %}
-          <div class="col-6 col-md-4 lg-gutter partner-logo">
+          <div class="col-6 col-md-4 col-lg-2 lg-gutter partner-logo">
             {% if org.site_url %}<a href="{{ org.site_url }}" target="_blank">{% endif %}
               <img src="{{ org.logo }}" alt="{{ org.name }}" />
               {% if org.site_url %}</a>{% endif %}
