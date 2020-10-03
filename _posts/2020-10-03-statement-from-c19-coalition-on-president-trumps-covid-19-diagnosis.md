@@ -5,7 +5,7 @@ date: 2020-10-02T20:29:55.181Z
 reading_time: 3-4 minutes
 author: David Morrill
 footer: ""
-thumbnail: /assets/uploads/c19logo.svg
+thumbnail: /assets/uploads/c19.png
 summary: The C19 Coalition would like to wish the President, First Lady, White
   House staff, and the thousands of people inflicted every day with Covid-19 a
   swift and full recovery. Full Statement here.
