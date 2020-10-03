@@ -20,7 +20,9 @@ The C19 Coalition's partners have delivered more than 400 million units of PPE s
 
 To start, the C19 Coalition has created a program called Adopt A School to help serve underfunded school districts, educators and students in need of PPE.
 
-The C19 Coalition is also looking to help deliver PPE to underserved sectors such as small businesses, farmers, and private medical practices.
+The C19 Coalition is also focused on colleges serving Black (HBCU), Latinx (HSI) and Indigenous (TCU) student populations that are in urgent need of PPE, testing, and support. The C19 Coalition is developing "Sunday Suppers" and other programs to serve them. 
+
+Finally, C19 Coalition is also looking to help deliver PPE to underserved sectors such as small businesses, farmers, and private medical practices.
 
 This Country is facing historical challenges right now. The C19 Coalition feels that now is the time for everyone to step up and do its part to get through this.
 
