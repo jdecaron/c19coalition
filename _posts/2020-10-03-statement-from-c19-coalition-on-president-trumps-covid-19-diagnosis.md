@@ -7,7 +7,7 @@ author: David Morrill
 footer: The C19 Coalition is a non-profit, cross-sector group of organizations,
   companies, states, and philanthropists working to address PPE shortages across
   the country.
-thumbnail: /assets/uploads/c19logo.svg
+thumbnail: /assets/uploads/c19.png
 summary: The C19 Coalition would like to wish the President, First Lady, White
   House staff, and the thousands of people inflicted every day with Covid-19 a
   swift and full recovery. Full Statement here.
