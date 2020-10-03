@@ -24,6 +24,6 @@ The C19 Coalition is also focused on colleges serving Black (HBCU), Latinx (HSI)
 
 Finally, C19 Coalition is also looking to help deliver PPE to underserved sectors such as small businesses, farmers, and private medical practices.
 
-This Country is facing historical challenges right now. The C19 Coalition feels that now is the time for everyone to step up and do its part to get through this.
+C19 Coalition is committed to working with best in class partners and help so that we can all get through this crisis together.
 
 Those who would like to help out can [donate](https://ecf.networkforgood.com/projects/52889-c19-coalition). To volunteer email [info@c19coalition.org](mailto:info@c19coalition.org).
