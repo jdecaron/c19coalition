@@ -19,8 +19,9 @@ type:
   - other
 structure: other
 location: California
-is_member: false
-show_on_home_page: false
+is_member: true
+show_on_home_page: true
 only_on_home_page: true
+site_url: https://www.chicanofederation.org/
 logo: /assets/uploads/chicano-federation.png
 ---

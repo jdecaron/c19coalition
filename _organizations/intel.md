@@ -21,6 +21,6 @@ location: Nationwide
 is_member: true
 show_on_home_page: true
 only_on_home_page: false
-site_url: ""
+site_url: https://www.intel.com/
 logo: /assets/uploads/intel.png
 ---
