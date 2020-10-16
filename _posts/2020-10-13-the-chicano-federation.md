@@ -30,6 +30,8 @@ The Chicano Federation has been helping its community in any way that surfaces d
 
 All tax-deductible donations can be made through its website <https://bit.ly/3lbL2os>.
 
+![](/assets/uploads/dsc01659.jpg)
+
 The C19 Coalition has worked closely with the Chicano Federation in procuring PPE. C19 Coalition's affiliate partner, Mission for Masks, donated face shields and KN95s that helped close to 600 people. It also connected the Chicano Federation with Social Collective Health which donated 200 thermometers. Ashley Gazich, a project lead with C19 Coalition says the support the Chicano Federation has given to communities in Southern California is impressive because its programs are founded on respect and empathy for the communities it serves. Also, its innovative solutions to address critical needs are exemplary.
 
 "What the Chicano Federation is doing is truly special, and I believe the frameworks they have in place is an example to organizations across the nation looking to scale their impact," Gazich said.
@@ -47,11 +49,5 @@ Finally, C19 Coalition is also looking to help deliver PPE to underserved sector
 Those who would like to help out can [donate](https://ecf.networkforgood.com/projects/52889-c19-coalition). To volunteer email [info@c19coalition.org](mailto:info@c19coalition.org).
 
 ![](/assets/uploads/dsc01670.jpg)
-
-![](/assets/uploads/dsc01659.jpg)
-
-![](/assets/uploads/dsc01657.jpg)
-
-![]()
 
 photos from their PPE donation drive.
