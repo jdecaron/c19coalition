@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Chicano Federation
+title: Chicano Federation Provides PPE to Latinx Communities
 date: 2020-10-13T05:02:11.027Z
 reading_time: 3-5
 author: Catherine Bitar
