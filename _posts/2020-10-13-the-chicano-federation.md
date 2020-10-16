@@ -4,7 +4,10 @@ title: The Chicano Federation
 date: 2020-10-13T05:02:11.027Z
 reading_time: 3-5
 author: Catherine Bitar
-thumbnail: /assets/uploads/c19.png
+footer: The C19 Coalition is a non-profit, cross-sector group of organizations,
+  companies, states, and philanthropists working to address PPE shortages across
+  the country.
+thumbnail: /assets/uploads/dsc01648.jpg
 summary: C19 Coalition helps to promote the Chicano Federation and help them
   reach their fundraising goal to be able to provide PPE to the city of San
   Diego
