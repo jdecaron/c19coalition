@@ -9,21 +9,21 @@ summary: C19 Coalition helps to promote the Chicano Federation and help them
   reach their fundraising goal to be able to provide PPE to the city of San
   Diego
 ---
-The [C19 Coalition](c19coalition.org) is proud to recognize the work of the [Chicano Federation](www.chicanofederation.org/), a non-profit organization[](www.chicanofederation.org/) that has worked to meet the needs of Latinx's in San Diego County not only during the pandemic, but has offered help, resources, and opportunity for families and individuals in the San Diego community for over 50 years.
+The [C19 Coalition](c19coalition.org) is proud to recognize the work of the [Chicano Federation](www.chicanofederation.org/), a non-profit organization[](www.chicanofederation.org/) that has worked to meet the needs of Latinx's in San Diego County not only during the pandemic, but has offered help, resources, and opportunity for families and individuals in the San Diego community for more than 50 years.
 
-With about 65 percent of the total positive cases in San Diego County being Latinx, the Chicano Federation focused its efforts on the emerging needs as the pandemic continues and has worked tirelessly to get PPE out to this community. Currently, the federation has distributed PPE kits to more than 400 people. In these kits were children and adult masks, hand sanitizers, and thermometers, to name a few. The demand was so fierce that in just 30 minutes the kits were gone.
+With about 65 percent of the total positive cases in San Diego County being Latinx, the Chicano Federation focuses its efforts on the emerging needs as the pandemic continues and has worked tirelessly to get PPE out to this community. Currently, the federation has distributed PPE kits to more than 400 people. In these kits were children and adult masks, hand sanitizers, and thermometers, to name a few. The demand was so fierce that in just 30 minutes the kits were gone.
 
-But the Chicano Federation has no plans to slow down. Not only does the federation work tirelessly for San Diego communities, but they have also branched out to include Orange County and any area where people of color are disproportionately affected. And the Chicano Federation's hard work is being recognized. They received California's 2020 Non-Profit of the Year Award.
+But the Chicano Federation has no plans to slow down. Not only does the federation work tirelessly for San Diego communities, but it has also branched out to include Orange County and any area where people of color are disproportionately affected. And the Chicano Federation's hard work is being recognized. It received California's 2020 Non-Profit of the Year Award.
 
-"The Covid-19 health crisis has a legacy of tackling important social issues and ensuring our communities have a voice in the policies that impact their lives," said Nancy Maldonado, president of the Chicano Federation and Chief Operating Officer. "Since day one of the COVID-19 health crisis, we have worked tirelessly to meet the emerging needs of children, families, tenants, childcare providers and essential workers across San Diego County."
+"The Covid-19 health crisis has a legacy of tackling important social issues and ensuring our communities have a voice in the policies that impact their lives," said Nancy Maldonado, president of the Chicano Federation and Chief Operating Officer. "Since day one of the Covid-19 health crisis, we have worked tirelessly to meet the emerging needs of children, families, tenants, childcare providers and essential workers across San Diego County."
 
-Maldonado said the Chicano Federation also provides resources, information, and data-driven research to combat the system inequities.
+Maldonado said the Chicano Federation also provides resources, information, and data-driven research to combat the system inequities. The impact that the Chicano Federation has had on their community has gotten the attention of the Chula Vista Mayor's office as well.
 
-The impact that the Chicano Federation has had on their community has gotten the attention of local Chula Vista Mayor, Mary Casillas Salas, who said, “The Chicano Federation is an organization that has impacted the lives of thousands in our communities by providing high-quality critical services to those in need. Additionally, the Chicano Federation has embraced the entrepreneurial spirit of our communities by helping hundreds of women become small business owners and increasing access to child care”.
+ “The Chicano Federation is an organization that has impacted the lives of thousands in our communities by providing high-quality critical services to those in need," Chula Vista Mayor Mary Casillas Salas said. "Additionally, the Chicano Federation has embraced the entrepreneurial spirit of our communities by helping hundreds of women become small business owners and increasing access to child care."
 
-The Chicano Federation has been helping its community in any way that surfaces during this pandemic, and currently has a growing need for PPE. It is seeking donations to help its community and is currently running a fundraiser until the end of October. The goal is to try and raise $50,000 in donations. These donations go to the production and distribution of the PPE kits that are helping keep the Latinx community healthy. Currently, the federation is at 61 percent of its goal.  
+The Chicano Federation has been helping its community in any way that surfaces during this pandemic, and currently has a growing need for PPE. It's seeking donations to help its community and is currently running a fundraiser until the end of October. The goal is to try and raise $50,000 in donations. These donations go to the production and distribution of the PPE kits that are helping keep the Latinx community healthy. Currently, the federation is at 61 percent of its goal.  
 
-All tax-deductible donations can be made through their website <https://bit.ly/3lbL2os>.
+All tax-deductible donations can be made through its website <https://bit.ly/3lbL2os>.
 
 The C19 Coalition has worked closely with the Chicano Federation in procuring PPE. C19 Coalition's affiliate partner, Mission for Masks, donated face shields and KN95s that helped close to 600 people. It also connected the Chicano Federation with Social Collective Health which donated 200 thermometers. Ashley Gazich, a project lead with C19 Coalition says the support the Chicano Federation has given to communities in Southern California is impressive because its programs are founded on respect and empathy for the communities it serves. Also, its innovative solutions to address critical needs are exemplary.
 
@@ -38,6 +38,8 @@ Additionally, the C19 Coalition has created a program called Adopt-A-School to h
 Moreover, the C19 Coalition is focused on colleges serving Black (HBCU), Latinx (HSI), and Indigenous (TCU) student populations that are in urgent need of PPE, testing, and support. The C19 Coalition is developing “Sunday Suppers” and other programs to serve them.
 
 Finally, C19 Coalition is also looking to help deliver PPE to underserved sectors such as small businesses, farmers, and private medical practices.
+
+Those who would like to help out can [donate](https://ecf.networkforgood.com/projects/52889-c19-coalition). To volunteer email [info@c19coalition.org](mailto:info@c19coalition.org).
 
 ![](/assets/uploads/dsc01670.jpg)
 
