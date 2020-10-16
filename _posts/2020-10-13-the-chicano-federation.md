@@ -12,6 +12,8 @@ summary: C19 Coalition helps to promote the Chicano Federation and help them
   reach their fundraising goal to be able to provide PPE to the city of San
   Diego
 ---
+![](/assets/uploads/dsc01648.jpg)
+
 The [C19 Coalition](c19coalition.org) is proud to recognize the work of the [Chicano Federation](www.chicanofederation.org/), a non-profit organization[](www.chicanofederation.org/) that has worked to meet the needs of Latinx's in San Diego County not only during the pandemic, but has offered help, resources, and opportunity for families and individuals in the San Diego community for more than 50 years.
 
 With about 65 percent of the total positive cases in San Diego County being Latinx, the Chicano Federation focuses its efforts on the emerging needs as the pandemic continues and has worked tirelessly to get PPE out to this community. Currently, the federation has distributed PPE kits to more than 400 people. In these kits were children and adult masks, hand sanitizers, and thermometers, to name a few. The demand was so fierce that in just 30 minutes the kits were gone.
@@ -50,6 +52,6 @@ Those who would like to help out can [donate](https://ecf.networkforgood.com/pro
 
 ![](/assets/uploads/dsc01657.jpg)
 
-![](/assets/uploads/dsc01648.jpg)
+![]()
 
 photos from their PPE donation drive.
