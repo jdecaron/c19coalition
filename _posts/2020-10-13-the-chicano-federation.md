@@ -20,7 +20,7 @@ With about 65 percent of the total positive cases in San Diego County being Lati
 
 But the Chicano Federation has no plans to slow down. Not only does the federation work tirelessly for San Diego communities, but it has also branched out to include Orange County and any area where people of color are disproportionately affected. And the Chicano Federation's hard work is being recognized. It received California's 2020 Non-Profit of the Year Award.
 
-"The Covid-19 health crisis has a legacy of tackling important social issues and ensuring our communities have a voice in the policies that impact their lives," said Nancy Maldonado, president of the Chicano Federation and Chief Operating Officer. "Since day one of the Covid-19 health crisis, we have worked tirelessly to meet the emerging needs of children, families, tenants, childcare providers and essential workers across San Diego County."
+"The Chicano Federation has a legacy of tackling important social issues and ensuring our communities have a voice in the policies that impact their lives," said Nancy Maldonado, president of the Chicano Federation and Chief Operating Officer. "Since day one of the Covid-19 health crisis, we have worked tirelessly to meet the emerging needs of children, families, tenants, childcare providers and essential workers across San Diego County."
 
 Maldonado said the Chicano Federation also provides resources, information, and data-driven research to combat the system inequities. The impact that the Chicano Federation has had on their community has gotten the attention of the Chula Vista Mayor's office as well.
 
