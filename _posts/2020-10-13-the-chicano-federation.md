@@ -12,7 +12,7 @@ summary: C19 Coalition helps to promote the Chicano Federation and help them
   reach their fundraising goal to be able to provide PPE to the city of San
   Diego
 ---
-![](/assets/uploads/chicanopic1.jpg)
+![](/assets/uploads/dsc01670.jpg)
 
 The [C19 Coalition](c19coalition.org) is proud to recognize the work of the [Chicano Federation](www.chicanofederation.org/), a non-profit organization[](www.chicanofederation.org/) that has worked to meet the needs of Latinx's in San Diego County not only during the pandemic, but has offered help, resources, and opportunity for families and individuals in the San Diego community for more than 50 years.
 
