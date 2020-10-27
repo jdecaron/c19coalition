@@ -1,73 +1,40 @@
 ---
 permalink: /
 layout: default
-intro: >-
-  <h3>The C19 Coalition brings crucial partners together to help build an
-  efficient, unified supply chain for PPE and lifesaving medical devices. State
-  governments, corporations, manufacturers, non-profits, and individuals can
-  connect through us to share and request resources and information.</h3>
-
-
-  Our members are working on every part of the problem: supply, demand, fulfillment, logistics, funding, and information tracking. We use real-time updates about what every organization is doing in order to maximize efficiency and effectiveness.
-
-
-  By coordinating all emergency PPE crisis efforts, we help minimize the risk of misdirecting critical supplies to places that may need them less urgently, and increase their individual power exponentially. We’re working together to ensure that every shipment of PPE sent is a life-saving shipment.
-
-
-  Since March, Coalition Partners have manufactured and distributed more than <strong>400 million</strong> net new units of PPE across the country. The Coalition is working collaboratively with the National Governors Association (NGA) and directly with states like New Jersey to acquire more information about the greatest needs and how to activate public-private partnerships.
-
-
-  ##### [Read about our initiatives and partner commitments](https://c19coalition.org/commitments)
-outro: The coalition is an open, constantly growing organization. Each of our
-  members contributes a different set of skills, knowledge and learned
-  experience. Together, we share a fundamental commitment to building something
-  greater than the sum of these crucial parts.
 ---
 
-<section class="background-secondary section-intro pt-5">
+<section class="section-intro">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 col-md-12 col-lg-7 mb-5">
-        {{ page.intro | markdownify }}
+      <div class="col-12 col-lg-6 intro-image my-auto">
+        <img src="/assets/images/trim-possible.png" width="100%" />
       </div>
-      <div class="col-11 col-md-8 col-lg-5 mb-5">
-        <div class="section-hotline">
-          <p>Call or email our hotline for help with PPE or mental health resource needs:</p>
-          <div class="container px-0">
-            <div class="row justify-content-center">
-              <div class="col-11 col-xl-10">
-                <h2 class="hotline-email">
-                  <a href="mailto:info@c19coalition.org" class="btn btn-block primary">
-                    info@c19coalition.org
-                  </a>
-                </h2>
-                <h2>
-                  <a href="tel:+1-855-904-3506" class="btn btn-block primary">
-                    1-855-904-3506
-                  </a>
-                </h2>
-                <h2>
-                  <a href="/pages/health" class="btn btn-block primary">
-                    Mental Health Resources
-                  </a>
-                </h2>
-              </div>
-            </div>
-          </div>
+      <div class="col-12 col-lg-6 my-auto text-center">
+        <div class="headline">
+
+          <h1>C19 Coalition partners have delivered <span>1+ billion</span> units of PPE to frontline workers since March</h1>
+          <a href="https://ecf.networkforgood.com/projects/52889-c19-coalition" class="btn btn-block primary">Donate</a>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="section-directory-home py-3">
+<section class="hotline secondary">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 py-2">
-        <div style="font-size:1.2rem">
-          {{page.outro | markdownify}}
-        </div>
-        <a class="btn primary" href="/directory" role="button">See The Directory</a>
+    <div class="row justify-content-center align-items-center">
+      <div class="col-12 col-lg-6 mb-3">
+        <h2>For urgent needs, call or e-mail our hotline for immediate help</h2>
+      </div>
+      <div class="col-8 mb-2 col-lg-3 lg-mb-0 text-center">
+        <a href="mailto:info@c19coalition.org" class="btn primary">
+          info@c19coalition.org
+        </a>
+      </div>
+      <div class="col-8 col-lg-3 text-center">
+        <a href="tel:+1-855-904-3506" class="btn primary">
+          1-855-904-3506
+        </a>
       </div>
     </div>
   </div>
@@ -76,8 +43,8 @@ outro: The coalition is an open, constantly growing organization. Each of our
 <section class="section-members">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 my-5">
-        <h2 class="my-5">C19 Coalition Partners</h2>
+      <div class="col-12">
+        <h2 class="mb-5">C19 Coalition Partners</h2>
         <div class="row d-flex flex-wrap align-items-center">
           {% for org in site.organizations %}
           {% if org.is_member and org.show_on_home_page and org.logo and org.logo != "" %}
@@ -89,7 +56,9 @@ outro: The coalition is an open, constantly growing organization. Each of our
           {% endif %}
           {% endfor %}
         </div>
-        <h5><a href="/ppe-orgs">See all the groups that have volunteered to help</a></h5>
+        <div class="btn-container">
+          <a class="btn" href="/ppe-orgs">See all the groups that have volunteered to help</a>
+        </div>
       </div>
     </div>
   </div>

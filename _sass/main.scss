@@ -16,6 +16,10 @@ a {
   overflow-wrap: break-word;
 }
 
+p {
+  max-width: $max-width;
+}
+
 strong {
   font-weight: 700;
 }
@@ -130,16 +134,6 @@ strong {
   }
 }
 
-@media (min-width: 660px) {
-  .navbar .mobile {
-    display: none;
-  }
-
-  .navbar-nav {
-    display: flex;
-  }
-}
-
 section .row div {
   max-width: $max-section-width;
 }
@@ -154,6 +148,7 @@ a, a:hover {
 }
 
 .background-secondary {
+  background: $background-secondary;
   color: $on-background-secondary;
 }
 
@@ -173,8 +168,7 @@ a, a:hover {
 }
 
 .secondary {
-  background: $super-alert;
-  color: $on-secondary;
+  background: $background-secondary;
   a {
     color: $on-secondary;
   }
@@ -216,11 +210,8 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: 600;
-}
-
-h3 {
-  font-weight: 700;
+  font-weight: 500;
+  max-width: $max-width;
 }
 
 footer,
@@ -303,14 +294,62 @@ section {
 }
 
 .section-intro {
-  h3 {
-    margin-bottom: 2rem;
+  background: $background;
+  padding: 5rem 0 4rem 0;
+
+  img {
+    border-radius: 1.5rem;
+  }
+
+  .headline {
+    background: $background;
+
+    span {
+      color: $secondary;
+    }
+
+    .btn {
+      width: 50%;
+      display: inline-block;
+    }
+  }
+
+  .intro-image {
+    display: none;
+  }
+}
+
+.hotline {
+  padding: 5rem 0 4rem 0;
+
+  .btn {
+    display: inline-block;
+    width: 100%;
+  }
+
+  h2 {
+    text-align: center;
+    display: inline-block
   }
 }
 
 .section-logo {
   img {
     width: 240px;
+  }
+}
+
+.section-members {
+  padding: 5rem 0 4rem 0;
+
+  .btn-container {
+    text-align: center;
+    margin-top: 2rem;
+
+    .btn {
+      display: inline-block;
+      width: 70%;
+    }
   }
 }
 
@@ -354,6 +393,15 @@ input:focus::placeholder {
   color: transparent;
 }
 
+.menu-icons {
+  svg:hover {
+    fill: $primary;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
 .top-menu {
   background-color: $primary;
 
@@ -373,7 +421,7 @@ input:focus::placeholder {
 }
 
 .middle-menu {
-  padding: 0.5rem 0 0.5rem 0;
+  padding: 0.75rem 0 0.75rem 0;
   border-bottom: 1px solid $gray-200;
 }
 
@@ -542,6 +590,31 @@ blockquote {
 }
 
 @media (min-width: 992px) {
+
+  .section-intro {
+    background: #fafafa;
+
+    .intro-image {
+      display: block;
+    }
+    .headline {
+      border-radius: 1.5rem;
+      margin-left: 3rem;
+      padding: 3rem;
+    }
+  }
+
+  .hotline {
+    h2 {
+      text-align: left;
+    }
+
+    .btn {
+      display: inline-block;
+      width: 100%;
+    }
+  }
+
   .container.longread {
     .separator {
       display: none;
@@ -562,6 +635,14 @@ blockquote {
 
   .navbar {
     padding: 0px;
+
+    .mobile {
+      display: none;
+    }
+
+    .navbar-nav {
+      display: flex;
+    }
   }
 
   .partner-logo {
@@ -589,6 +670,14 @@ blockquote {
     .donate-id {
       text-align: center;
       justify-content: center;
+    }
+  }
+
+  .section-members {
+    .btn-container {
+      .btn {
+        width: 45%;
+      }
     }
   }
 
