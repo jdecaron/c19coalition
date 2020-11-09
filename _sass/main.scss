@@ -298,7 +298,7 @@ section {
   padding: 5rem 0 4rem 0;
 
   img {
-    border-radius: 1.5rem;
+    border-radius: $radius;
   }
 
   .headline {
@@ -318,6 +318,46 @@ section {
     display: none;
   }
 }
+
+.section-mission {
+  background: #F3F3F3;
+  padding: 5rem 0 4rem 0;
+
+  a, a:hover {
+    cursor: pointer;
+    color: $on-primary;
+  }
+
+  div.reading {
+    display: none;
+  }
+
+  img {
+    border-radius: $radius;
+  }
+
+  p {
+    display: none;
+  }
+
+  p.reading {
+    display: block;
+    a {
+      margin-top: 1.5rem;
+      color: $primary;
+    }
+  }
+
+  .btn {
+    display: inline-block;
+    margin-top: 1.5rem;
+  }
+
+  .mission-image.reading {
+    display: none;
+  }
+}
+
 
 .hotline {
   padding: 5rem 0 4rem 0;
@@ -396,6 +436,10 @@ input:focus::placeholder {
 .menu-icons {
   svg:hover {
     fill: $primary;
+  }
+  svg {
+    height: 1rem;
+    width: 1rem;
   }
   a {
     text-decoration: none;
@@ -598,7 +642,7 @@ blockquote {
       display: block;
     }
     .headline {
-      border-radius: 1.5rem;
+      border-radius: .5rem;
       margin-left: 3rem;
       padding: 3rem;
     }
