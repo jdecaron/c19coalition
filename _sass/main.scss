@@ -328,6 +328,11 @@ section {
     color: $on-primary;
   }
 
+  a.btn {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
   div.reading {
     display: none;
   }
@@ -344,7 +349,6 @@ section {
     display: block;
     a {
       margin-top: 1.5rem;
-      color: $primary;
     }
   }
 
