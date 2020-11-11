@@ -16,6 +16,11 @@ a {
   overflow-wrap: break-word;
 }
 
+a.btn {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 p {
   max-width: $max-width;
 }
@@ -243,8 +248,9 @@ section {
   border: 1px solid $primary;
   box-shadow: 0 3px 16px rgba(0,0,0,.10);
 
-  border-radius: 5px;
+  border-radius: $radius;
   padding: 2rem;
+
 
   h2 {
     font-weight: 500;
@@ -328,11 +334,6 @@ section {
     color: $on-primary;
   }
 
-  a.btn {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-
   div.reading {
     display: none;
   }
@@ -355,6 +356,10 @@ section {
   .btn {
     display: inline-block;
     margin-top: 1.5rem;
+  }
+
+  .mission-image {
+    display: none;
   }
 
   .mission-image.reading {
@@ -646,9 +651,15 @@ blockquote {
       display: block;
     }
     .headline {
-      border-radius: .5rem;
+      border-radius: $radius;
       margin-left: 3rem;
       padding: 3rem;
+    }
+  }
+
+  .section-mission {
+    .mission-image {
+      display: block;
     }
   }
 
@@ -659,7 +670,7 @@ blockquote {
 
     .btn {
       display: inline-block;
-      width: 100%;
+      width: auto;
     }
   }
 
