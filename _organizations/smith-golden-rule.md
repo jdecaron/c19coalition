@@ -6,7 +6,7 @@ type:
   - supply-ppe
 structure: corporate
 location: Nationwide
-is_member: false
+is_member: true
 show_on_home_page: true
 only_on_home_page: true
 site_url: https://www.smithgoldenrule.com
