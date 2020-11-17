@@ -15,10 +15,10 @@ backend:
   name: git-gateway
   branch: 'master'
 media_folder: 'assets/uploads'
+publish_mode: editorial_workflow
 collections:
   - name: "blog"
     label: "Blog"
-    publish_mode: editorial_workflow
     folder: "_posts/"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
