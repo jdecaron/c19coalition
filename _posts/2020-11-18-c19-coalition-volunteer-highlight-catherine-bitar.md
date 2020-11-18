@@ -3,7 +3,7 @@ layout: post
 title: "C19 Coalition Volunteer Highlight: Catherine Bitar"
 date: 2020-11-18T08:15:42.593Z
 reading_time: 2-3 minutes
-author: David Morrill
+author: Yin Mei
 footer: "*If you are interested in joining Catherine and volunteering with the
   C19 Coalition, reach out to us at info@c19coalition.org.*"
 thumbnail: /assets/uploads/image-from-ios.jpg
@@ -14,9 +14,9 @@ summary: Catherine Bitar, who volunteers her time with the C19 Coalition Content
 ---
 ![](/assets/uploads/image-from-ios.jpg)
 
-Catherine Bitar is based in Irvine, Calif. with her husband and her dog. Even though the pandemic has been difficult, she appreciates having more time during it to spend together with them. 
+[Catherine Bitar](https://www.linkedin.com/in/catherine-bitar-ba637bb0/) is based in Irvine, Calif. with her husband and her dog. Even though the pandemic has been difficult, she appreciates having more time during it to spend together with them. 
 
-She joined the C19 Coalition in August via an invitation from a colleague from work. By bringing her skills and experience in community outreach, grassroots marketing and writing, Catherine works diligently on managing social media for the coalition. She loves seeing how social media marketing can bring people together, and has enjoyed trying something new. 
+She joined the [C19 Coalition](c19coalition.org) in August via an invitation from a colleague from work. By bringing her skills and experience in community outreach, grassroots marketing and writing, Catherine works diligently on managing social media for the coalition. She loves seeing how social media marketing can bring people together, and has enjoyed trying something new. 
 
 “From what articles are out there, the need for PPE is numerous,” she says. She has been impressed with the works of groups she’s met with such as the Chicano Federation based in San Diego, “There are so many different people providing such a vast number of services, I’m just trying to help by spreading the word.” 
 
