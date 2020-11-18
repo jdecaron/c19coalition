@@ -22,6 +22,10 @@ She joined the [C19 Coalition](c19coalition.org) in August via an invitation fro
 
 Catherine believes the work of C19 Coalition is impactful because it has helped create a funnel for organizations versus just donating via one single avenue. The coalition works by looking at the bigger picture and getting PPE to anyone who needs it. 
 
-She hopes that the flu season will be less dramatic, and that we can be more prepared by staying cleaner and respecting each others’ boundaries. But overall, she’s remained positive about how the pandemic has brought people together in a different way. \
-“Pandemic has brought people together, and it has brought out a lot of compassion from people,” she says. “Mental health awareness is being heightened and people are finding comfort in ways they’re not alone.” Catherine sees more kindness in the world, and hopes that the pandemic will encourage people to be kinder to each other, take the focus off of ourselves and place attention on a bigger whole. \
+She hopes that the flu season will be less dramatic, and that we can be more prepared by staying cleaner and respecting each others’ boundaries. But overall, she’s remained positive about how the pandemic has brought people together in a different way.\
+ \
+“Pandemic has brought people together, and it has brought out a lot of compassion from people,” she says. “Mental health awareness is being heightened and people are finding comfort in ways they’re not alone.”\
+\
+ Catherine sees more kindness in the world, and hopes that the pandemic will encourage people to be kinder to each other, take the focus off of ourselves and place attention on a bigger whole.\
+ \
 “You just never know what anyone’s going through.”
