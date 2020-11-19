@@ -12,5 +12,5 @@ is_member: true
 show_on_home_page: true
 only_on_home_page: false
 site_url: https://sensorydatacorp.com/
-logo: /assets/uploads/sensorydata-logo-for-web_google.png
+logo: /assets/uploads/sensorydata.png
 ---
