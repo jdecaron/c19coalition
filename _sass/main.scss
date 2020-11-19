@@ -17,8 +17,8 @@ a {
 }
 
 a.btn {
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 p {
@@ -46,7 +46,7 @@ strong {
   margin-left: 20px;
   font-size: 1rem;
   padding: 0;
-  color: $cold-azure;
+  color: #51595f;
 }
 
 .navbar-nav .nav-item .btn {
@@ -303,20 +303,15 @@ section {
   background: $background;
   padding: 5rem 0 4rem 0;
 
-  img {
-    border-radius: $radius;
-  }
-
   .headline {
-    background: $background;
 
     span {
       color: $secondary;
     }
 
     .btn {
-      width: 50%;
       display: inline-block;
+      width: 60%;
     }
   }
 
@@ -331,18 +326,14 @@ section {
 
   a, a:hover {
     cursor: pointer;
-    color: $on-primary;
+    color: $primary;
   }
 
-  div.reading {
+  p.read {
     display: none;
   }
 
-  img {
-    border-radius: $radius;
-  }
-
-  p {
+  a.read.reading {
     display: none;
   }
 
@@ -353,32 +344,26 @@ section {
     }
   }
 
-  .btn {
-    display: inline-block;
-    margin-top: 1.5rem;
-  }
-
   .mission-image {
-    display: none;
-  }
-
-  .mission-image.reading {
     display: none;
   }
 }
 
-
 .hotline {
   padding: 5rem 0 4rem 0;
-
-  .btn {
-    display: inline-block;
-    width: 100%;
-  }
 
   h2 {
     text-align: center;
     display: inline-block
+  }
+
+  .btn {
+    display: inline-block;
+    width: 60%;
+  }
+
+  .email, .phone {
+    text-align: center;
   }
 }
 
@@ -397,7 +382,6 @@ section {
 
     .btn {
       display: inline-block;
-      width: 70%;
     }
   }
 }
@@ -672,6 +656,14 @@ blockquote {
       display: inline-block;
       width: auto;
     }
+
+    .email {
+      text-align: right;
+    }
+
+    .phone {
+      text-align: left;
+    }
   }
 
   .container.longread {
@@ -729,14 +721,6 @@ blockquote {
     .donate-id {
       text-align: center;
       justify-content: center;
-    }
-  }
-
-  .section-members {
-    .btn-container {
-      .btn {
-        width: 45%;
-      }
     }
   }
 
