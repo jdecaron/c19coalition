@@ -13,7 +13,7 @@ location: Nationwide
 is_member: true
 show_on_home_page: true
 site_url: https://tulip.co
-logo: /assets/uploads/tulip-dark.svg
+logo: /assets/uploads/tulip.png
 contact:
   name: Rony Kubat
   email: kubat@tulip.co
