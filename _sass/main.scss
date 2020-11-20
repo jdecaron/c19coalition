@@ -120,6 +120,7 @@ strong {
   }
 }
 
+
 @keyframes slide-in {
   from {
     padding-top: 25vh;
@@ -229,6 +230,17 @@ section {
     .col-12 {
       max-width: $max-section-width;
     }
+
+    .over {
+      transition: transform 0.3s ease-in-out;
+      transform: scale3d(1.10, 1.10, 1.10);
+    }
+
+    .out {
+      transition: transform 0.3s ease-in-out;
+      transform: scale3d(1, 1, 1);
+    }
+
   }
 }
 
