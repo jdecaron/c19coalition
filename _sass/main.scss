@@ -253,9 +253,10 @@ section {
 
 .partner-logo {
   text-align: center;
-  margin-bottom: 3rem;
 
   img {
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
     width: 70%;
   }
 }
@@ -578,7 +579,6 @@ blockquote {
 
   .partner-logo {
     text-align: center;
-    margin-bottom: 3rem;
 
     img {
       width: auto;
