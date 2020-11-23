@@ -2,7 +2,7 @@
 layout: post
 title: "C19 Coalition Volunteer Highlight: JD Caron"
 date: 2020-11-22T15:10:06.246Z
-reading_time: 6-8 minutes
+reading_time: 5-7 minutes
 author: Mary Cooley
 footer: >-
   Exhaustive list of of behaviour changes from the CDC (Centers for Disease
