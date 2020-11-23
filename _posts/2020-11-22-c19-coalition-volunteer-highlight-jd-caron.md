@@ -4,9 +4,14 @@ title: "C19 Coalition Volunteer Highlight: JD Caron"
 date: 2020-11-22T15:10:06.246Z
 reading_time: 6-8 minutes
 author: Mary Cooley
-footer: If you are interested in joining JD and volunteering in any capacity
-  with the C19 Coalition, reach out to us at
-  [info@c19coalition.org](mailto:info@c19coalition.org).
+footer: >-
+  Exhaustive list of of behaviour changes from the CDC (Centers for Disease
+  Control and Prevention): [Daily Activities and Going
+  Out](https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/going-out.html).\
+
+  \
+
+  If you are interested in joining JD and volunteering in any capacity with the C19 Coalition, reach out to us at [info@c19coalition.org](mailto:info@c19coalition.org).
 thumbnail: /assets/uploads/maine-jd-square.jpg
 summary: Jean-Denis Caron and his family were still reeling from his
   brother-in-law’s cancer death when Covid 19 began its dangerous spread around
@@ -50,6 +55,4 @@ My life isn’t that much different than before because I was already working fr
 
 ##### Do you have any call to action for the readers?
 
-I invite people to adapt their behaviors to this crisis. There are ways to change what we used to do but in a safer way that is also enjoyable. Like, meeting your friends outside instead of inside. Making sure you at least get out of the house for a walk if you are stuck at home. (there must be a good list we can link to). If we have more people staying safe and taking care of themselves, we are going to have more people healthy in every way during the crisis, and after.\
-\
-Exhaustive list of of behaviour changes from the CDC (Centers for Disease Control and Prevention): [Daily Activities and Going Out](https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/going-out.html).
+I invite people to adapt their behaviors to this crisis. There are ways to change what we used to do but in a safer way that is also enjoyable. Like, meeting your friends outside instead of inside. Making sure you at least get out of the house for a walk if you are stuck at home. (there must be a good list we can link to). If we have more people staying safe and taking care of themselves, we are going to have more people healthy in every way during the crisis, and after.
