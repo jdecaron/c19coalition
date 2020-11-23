@@ -55,4 +55,4 @@ My life isn’t that much different than before because I was already working fr
 
 ##### Do you have any call to action for the readers?
 
-I invite people to adapt their behaviors to this crisis. There are ways to change what we used to do but in a safer way that is also enjoyable. Like, meeting your friends outside instead of inside. Making sure you at least get out of the house for a walk if you are stuck at home. (there must be a good list we can link to). If we have more people staying safe and taking care of themselves, we are going to have more people healthy in every way during the crisis, and after.
+I invite people to adapt their behaviors to this crisis. There are ways to change what we used to do but in a safer way that is also enjoyable. Like, meeting your friends outside instead of inside. Making sure you at least get out of the house for a walk if you are stuck at home. If we have more people staying safe and taking care of themselves, we are going to have more people healthy in every way during the crisis, and after.
