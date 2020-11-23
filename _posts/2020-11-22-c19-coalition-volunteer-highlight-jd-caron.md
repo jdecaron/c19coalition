@@ -5,8 +5,8 @@ date: 2020-11-22T15:10:06.246Z
 reading_time: 5-7 minutes
 author: Mary Cooley
 footer: >-
-  Exhaustive list of of behaviour changes from the CDC (Centers for Disease
-  Control and Prevention): [Daily Activities and Going
+  Exhaustive list of behaviour changes from the CDC (Centers for Disease Control
+  and Prevention): [Daily Activities and Going
   Out](https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/going-out.html).\
 
   \
