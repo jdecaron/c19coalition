@@ -22,7 +22,7 @@ summary: Jean-Denis Caron and his family were still reeling from his
 
 > Marc’s death shook my world and my family and opened my mind to how much we have yet to learn about biology and respect the power it holds.<cite>JD Caron, C19 Coalition Volunteer</cite>
 
-The C19 Coalition uses JD’s work as a software developer to make the website more user-friendly and help it better serve our partners in the sourcing and distribution of personal protective equipment during the Covid-19 crises. (We should link to the page here once it goes live.) JD’s latest project follows up on earlier C19 projects where he made the directory interactive and responsive, with improved search features.
+The C19 Coalition uses JD’s work as a software developer to make the website more user-friendly and help it better serve our partners in the sourcing and distribution of personal protective equipment during the Covid-19 crises. JD’s latest project follows up on earlier C19 projects where he made the directory interactive and responsive, with improved search features.
 
 “I stayed out of the details because we didn't know back then how long the crisis would last,” JD said. “Then during the summer the marketing team requested a blog on the website… I also stayed around for general support, I think that just saying that I was going to stick around for as long as needed relieved the pressure and helped people focus on different problems than the website.”
 
@@ -50,4 +50,6 @@ My life isn’t that much different than before because I was already working fr
 
 ##### Do you have any call to action for the readers?
 
-I invite people to adapt their behaviors to this crisis. There are ways to change what we used to do but in a safer way that is also enjoyable. Like, meeting your friends outside instead of inside. Making sure you at least get out of the house for a walk if you are stuck at home. (there must be a good list we can link to). If we have more people staying safe and taking care of themselves, we are going to have more people healthy in every way during the crisis, and after.
+I invite people to adapt their behaviors to this crisis. There are ways to change what we used to do but in a safer way that is also enjoyable. Like, meeting your friends outside instead of inside. Making sure you at least get out of the house for a walk if you are stuck at home. (there must be a good list we can link to). If we have more people staying safe and taking care of themselves, we are going to have more people healthy in every way during the crisis, and after.\
+\
+Exhaustive list of of behaviour changes from the CDC (Centers for Disease Control and Prevention): [Daily Activities and Going Out](https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/going-out.html).
