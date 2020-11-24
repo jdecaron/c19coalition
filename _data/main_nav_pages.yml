@@ -1,3 +1,6 @@
+- title: Home
+  url: /
+
 - title: Directory
   url: /directory
 
@@ -12,6 +15,3 @@
 
 - title: About Us
   url: /commitments
-
-- title: Donate
-  url: https://ecf.networkforgood.com/projects/52889-c19-coalition
