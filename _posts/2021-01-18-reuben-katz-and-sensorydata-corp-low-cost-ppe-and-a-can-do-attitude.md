@@ -13,9 +13,7 @@ summary: SensoryData Corp was founded with the mission to save lives and prevent
   pivoted from their life-saving mission to another, to get low cost and donated
   PPE to communities and organizations that needed it most, and fast.
 ---
-
-
-![](/assets/uploads/reuben-image-2.jpeg "Reuben donating PPE to Chicano Federation. ")
+![](/assets/uploads/reuben-revised.png "Reuben donating PPE to Chicano Federation. ")
 
 Last February, Reuben Katz, owner of [SensoryData Corp](https://sensorydatacorp.com/), was on his way back from Barcelona after meeting with his team. Upon arrival at L.A Airport, it became “remarkably clear what direction things were headed in the US,” says Katz. At the time, SensoryData Corp was launching its pressure measuring devices into hospitals for testing, but due to the Coronavirus outbreak, all the clinical trials for the device, including hospitals in Spain, and the United States such as Johns Hopkins and UCSD Medical, were canceled or paused by early March. 
 
