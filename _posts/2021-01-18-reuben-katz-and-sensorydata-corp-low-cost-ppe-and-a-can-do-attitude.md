@@ -8,7 +8,10 @@ footer: The C19 Coalition is a non-profit, cross-sector group of organizations,
   companies, states, and philanthropists working to address PPE shortages across
   the country.
 thumbnail: /assets/uploads/reuben-donation-.jpeg
-summary: Reuben Katz, founder of SensoryData Corp
+summary: SensoryData Corp was founded on the mission to save lives and prevent
+  illness, then came COVID-19. The company and its founder, Reuben Katz pivoted
+  from their live saving mission to another, to get low cost and donated PPE to
+  communities and organizations that needed it most and fast.
 ---
 
 
