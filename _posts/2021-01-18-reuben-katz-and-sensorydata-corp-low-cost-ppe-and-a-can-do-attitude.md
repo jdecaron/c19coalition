@@ -2,7 +2,7 @@
 layout: post
 title: "Reuben Katz and SensoryData Corp: Low Cost PPE and a Can-Do Attitude."
 date: 2021-01-18T09:37:20.123Z
-reading_time: 3-4
+reading_time: "3-4 min. "
 author: "Christina Timms "
 footer: The C19 Coalition is a non-profit, cross-sector group of organizations,
   companies, states, and philanthropists working to address PPE shortages across
