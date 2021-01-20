@@ -23,7 +23,7 @@ Due to Katz’s initial connections to reliable manufacturers, he and SensoryDat
 
 Reuben’s success in connections with sales and distribution of masks has allowed him to graciously donate masks to not only hospitals but to schools and communities disproportionately impacted by COVID-19. In coordination with C19 Coalition, Katz has been able to donate 15,000 masks to schools in Alaska as well as another 15,000 masks to the Chicano Federation, another C19 partner in San Diego. Ashley Gazich, project lead, and all-around impactful Advisor at C19 Coalition worked closely with Reuben on a few programs as well as bringing him into the C19 partnership.
 
-> **\
+> ###### **\
 > *“One of the great things about teaming up with Reuben is that with his vision and can-do philosophy, anything is possible. In our first meeting (before I finished my proposal!) he immediately saw the urgency of supporting schools and community-based organizations (CBOs). His donation commitment kicked off new C19 Coalition pilot programs for schools, CBOs, and agriculture workers, which we have since scaled nationally.” Says Gazich.*** 
 
 Katz and SensoryData Corp continue their low-cost PPE and significant donations with “millions and millions of masks at the drop of a call” says Katz. They also have supply connections with gloves and gowns. 
