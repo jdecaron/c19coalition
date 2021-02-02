@@ -361,11 +361,20 @@ section {
   }
 }
 
+.section-social {
+  padding: 5rem 0 4rem 0;
+  background-color: $gray-200;
+
+  h2 {
+    text-align: center;
+    display: inline-block
+  }
+}
+
 .hotline {
   padding: 5rem 0 4rem 0;
 
   h2 {
-    text-align: center;
     display: inline-block
   }
 
@@ -387,6 +396,10 @@ section {
 
 .section-members {
   padding: 5rem 0 4rem 0;
+
+  h2 {
+    display: inline-block
+  }
 
   .btn-container {
     text-align: center;
