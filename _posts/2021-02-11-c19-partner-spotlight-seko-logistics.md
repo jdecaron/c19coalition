@@ -28,7 +28,10 @@ In the first months of the pandemic, when inbound flights were shut down, it was
 
 Before e-commerce, getting products to people was relatively painless, people would drive to central locations, such as a big-box store and pick up products. Now with e-commerce, not only does the PPE need to get to distribution centers, it then needs to be distributed to thousands of individual locations. Bourke estimates that the “final mile” of the delivery can be up to 80 percent of the total costs.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/90nPW7KoM4k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="text-center" style="margin: 2rem 0 2rem 0;">
+  <div>Listen to Brian Bourke discuss the final mile.</div>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/90nPW7KoM4k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 More recently, finding storage space for PPE has become a big hurdle.
 
