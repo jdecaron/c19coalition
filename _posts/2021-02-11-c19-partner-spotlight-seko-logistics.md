@@ -10,8 +10,6 @@ summary: SEKO Logistics has taken on many of the challenging obstacles in
   delivery of PPE. As experts in supply chain, SEKO has been an important
   partner of C19 Coalition and its expertise has been invaluable.
 ---
-By David Morrill
-
 In the quest to get PPE and vaccinations to the right people, sometimes it’s the journey itself that’s become the biggest challenge.
 
 For Brian Bourke, chief growth officer at [SEKO Logistics](sekologistics.com), when someone finally puts a donated mask on, or gets the vaccine in the arm, he appreciates what it took to make it happen. 
