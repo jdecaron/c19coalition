@@ -5,7 +5,7 @@ date: 2021-02-11T15:58:26.364Z
 reading_time: 3-4 minutes
 author: David Morrill
 footer: ""
-thumbnail: /assets/uploads/seko-logistics.png
+thumbnail: /assets/uploads/seko-logistics-square.png
 summary: SEKO Logistics has taken on many of the challenging obstacles in
   delivery of PPE. As experts in supply chain, SEKO has been an important
   partner of C19 Coalition and its expertise has been invaluable.
