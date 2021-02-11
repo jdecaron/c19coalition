@@ -636,6 +636,11 @@ blockquote {
       width: 80%;
     }
   }
+
+  .embed-width {
+    width: 80%;
+    display: inline-block;
+  }
 }
 
 @media (min-width: 992px) {
