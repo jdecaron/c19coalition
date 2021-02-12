@@ -57,8 +57,8 @@ Not only has SEKO helped others with supply chain logistics, it also purchased a
 
 For Bourke personally, as he witnessed this pandemic unfold, he does believe there’s a lot of wisdom that can be pulled from it.
 
-“When this is over we need to do a post mortem on what the hell just happened, because what’s clear is this won’t be the last time we see this,” Bourke said. “There’s going to be other ‘volcanoes’ that disrupt life on earth, so we really need to think about how we respond to these things and come up with better plans.”
+“When this is over we need to do a post mortem on what the hell just happened, because what’s clear is this won’t be the last time we see this,” Bourke said. “There’s going to be other ‘volcanoes’ that disrupt life on earth, so we really need to think about how we respond to these issues and come up with better plans.”
 
-And he believes that will happen because of the good that comes out of collaboration.
+In the end, there's one glimmer of hope that Bourke holds onto as he looks to both the past, present and future.
 
-“If you think about it, this is the first time in the history of humanity when all of the smartest people in the world are working on the same problem,” he said. “That’s the one thing that I’ve held onto as a glimmer of hope that even in the darkest days; great people are working on it and brighter days are ahead.”
+“If you think about it, this is the first time in the history of humanity when all of the smartest people in the world are working on the same problem,” he said. "I believe brighter days are ahead.”
