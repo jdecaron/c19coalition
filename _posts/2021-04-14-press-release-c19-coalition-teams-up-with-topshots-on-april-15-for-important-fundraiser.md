@@ -15,7 +15,7 @@ summary: The [C19
   testing and vaccination to communities of color at HBCU campuses,
   churches,  and community centers via its Sunday Suppers program.
 ---
-The [C19 Coalition](https://deploy-preview-290--zealous-stonebraker-4c4acf.netlify.app/2021/04/14/c19coalition.org) is proud to announce a partnership with NBA Top Shot to create one of the first NFT fundraisers, [Shots for Shots](https://deploy-preview-290--zealous-stonebraker-4c4acf.netlify.app/2021/04/14/www.shotsforshots.org), using NBA Top Shot to help fight the Covid-19 pandemic by bringing PPE, testing and vaccination to communities of color at HBCU campuses, churches,  and community centers via its Sunday Suppers program. 
+The [C19 Coalition](https://c19coalition.org/) is proud to announce a partnership with NBA Top Shot to create one of the first NFT fundraisers, [Shots for Shots](https://www.shotsforshots.org/), using NBA Top Shot to help fight the Covid-19 pandemic by bringing PPE, testing and vaccination to communities of color at HBCU campuses, churches,  and community centers via its Sunday Suppers program. 
 
 The event will take place at 7 p.m. EST on the Shots For Shots and NBA Top Shot Charity Twitch live stream at (<https://www.twitch.tv/trillingham>). Guests that include [Josh Hart](https://twitter.com/joshhart) of the New Orleans Pelicans, [Michael Carter Williams](https://twitter.com/mcarterwilliams) of the Orando Magic, and [DJ Skee](https://twitter.com/djskee) will be opening limited edition packs provided by the team at [NBA Top Shot.](https://nbatopshot.com/)
 
