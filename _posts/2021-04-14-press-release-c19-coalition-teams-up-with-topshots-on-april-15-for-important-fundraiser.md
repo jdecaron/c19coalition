@@ -6,8 +6,9 @@ date: 2021-04-14T15:32:51.031Z
 reading_time: 3-4 minutes
 author: David Morrill
 thumbnail: /assets/uploads/shotsforshots_logo.png
-summary: The C19 Coalition is proud to announce a partnership with NBA Top Shot
-  to create one of the first NFT fundraisers, Shots for Shots, using NBA Top
+summary: The [C19 Coalition](https://c19coalition.org/) is proud to announce a
+  partnership with NBA Top Shot to create one of the first NFT
+  fundraisers, [Shots for Shot](https://www.shotsforshots.org/)s, using NBA Top
   Shot to help fight the Covid-19 pandemic by bringing PPE, testing and
   vaccination to communities of color at HBCU campuses, churches,  and community
   centers via its Sunday Suppers program.
@@ -29,4 +30,4 @@ The C19 Coalition is a non-profit, cross-sector group of organizations, companie
   </div>
 </div>
 
-"The NBA Top Shot community is full of passionate, caring, and wonderful people," said [Jacob Eisenberg](https://twitter.com/Eisenberg43), community lead of NBA Top Shot. "It's amazing to see community initiatives like [Shots for Shots](https://shotsforshots.org) sprout up organically with the help of the C19 Coalition, and I couldn't be prouder to join the athletes, influencers, moderators, and organizers who've come together to leverage Top Shot as a vehicle for positive change. I'm really excited to see the community rally around this amazing cause."
+"The NBA Top Shot community is full of passionate, caring, and wonderful people," said [Jacob Eisenberg](https://twitter.com/Eisenberg43), community lead of NBA Top Shot. "It's amazing to see community initiatives like [Shots for Shots](https://www.shotsforshots.org/) sprout up organically with the help of the C19 Coalition, and I couldn't be prouder to join the athletes, influencers, moderators, and organizers who've come together to leverage Top Shot as a vehicle for positive change. I'm really excited to see the community rally around this amazing cause."
