@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Press Release: C19 Coalition teams up with TopShots on April 15 to help
-  communities of color battle Covid-19 pandemic"
+title: "Press Release: C19 Coalition partners with NBA Top Shot on April 15 to
+  help communities of color battle Covid-19 pandemic"
 date: 2021-04-14T15:32:51.031Z
 reading_time: 3-4 minutes
 author: David Morrill
-thumbnail: /assets/uploads/c19.png
+thumbnail: /assets/uploads/shotsforshots_logo.png
 summary: The [C19 Coalition](c19coalition.org) is proud to announce that it's
   partnering with influencers and NBA stars to create one of the first NFT
   fundraisers, [Shots for Shots ](shotsforshots.org), using NBA TopShots to help
@@ -13,11 +13,11 @@ summary: The [C19 Coalition](c19coalition.org) is proud to announce that it's
   communities of color at HBCU campuses, churches,  and community centers via
   its Sunday Suppers program.
 ---
-The [C19 Coalition](c19coalition.org) is proud to announce that it's partnering with influencers and NBA stars to create one of the first NFT fundraisers, [Shots for Shots ](www.shotsforshots.org), using NBA TopShots to help fight the Covid-19 pandemic by bringing PPE, testing and vaccination to communities of color at HBCU campuses, churches,  and community centers via its Sunday Suppers program. 
+The [C19 Coalition](https://deploy-preview-290--zealous-stonebraker-4c4acf.netlify.app/2021/04/14/c19coalition.org) is proud to announce a partnership with NBA Top Shots to create one of the first NFT fundraisers, [Shots for Shots](https://deploy-preview-290--zealous-stonebraker-4c4acf.netlify.app/2021/04/14/www.shotsforshots.org), using NBA Top Shot to help fight the Covid-19 pandemic by bringing PPE, testing and vaccination to communities of color at HBCU campuses, churches,  and community centers via its Sunday Suppers program. 
 
-The event will take place at 7 p.m. EST on the Twitch live stream of Warren Buckets (<https://www.twitch.tv/trillingham>). Guests that include [Michael Carter Williams](https://twitter.com/mcarterwilliams) and [DJ Skee](https://twitter.com/djskee) will be opening limited edition packs provided by the team at [NBA Top Shots.](https://nbatopshot.com/)
+The event will take place at 7 p.m. EST on the Twitch live stream of Warren Buckets (<https://www.twitch.tv/trillingham>). Guests that include [Josh Hart](https://twitter.com/joshhart) of the New Orleans Pelicans, [Michael Carter Williams](https://twitter.com/mcarterwilliams) of the Orando Magic, and [DJ Skee](https://twitter.com/djskee) will be opening limited edition packs provided by the team at [NBA Top Shots.](https://nbatopshot.com/)
 
-"We're excited to work with NBA Top Shots, Warren Buckets, Kindred and more to utilize the awesome power of NFTs to make a meaningful immediate impact to these communities," said Laura Mignott, who runs the Sunday Suppers for the C19 Coalition.
+"We're excited to work with NBA Top Shots, Warren Buckets, [Kindred](https://kindredmembers.com/) and more to utilize the awesome power of NFTs to make a meaningful immediate impact to these communities," said Laura Mignott, who runs the Sunday Suppers for the C19 Coalition.
 
 The C19 Coalition is a non-profit, cross-sector group of organizations, companies, states, and philanthropists working to address PPE shortages across the country. Collectively it has delivered more than a billion units of PPE since March 2020 primarily to frontline workers, educators, students and communities. A large focus of the deliveries are to disproportionately impacted communities around the country.
 
