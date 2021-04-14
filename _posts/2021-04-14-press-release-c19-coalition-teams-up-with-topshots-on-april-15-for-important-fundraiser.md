@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Press Release: C19 Coalition partners with NBA Top Shot on April 15 to
-  help communities of color battle Covid-19 pandemic"
+title: "Press Release: C19 Coalition teams with NBA Top Shot on April 15 to help
+  communities of color battle Covid-19 pandemic"
 date: 2021-04-14T15:32:51.031Z
 reading_time: 3-4 minutes
 author: David Morrill
