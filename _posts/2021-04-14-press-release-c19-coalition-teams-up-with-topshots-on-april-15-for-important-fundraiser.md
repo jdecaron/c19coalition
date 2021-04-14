@@ -6,14 +6,11 @@ date: 2021-04-14T15:32:51.031Z
 reading_time: 3-4 minutes
 author: David Morrill
 thumbnail: /assets/uploads/shotsforshots_logo.png
-summary: The [C19
-  Coalition](https://deploy-preview-290--zealous-stonebraker-4c4acf.netlify.app/2021/04/14/c19coalition.org) is
-  proud to announce a partnership with NBA Top Shots to create one of the first
-  NFT fundraisers, [Shots for
-  Shots](https://deploy-preview-290--zealous-stonebraker-4c4acf.netlify.app/2021/04/14/www.shotsforshots.org),
-  using NBA Top Shot to help fight the Covid-19 pandemic by bringing PPE,
-  testing and vaccination to communities of color at HBCU campuses,
-  churches,  and community centers via its Sunday Suppers program.
+summary: The C19 Coalition is proud to announce a partnership with NBA Top Shots
+  to create one of the first NFT fundraisers, Shots for Shots, using NBA Top
+  Shot to help fight the Covid-19 pandemic by bringing PPE, testing and
+  vaccination to communities of color at HBCU campuses, churches,  and community
+  centers via its Sunday Suppers program.
 ---
 The [C19 Coalition](https://c19coalition.org/) is proud to announce a partnership with NBA Top Shot to create one of the first NFT fundraisers, [Shots for Shots](https://www.shotsforshots.org/), using NBA Top Shot to help fight the Covid-19 pandemic by bringing PPE, testing and vaccination to communities of color at HBCU campuses, churches,  and community centers via its Sunday Suppers program. 
 
