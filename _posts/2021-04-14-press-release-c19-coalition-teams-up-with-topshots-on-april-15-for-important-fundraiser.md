@@ -17,7 +17,7 @@ The [C19 Coalition](https://c19coalition.org/) is proud to announce a partners
 
 The event will take place at 7 p.m. EST and can be accessed live through [Shots For Shots and NBA Top Shot Charity Twitch live stream](https://www.twitch.tv/trillingham) or via the [Shots for Shots website](shotsforshots.org) at [shotsforshots.org](shotsforshots.org).  [Josh Hart](https://twitter.com/joshhart) of the New Orleans Pelicans, [Michael Carter Williams](https://twitter.com/mcarterwilliams) of the Orlando Magic, [DJ Skee](https://twitter.com/djskee) and other special guest will be opening limited edition packs provided by the team at [NBA Top Shot.](https://nbatopshot.com/)
 
-"We're excited to work with NBA Top Shot,  [Kindred](https://kindredmembers.com/) and more to utilize the awesome power of NFTs to make a meaningful immediate impact to these communities," said [Laura Mignott](www.linkedin.com/in/lauramignott), who runs the Sunday Suppers for the C19 Coalition.
+"We're excited to work with NBA Top Shot,  [Kindred](https://kindredmembers.com/) and more to utilize the awesome power of NFTs to make a meaningful immediate impact to these communities," said [Laura Mignott](https://www.linkedin.com/in/lauramignott), who runs the Sunday Suppers for the C19 Coalition.
 
 The C19 Coalition is a non-profit, cross-sector group of organizations, companies, states, and philanthropists working to address PPE shortages across the country. Collectively it has delivered more than a billion units of PPE since March 2020 primarily to frontline workers, educators, students and communities. A large focus of the deliveries are to disproportionately impacted communities around the country.
 
