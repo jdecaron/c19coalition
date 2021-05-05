@@ -38,13 +38,10 @@ footer: >-
   The Church of God of East New York is both a neighborhood church and an amalgamation of people from different cultures and communities. In addition to its primary mission of teaching and reaching out to the community with the Word of God and providing discipleship training to its members, The Church of God of East New York has provided educational workshops in the community.
 thumbnail: /assets/uploads/screen-shot-2564-05-05-at-09.37.22.png
 summary: >-
-  [The C19 Coalition](https://c19coalition.org/) and its partners [Stop the
-  Spread](https://www.stopthespread.org/) and [Project
-  N95](https://www.projectn95.org/) are working in collaboration with the
-  [Church of God of East New York ](https://cog-eny.com/)and the [Community
-  Healthcare Network (CHN)](https://www.chnnyc.org/) to host its first of a
-  series of Sunday Suppers this Mother’s Day, May 9th, 2021 in Brooklyn, New
-  York.
+  The C19 Coalition and its partners Stop the Spread and Project N95 are working
+  in collaboration with the Church of God of East New York and the Community
+  Healthcare Network (CHN) to host its first of a series of Sunday Suppers this
+  Mother’s Day, May 9th, 2021 in Brooklyn, New York.
 
 
   ***The event, which will run from 9 a.m. to 5:30 p.m. at the Church of God of East New York, at 905 Sutter Avenue, will be an opportunity to get vaccinated while connecting with the community. The entrance is on Warwick St.***
