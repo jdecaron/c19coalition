@@ -44,7 +44,7 @@ summary: >-
   Mother’s Day, May 9th, 2021 in Brooklyn, New York.
 
 
-  ***The event, which will run from 9 a.m. to 5:30 p.m. at the Church of God of East New York, at 905 Sutter Avenue, will be an opportunity to get vaccinated while connecting with the community. The entrance is on Warwick St.***
+  **The event, which will run from 9 a.m. to 5:30 p.m. at the Church of God of East New York, at 905 Sutter Avenue, will be an opportunity to get vaccinated while connecting with the community. The entrance is on Warwick St.**
 
 
   The event will have Pfizer first and second doses available for anyone on a walk-up basis. Additionally, upon vaccination, a supply of masks and a free to-go meal supplied by a local restaurant will be provided.
