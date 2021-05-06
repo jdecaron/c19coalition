@@ -36,7 +36,7 @@ footer: >-
 
 
   The Church of God of East New York is both a neighborhood church and an amalgamation of people from different cultures and communities. In addition to its primary mission of teaching and reaching out to the community with the Word of God and providing discipleship training to its members, The Church of God of East New York has provided educational workshops in the community.
-thumbnail: /assets/uploads/screen-shot-2564-05-05-at-09.37.22.png
+thumbnail: /assets/uploads/c19coalition-sunday-supper-thumbnail.png
 summary: >-
   The C19 Coalition and its partners Stop the Spread and Project N95 are working
   in collaboration with the Church of God of East New York and the Community
