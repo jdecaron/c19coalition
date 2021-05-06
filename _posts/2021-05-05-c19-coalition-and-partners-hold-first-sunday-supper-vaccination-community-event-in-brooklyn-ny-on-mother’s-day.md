@@ -49,7 +49,7 @@ summary: >-
 
   The event will have Pfizer first and second doses available for anyone on a walk-up basis. Additionally, upon vaccination, a supply of masks and a free to-go meal supplied by a local restaurant will be provided.
 ---
-<img src="/assets/uploads/screen-shot-2564-05-05-at-09.37.22.png" alt="C19 Coalition Sunday Suppers" class="portrait">
+<img src="/assets/uploads/c19coalition-sunday-suppers.png" alt="C19 Coalition Sunday Suppers" class="portrait">
 
 [The C19 Coalition](https://c19coalition.org/) and its partners [Stop the Spread](https://www.stopthespread.org/) and [Project N95](https://www.projectn95.org/) are working in collaboration with the [Church of God of East New York ](https://cog-eny.com/)and the [Community Healthcare Network (CHN)](https://www.chnnyc.org/) to host its first of a series of Sunday Suppers this Mother’s Day, May 9th, 2021 in Brooklyn, New York.
 
