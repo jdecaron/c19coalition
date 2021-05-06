@@ -67,7 +67,7 @@ The C19 Coalition is a non-profit, cross-sector group of organizations, companie
 
 The sites themselves were co-designed by CHN and Stop the Spread with the purpose of offering vaccines in a trusted space that’s part of the fabric of the community. The hope is the event will draw those who still need to be vaccinated by offering vaccines in a community event.
 
-Also, [Dr Brittany Richards](https://www.citytech.cuny.edu/faculty/BRichards), assistant professor from the [Nursing Department at CUNY New York City College of Technology](https://www.citytech.cuny.edu/nursing/), will be available during the event to answer questions about the vaccine. 
+Also, [Dr Brittany Richards](https://www.citytech.cuny.edu/faculty/BRichards), assistant professor from the [Nursing Department at CUNY New York City College of Technology](https://www.citytech.cuny.edu/nursing/)  and Board Member and Health Policy Chair of the Greater NYC Black Nurses Association, will be available during the event to answer questions about the vaccine. 
 
 "Stop the Spread is excited to bring together our national and local partners like the C19 Coalition and Community Healthcare Network to address vaccine equity in communities that have been especially hard hit by the pandemic,” said Sharon Knight, executive director of Stop the Spread. “We hope this partnership brings new ideas and promising practices to increase vaccine uptake and build vaccine confidence, while giving back to the community."
 
