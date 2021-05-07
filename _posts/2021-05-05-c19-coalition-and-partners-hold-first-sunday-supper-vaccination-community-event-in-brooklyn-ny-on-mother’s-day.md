@@ -75,12 +75,21 @@ The vaccine site is one of four community-based vaccine clinics being run by CHN
 
 "Community Healthcare Network is committed to bringing vaccines to our neighborhoods working with our community partners,” said Robert Hayes, president and CEO of the Community Healthcare Network. “This event shows the power of the community in East New York. Together, we can create welcoming spaces for residents to learn about the safety of the COVID-19 vaccine and then get a free shot."
 
-The masks at the event are delivered by Project N95, a rapid response organization that has been a trusted resource for vetted personal protective equipment throughout the pandemic, delivering more than 6.3 million units of PPE nationwide since May 2020. 
+The masks at the event are delivered by Project N95, a rapid response organization that has been a trusted resource for vetted personal protective equipment throughout the pandemic, delivering more than 6.3 million units of PPE nationwide since May 2020.
 
 "Since the earliest days of the pandemic, our nonprofit organization has been committed to opening access to the resources people need to stay safe," said Marilyn Levi-Baumgarten, director of partnerships for Project N95. "Working with trusted partners like the C19 Coalition allows us to extend our reach even further into communities where COVID-19 has had a disproportionate impact to help get them the protection they need."
 
 The Church of God of East New York is considered a neighborhood church of different cultures and communities.
 
-"The Church of God of East New York has a deep and long history with our community, serving and helping all people, whether they need a place to worship or a comfortable and trusted space to receive their COVID-19 vaccine,” said Reverend Clifton McDowell. “We are honored to host this event to celebrate Mother's Day and give people access to vaccines to protect themselves and their loved ones." 
+"The Church of God of East New York has a deep and long history with our community, serving and helping all people, whether they need a place to worship or a comfortable and trusted space to receive their COVID-19 vaccine,” said Reverend Clifton McDowell. “We are honored to host this event to celebrate Mother's Day and give people access to vaccines to protect themselves and their loved ones."
 
 The Church of God of East New York Vaccine Site is open every Wednesday and Thursday  from 5:30 p.m. to 9:30 p.m. and Saturday and Sunday from 9 a.m to 5:30 p.m.
+
+<div class="text-center" style="margin: 2rem 0 2rem 0;">
+  <div class="embed-width">
+    <div>1st Sunday Supper - Mother's Day</div>
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/OuJUL474ccA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
