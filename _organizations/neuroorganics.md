@@ -13,7 +13,7 @@ description: NEUROorganics is a platform offering a proactive therapeutic mental
   the future looks like with how the pandemic has shifted healthcare, policies,
   the healthcare system.
 type:
-  - other
+  - provide-mental-health-support
 structure: corporate
 location: Multinational
 is_member: true
