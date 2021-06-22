@@ -8,5 +8,5 @@ description: Ethel's Club is hosting three free, one hour virtual group healing
 type:
   - african-american
 top_health: false
-site_url: https://www.ethelsclub.com/   https://calendly.com/ethels-club/healing-grieving-group-poc-session?month=2020-06
+site_url: https://www.ethelsclub.com
 ---
