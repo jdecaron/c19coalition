@@ -125,7 +125,7 @@ layout: default
           </div>
           <div class="container organization-footer">
             <div class="row">
-              <div class="col-sm-8">
+              <div class="col-sm-8 col-md-7">
 
                 {% for rawType in org.type %}
 
@@ -138,7 +138,7 @@ layout: default
                 {% endfor %}
                 <span class=" badge badge-default">{{ org.location }}</span>
               </div>
-              <div class="col-sm-4 col-member-status">
+              <div class="col-sm-4 col-md-5 col-member-status">
                 {% if org.is_member %}
                 <div class="badge badge-default">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12">
