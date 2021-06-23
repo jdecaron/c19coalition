@@ -13,5 +13,5 @@ description: >-
 type:
   - crisis-hotlines
 top_health: false
-site_url: www.redcross.org/NYSCOVIDFamilySupport
+site_url: https://www.redcross.org/NYSCOVIDFamilySupport
 ---

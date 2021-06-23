@@ -8,5 +8,5 @@ description: Life is Precious (Latina Teen Suicide Prevention Program) is
 type:
   - crisis-hotlines
 top_health: false
-site_url: ""
+site_url: https://comunilife.org/lip
 ---

@@ -7,8 +7,6 @@ description: >-
 
   [https://www.blackfemaletherapists.com/directory](https://www.blackfemaletherapists.com/directory)  
 
-  [http://www.abpsi.org/find-psychologists/](http://www.abpsi.org/find-psychologists/)  
-
   [https://www.melaninandmentalhealth.com/?select=&lp_s_loc=&lp_s_tag=&lp_s_cat=&s=home&post_type=listing](https://www.melaninandmentalhealth.com/?select=&lp_s_loc=&lp_s_tag=&lp_s_cat=&s=home&post_type=listing)  
 
   [https://www.mytrucircle.com/#faq](https://www.mytrucircle.com/#faq)  

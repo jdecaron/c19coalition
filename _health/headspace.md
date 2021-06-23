@@ -1,9 +1,6 @@
 ---
 name: Headspace
-description: |-
-  Free for Healthcare Professionals: <https://www.headspace.com/health-covid-19>
-
-  Free for Unemployed: <https://www.headspace.com/unemployed>
+description: Headspace provides guided meditation resources online, accessible to users through the company's website and via a mobile app on the iPhone and Android platforms. Users can access ten days of free content, after which they have the option to take out a monthly or annual subscription or continue with the free trial material.
 type:
   - meditation
 top_health: false
