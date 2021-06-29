@@ -596,6 +596,12 @@ blockquote {
   width: 100%;
   height: auto;
 }
+
+.badge-container {
+  max-width: $max-width;
+  text-align: right;
+}
+
 .container.longread .thumbnail img.loaded {
   display: inline;
 }

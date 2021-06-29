@@ -28,6 +28,27 @@ permalink: /health
   }
 </style>
 
+<section class="mt-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-12 col-lg-7">
+        <h1>Mental Health Resources</h1>
+      </div>
+      <div class="col-12 mb-5">
+        <div class="section-hotline">
+          <p>
+            <strong>National Suicide Prevention Lifeline | 1-800-273-8255</strong>
+          </p>
+          <p>
+            We can all help prevent suicide. The Lifeline provides 24/7, free and confidential support for people in
+            distress, prevention and crisis resources for you or your loved ones, and best practices for professionals.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section-content">
   <div class="container">
 
@@ -35,16 +56,10 @@ permalink: /health
     <div class="row">
       <div class="col-12">
 
-        <div class="container longread mx-0 my-4">
-
-          <div class="row">
-            <div class="col-12">
-              <h1>Mental Health Resources</h1>
-            </div>
-          </div>
+        <div class="longread mx-0 my-4">
 
           <div id="organizations" class="row">
-            <div class="col-12 mt-5">
+            <div class="col-12 mt-2">
               <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Resource Type
@@ -83,15 +98,11 @@ permalink: /health
                 <p>{{ org.description | markdownify }}</p>
               </div>
 
-              <div class="container">
-                <div class="row justify-content-end">
-                  <div class="col-5 col-md-3">
-                    <div class="badge badge-default text-right">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12">
-                        <path fill="#EDC624" fill-rule="evenodd" d="M16 10v2H0v-2h16zm0-5v2H0V5h16zm0-5v2H0V0h16z"></path></svg>
-                      <span>Coalition Member</span>
-                    </div>
-                  </div>
+              <div class="badge-container">
+                <div class="badge badge-default text-right">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12">
+                    <path fill="#EDC624" fill-rule="evenodd" d="M16 10v2H0v-2h16zm0-5v2H0V5h16zm0-5v2H0V0h16z"></path></svg>
+                  <span>Coalition Member</span>
                 </div>
               </div>
 
@@ -149,15 +160,11 @@ permalink: /health
               </div>
 
                 {% if org.is_member %}
-                <div class="container">
-                  <div class="row justify-content-end">
-                    <div class="col-5 col-md-3">
-                      <div class="badge badge-default text-right">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12">
-                          <path fill="#EDC624" fill-rule="evenodd" d="M16 10v2H0v-2h16zm0-5v2H0V5h16zm0-5v2H0V0h16z"></path></svg>
-                        <span>Coalition Member</span>
-                      </div>
-                    </div>
+                <div class="badge-container">
+                  <div class="badge badge-default text-right">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12">
+                      <path fill="#EDC624" fill-rule="evenodd" d="M16 10v2H0v-2h16zm0-5v2H0V5h16zm0-5v2H0V0h16z"></path></svg>
+                    <span>Coalition Member</span>
                   </div>
                 </div>
                 {% endif %}
