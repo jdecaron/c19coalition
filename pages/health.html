@@ -51,12 +51,15 @@ permalink: /health
 
 <section class="section-content">
   <div class="container">
+
+
     <div class="row">
       <div class="col-12">
 
-        <div class="container longread mx-0 my-4">
+        <div class="longread mx-0 my-4">
+
           <div id="organizations" class="row">
-            <div class="col-12 my-2 list">
+            <div class="col-12 mt-2">
               <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Resource Type
@@ -71,16 +74,47 @@ permalink: /health
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="container longread mx-0 my-4">
           <div id="organizations" class="row">
             <div class="col-12 my-2 list">
 
+              <h2>Coalition Members</h2>
+              {% for org in site.health %}
+
+              {% if org.top_health == true and org.is_member == true %}
+
+              <h3>
+                {% if org.site_url %}
+                <a href="{{ org.site_url }}" class="name">{{ org.name }}<svg class="external-link" alt="external link"
+                                                                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 8">
+                  <path id="external-link"
+                    d="M0 0v8h8v-2h-1v1h-6v-6h1v-1h-2zm4 0l1.5 1.5-2.5 2.5 1 1 2.5-2.5 1.5 1.5v-4h-4z" /></svg></a>
+                {% else %}
+                {{ org.name }}
+                {% endif %}
+              </h3>
+
+              <div class="organization-content">
+                <p>{{ org.description | markdownify }}</p>
+              </div>
+
+              <div class="badge-container">
+                <div class="badge badge-default text-right">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12">
+                    <path fill="#EDC624" fill-rule="evenodd" d="M16 10v2H0v-2h16zm0-5v2H0V5h16zm0-5v2H0V0h16z"></path></svg>
+                  <span>Coalition Member</span>
+                </div>
+              </div>
+
+              {% endif %}
+
+              {% endfor %}
+
+              <h2>Top Resources</h2>
 
               {% for org in site.health %}
 
-              {% if org.top_health == true %}
+              {% if org.top_health == true and org.is_member != true %}
 
                 <h3>
                   {% if org.site_url %}
@@ -124,6 +158,16 @@ permalink: /health
               <div class="organization-content">
                 <p>{{ org.description | markdownify }}</p>
               </div>
+
+                {% if org.is_member %}
+                <div class="badge-container">
+                  <div class="badge badge-default text-right">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12">
+                      <path fill="#EDC624" fill-rule="evenodd" d="M16 10v2H0v-2h16zm0-5v2H0V5h16zm0-5v2H0V0h16z"></path></svg>
+                    <span>Coalition Member</span>
+                  </div>
+                </div>
+                {% endif %}
               {% endif %}
 
               {% endfor %}

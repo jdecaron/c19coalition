@@ -29,6 +29,20 @@ strong {
   font-weight: 700;
 }
 
+.badge {
+  padding: 7px;
+  margin: 5px;
+  svg {
+    transform: scale(0.8);
+    margin-right: 5px;
+  }
+}
+
+.badge-default {
+  color: rgba(0,0,0,.6);
+  background: rgba(0,0,0,.05);
+}
+
 .navbar {
   padding: 0;
 }
@@ -582,6 +596,12 @@ blockquote {
   width: 100%;
   height: auto;
 }
+
+.badge-container {
+  max-width: $max-width;
+  text-align: right;
+}
+
 .container.longread .thumbnail img.loaded {
   display: inline;
 }

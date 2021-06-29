@@ -13,6 +13,7 @@ description: NEUROorganics is a platform offering a proactive therapeutic mental
   the healthcare system.
 type:
   - virtual-therapy
+is_member: true
 top_health: yes
 site_url: https://www.neuroorganics.com/
 ---
