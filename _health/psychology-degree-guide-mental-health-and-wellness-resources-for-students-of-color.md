@@ -8,5 +8,5 @@ type:
   - other
 is_member: false
 top_health: no
-site_url: https://psychologydegreeguide.org/resources/mental-health-students-of-color
+site_url: https://psychologydegreeguide.org/resources/mental-health-students-of-color/
 ---
