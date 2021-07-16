@@ -7,6 +7,6 @@ type:
   - african-american
   - other
 is_member: false
-top_health: yes
+top_health: no
 site_url: https://psychologydegreeguide.org/resources/mental-health-students-of-color
 ---
