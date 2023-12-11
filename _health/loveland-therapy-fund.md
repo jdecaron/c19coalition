@@ -6,5 +6,5 @@ description: With the barriers affecting access to treatment by members of
 type:
   - african-american
 top_health: false
-site_url: https://thelovelandfoundation.org/loveland-therapy-fund
+site_url: https://thelovelandfoundation.org/therapy-fund/
 ---

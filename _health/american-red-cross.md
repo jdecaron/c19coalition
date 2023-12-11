@@ -8,8 +8,6 @@ description: >-
 
 
   English: <https://www.redcross.org/NYSCOVIDFamilySupport>\
-
-  Spanish: <https://www.redcross.org/NYSCOVIDApoyoFamiliar>
 type:
   - crisis-hotlines
 top_health: false

@@ -8,8 +8,6 @@ description: >-
   [Information For Individuals and Families](https://omh.ny.gov/omhweb/disaster_resources/pandemic_influenza/adult/)  
 
   [Information For Healthcare Professionals](https://omh.ny.gov/omhweb/disaster_resources/pandemic_influenza/doctors_nurses/)  
-
-  [Information For the Media](https://omh.ny.gov/omhweb/disaster_resources/pandemic_influenza/media/)  
 type:
   - other
 top_health: false

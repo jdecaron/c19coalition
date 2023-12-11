@@ -14,5 +14,5 @@ description: >-
 type:
   - crisis-hotlines
 top_health: false
-site_url: https://omh.ny.gov/omhweb/disaster_resources/pandemic_influenza/
+site_url: https://omh.ny.gov/
 ---

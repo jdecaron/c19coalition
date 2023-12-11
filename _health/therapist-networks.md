@@ -1,8 +1,6 @@
 ---
 name: Therapist Networks
 description: >-
-  [https://www.beam.community/bvtnnj](https://www.beam.community/bvtnnj)  
-
   [https://therapyforblackmen.org/find-a-therapist/](https://therapyforblackmen.org/find-a-therapist/)  
 
   [https://www.blackfemaletherapists.com/directory](https://www.blackfemaletherapists.com/directory)  
